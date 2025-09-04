@@ -61,6 +61,69 @@ Am Ende dieses Nuggets können Sie:
 @@ danach eine SLide dazu wie schnell die Entwicklung von KI im Vergelich zu anderen Technologien sicht verbreitet hat @@
 
 ## Modul 3: Wie verändert KI in der Gesellschaft ud Arbeitswelt
+### Risks of Artificial Intelligence
+
+Data Bias and Discrimination
+– AI systems can inherit biases from training data, leading to unfair or discriminatory outcomes.
+
+Faulty Decisions
+– Automated decisions (e.g., in education, HR, or healthcare) may have serious consequences if applied uncritically.
+
+Lack of Transparency (“Black Box”)
+– Many AI models are difficult to understand, reducing trust and accountability.
+
+Privacy and Security Issues
+– AI requires large datasets, which can put sensitive information at risk of misuse or breaches.
+
+Overreliance on Technology
+– Excessive use may weaken human skills or lead to uncritical acceptance of AI-generated results.
+
+Job Displacement and Transformation
+– Routine tasks may be automated, causing uncertainty and fear among workers.
+
+Disinformation and Manipulation
+– AI can generate convincing fake texts, images, or videos (“deepfakes”) and spread misinformation.
+
+Legal and Liability Challenges
+– It is often unclear who is responsible for damages caused by AI: developers, users, or operators.
+
+Unequal Access
+– Lack of access to AI tools and training may widen the digital divide.
+
+Environmental Impact
+– Training and operating large AI models consumes significant energy and resources.
+
+### Opportunities of Artificial Intelligence
+
+Efficiency & Productivity
+– Automates repetitive tasks, speeds up processes, and frees humans for creative and complex work.
+
+Personalized Learning & Training
+– Supports individualized education through adaptive learning systems and smart feedback.
+
+Enhanced Decision-Making
+– Provides data-driven insights, simulations, and forecasts that improve planning and strategy.
+
+Innovation & New Business Models
+– Enables new products, services, and entire industries (e.g., smart homes, autonomous systems).
+
+Improved Quality & Precision
+– Reduces errors in production, healthcare, and technical processes through high accuracy.
+
+Accessibility & Inclusion
+– Supports people with disabilities (e.g., speech recognition, translation, assistive technologies).
+
+Global Collaboration
+– AI tools make cross-border exchange and cooperation easier through translation and knowledge sharing.
+
+Safety & Risk Management
+– Predicts failures, monitors systems, and helps prevent accidents.
+
+Sustainability & Green Transition
+– Optimizes energy use, supports smart grids, and enables resource-efficient production.
+
+Skill Development & Lifelong Learning
+– Offers new opportunities for upskilling and reskilling through micro-learning and AI tutors.
 
 ## Modul 4: Zentrale Begriffe
 
