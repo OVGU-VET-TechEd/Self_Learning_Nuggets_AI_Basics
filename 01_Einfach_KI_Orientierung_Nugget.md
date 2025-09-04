@@ -11,15 +11,15 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 # Einfach machen mit KI: Orientierung statt Überforderung
 
 ![KI Intro](media/intro.png)
-
+@@ Bild einfügen @@
 ---
 
 ## Willkommen
 
-Herzlich willkommen zu diesem Self-Learning Nugget **„Einfach KI: Orientierung statt Overload“**.  
+Herzlich willkommen zu diesem Self-Learning Nugget **„Einfach machen mit KI: Orientierung statt Überforderung“**.  
 Dieses Modul gibt Ihnen eine strukturierte Einführung in die Grundlagen von Künstlicher Intelligenz (KI) und zeigt, wie Sie den Überblick behalten, ohne in Informationsflut zu geraten.
 
-> **Kursintention:** Orientierung schaffen, Kernbegriffe klären, Risiken verstehen und KI praktisch ausprobieren.
+> **Kursintention:** Orientierung schaffen, Kernbegriffe klären, Risiken verstehen und KI Beispiele kennenlernen.
 
 **Dauer:** ca. 15 Minuten | **Format:** Selbstlernen mit Reflexion | **Level:** Einstieg
 
@@ -43,7 +43,6 @@ Am Ende dieses Nuggets können Sie:
 - Dartmouth Summer School (USA)  
 - Begriff „Artificial Intelligence“ entsteht  
 - Vision: Maschinen simulieren menschliches Denken  
-- Pioniere: John McCarthy, Marvin Minsky, Claude Shannon, Nathaniel Rochester
 
 ### Meilensteine
 - **1966:** ELIZA – erstes Chatbot-Programm  
@@ -51,12 +50,13 @@ Am Ende dieses Nuggets können Sie:
 - **2012:** Deep Learning als Durchbruch  
 - **2022:** ChatGPT wird veröffentlicht  
 - **2024:** Reasoning & Multimodalität
-
+@@ bitte in einem Zeitstrahl darstellen. Alles auf einer Slide @@
+@@ ggf die Meilensteine verändern , damit es der Präsentation nicht zu ähnlich @@ 
 ![Meilensteine der KI](media/milestones.png)
 
 ---
-
-## Modul 2: Zentrale Begriffe
+## Modul 2: Definition: Was ist KI
+## Modul 3: Zentrale Begriffe
 
 @keyConceptBox(Prompt = Eingabe, mit der man ein KI-Modell steuert. Beispiel: „Schreib mir eine Bewerbung“)
 
@@ -76,7 +76,7 @@ Am Ende dieses Nuggets können Sie:
 
 ---
 
-## Modul 3: Chancen & Risiken von KI
+## Modul 4: Chancen & Risiken von KI
 
 ### Modellübergreifende Hinweise
 1. Ergebnisse immer kritisch prüfen.  
@@ -93,7 +93,7 @@ Am Ende dieses Nuggets können Sie:
 
 ---
 
-## Modul 4: Richtig Prompten
+## Modul 5: Richtig Prompten
 
 „KI ist wie ein wissbegieriges Kind: Sie kennt unglaublich viel, versteht aber nicht automatisch alles und braucht klare, genaue Anweisungen.“
 
@@ -112,7 +112,7 @@ Formulieren Sie einen Prompt für eine Präsentation über **„Chancen und Risi
 
 ---
 
-## Modul 5: Praxisbeispiele
+## Modul 6: Praxisbeispiele
 
 ### Recherche
 „Ich muss einen Überblicksbericht zu Start-ups in Baden-Württemberg verfassen. Welche Programme gibt es vom Land?“
