@@ -1,5 +1,5 @@
 <!--
-author: Maike Haag & UNESCO ASSET Team
+author: UNESCO ASSET Team
 email: asset-project@unesco.org
 version: 1.0.0
 language: de
@@ -8,7 +8,7 @@ comment: Self-Learning Nugget - Orientierung statt Overload: Einführung in KI
 link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css
 -->
 
-# Einfach KI: Orientierung statt Overload
+# Einfach machen mit KI: Orientierung statt Überforderung
 
 ![KI Intro](media/intro.png)
 
@@ -21,18 +21,19 @@ Dieses Modul gibt Ihnen eine strukturierte Einführung in die Grundlagen von Kü
 
 > **Kursintention:** Orientierung schaffen, Kernbegriffe klären, Risiken verstehen und KI praktisch ausprobieren.
 
-**Dauer:** ca. 30 Minuten | **Format:** Selbstlernen mit Reflexion | **Level:** Einstieg
+**Dauer:** ca. 15 Minuten | **Format:** Selbstlernen mit Reflexion | **Level:** Einstieg
 
 ---
 
 ## Lernziele
-
+@@ bitte alle Ziele untereinander auflisten @@
 Am Ende dieses Nuggets können Sie:
 1. Wichtige historische Meilensteine der KI benennen.
-2. Zentrale Begriffe im Umgang mit KI erklären (z. B. Prompt, Token, Bias, Halluzination).
+2. Zentrale Begriffe im Umgang mit KI erklären.
 3. Chancen und Risiken aktueller KI-Anwendungen einschätzen.
 4. Grundregeln für effektives Prompten anwenden.
-5. KI-Praxisbeispiele kritisch reflektieren.
+@@ Punkt/Ziel Nr.4 sollte zu einem anderen Lernnugget @@
+6. KI-Praxisbeispiele kritisch reflektieren.
 
 ---
 
