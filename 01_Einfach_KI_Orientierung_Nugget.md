@@ -56,7 +56,11 @@ Am Ende dieses Nuggets können Sie:
 
 ---
 ## Modul 2: Definition: Was ist KI
+
+@@ danach eine SLide dazu wie schnell die Entwicklung von KI im Vergelich zu anderen Technologien sicht verbreitet hat @@
 ## Modul 3: Zentrale Begriffe
+
+KI klingt oft kompliziert – dabei steckt vieles schon in ein paar Schlüsselbegriffen. Schauen wir uns die wichtigsten gemeinsam an, um schnell einen klaren Überblick zu bekommen:
 
 @keyConceptBox(Prompt = Eingabe, mit der man ein KI-Modell steuert. Beispiel: „Schreib mir eine Bewerbung“)
 
@@ -73,6 +77,9 @@ Am Ende dieses Nuggets können Sie:
 @keyConceptBox(Reasoning = Fähigkeit logische Schlüsse zu ziehen.)
 
 @keyConceptBox(Neuronales Netz = Rechenmodell inspiriert vom menschlichen Gehirn.)
+
+@@ den Begriff Deep Learning ergänzen und erklären @@
+@@ am liebsten in einer Art Tabelle darstellen @@
 
 ---
 
