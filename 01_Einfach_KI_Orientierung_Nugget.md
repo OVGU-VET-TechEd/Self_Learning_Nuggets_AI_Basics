@@ -59,7 +59,10 @@ Am Ende dieses Nuggets können Sie:
 ## Modul 2: Definition: Was ist KI
 
 @@ danach eine SLide dazu wie schnell die Entwicklung von KI im Vergelich zu anderen Technologien sicht verbreitet hat @@
-## Modul 3: Zentrale Begriffe
+
+## Modul 3: Wie verändert KI in der Gesellschaft ud Arbeitswelt
+
+## Modul 4: Zentrale Begriffe
 
 KI klingt oft kompliziert – dabei steckt vieles schon in ein paar Schlüsselbegriffen. Schauen wir uns die wichtigsten gemeinsam an, um schnell einen klaren Überblick zu bekommen:
 
@@ -84,7 +87,7 @@ KI klingt oft kompliziert – dabei steckt vieles schon in ein paar Schlüsselbe
 
 ---
 
-## Modul 4: Chancen & Risiken von KI
+## Modul 5: Chancen & Risiken von KI
 
   @@ Punkt/Ziel Nr.3 bzw hier 4 Chancen ud Risiken sollte zu einem anderen Lernnugget. Nämlich zu 5. ) Ethics and Quality @@
 
