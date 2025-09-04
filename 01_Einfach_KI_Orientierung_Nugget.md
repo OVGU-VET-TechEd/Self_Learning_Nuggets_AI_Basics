@@ -31,8 +31,9 @@ Am Ende dieses Nuggets können Sie:
 1. Wichtige historische Meilensteine der KI benennen.
 2. Zentrale Begriffe im Umgang mit KI erklären.
 3. Chancen und Risiken aktueller KI-Anwendungen einschätzen.
-4. Grundregeln für effektives Prompten anwenden.
-@@ Punkt/Ziel Nr.4 sollte zu einem anderen Lernnugget @@
+  @@ Punkt/Ziel Nr.3 sollte zu einem anderen Lernnugget @@
+5. Grundregeln für effektives Prompten anwenden.
+
 6. KI-Praxisbeispiele kritisch reflektieren.
 
 ---
@@ -84,6 +85,8 @@ KI klingt oft kompliziert – dabei steckt vieles schon in ein paar Schlüsselbe
 ---
 
 ## Modul 4: Chancen & Risiken von KI
+
+  @@ Punkt/Ziel Nr.3 bzw hier 4 Chancen ud Risiken sollte zu einem anderen Lernnugget. Nämlich zu 5. ) Ethics and Quality @@
 
 ### Modellübergreifende Hinweise
 1. Ergebnisse immer kritisch prüfen.  
@@ -154,6 +157,7 @@ Dokumente analysieren
 Fragen an eigene Inhalte stellen Unterricht & Recherche
 
 ## Modul 5: Richtig Prompten
+@@ bitte in einderes Learning nugget verschieben @@
 
 „KI ist wie ein wissbegieriges Kind: Sie kennt unglaublich viel, versteht aber nicht automatisch alles und braucht klare, genaue Anweisungen.“
 
@@ -183,16 +187,11 @@ Formulieren Sie einen Prompt für eine Präsentation über **„Chancen und Risi
 ### Strukturierte Texte
 „Schreibe einen Blogartikel zum Thema ‚Chancen und Risiken von KI in der Medizin‘.“
 
-### Anonymisierung von Interviews (Forschung)
-- Namen der Interviewer:innen → I1, I2 …  
-- Namen der Befragten → T1, T2 …  
-- Alle anderen Eigennamen anonymisieren (z. B. Heinz Müller → H. M.)
-
-@scenarioBox(Überlegen Sie: Welche Vorteile hat automatisierte Anonymisierung für die Forschung? Welche Risiken?)  
 
 ---
 
 ## Reflexion
+@@ Frage 1 ist gut. Frage 2 und 3 gerne als Frage mit Auswahlmöglichkeiten @@
 
 <div class="reflection-section">
 
@@ -221,9 +220,6 @@ Formulieren Sie einen Prompt für eine Präsentation über **„Chancen und Risi
 
 ## Abschluss
 
-🎉 Herzlichen Glückwunsch! Sie haben das Self-Learning Nugget **„Einfach KI – Orientierung statt Overload“** abgeschlossen.  
+🎉 Herzlichen Glückwunsch! Sie haben das Self-Learning Nugget **„Einfach machen mit KI: Orientierung statt Überforderung“** abgeschlossen.  
 
-<div class="contact-info">
-Kontakt: Maike Haag – [LinkedIn](https://www.linkedin.com/in/maike-haag-3964b2198) | maikehaag@web.de
-</div>
 
