@@ -100,6 +100,59 @@ KI klingt oft kompliziert – dabei steckt vieles schon in ein paar Schlüsselbe
 
 ---
 
+@@@ Tabelle anlegen mit 4 Spalten: Tool, Stärken, Nachteile, Nutzung. Zeilen: ChatGPT (Open AI), Claude AI, Gemini (Google), Perplexity Al, Mistral, NotebookLM. siehe Folie 7 der Präsi @@@
+
+### KI Tools
+ 
+CHATGPT (OpenAl)
+Sehr vielseitig (Text, Code. Bild - je nach Version), Gute Dialogfuhrung, Große
+Community & Plug-ins
+Teils veraltetes Wissen je nach Version), "Halluzinationen" möglich.
+Keine echte Quellenprüfung
+Schreiben, Brainstorming, Lernen, _Automatisieren, Codieren
+
+Claude (Anthropic)
+Extrem großer Kontext (100.000+ Token)
+Fokus auf Sicherheit & „harmlosen Output"
+Manchmal vorsichtiger als notig
+(overcautious"
+Keine echte Websuche
+Dokumentenanalyse.
+ethisch sensible Kontexte. Bildung
+
+Gemini (Google)
+Google-Integration (Docs, Suche etc.) Multimodal (Text, Bild, ggf. bald Video)
+Starke Web-Recherche
+Teils inkonsistent in Antworten Weniger transparent als OpenAl
+Recherchen, Zusammenfassungen, Visualisierungen, Workspace-Tools
+
+Perplexity Al
+Sehr gute Recherche mit Quellenangabe
+Fokus auf Aktualitat Schnell & prägnant
+Kein Dialogverständnis wie bei ChatGPT
+Quellen nicht immer tief geprüft
+Datenschutz fragwürdig
+Echtzeit-Recherche, Faktenchecks.
+Zitierfähige Infos
+
+Mistral
+Open Source, performant & effizient Lokal einsetzbar (Datenschutz!)
+Firmensitz in der EU
+Erfordert technisches Know-how
+Weniger Trainiert als ChatGPT oder andere große Modelle
+Eigene Kl-Anwendungen, Forschung.
+Unternehmenslösungen
+
+NotebookLM
+Nutzt nur eigene Dokumente
+Quellenangaben
+Einfach zu bedienen
+Nur Englisch
+Kein Internetzugriff
+Begrenzte Verfügbarkeit
+Dokumente analysieren
+Fragen an eigene Inhalte stellen Unterricht & Recherche
+
 ## Modul 5: Richtig Prompten
 
 „KI ist wie ein wissbegieriges Kind: Sie kennt unglaublich viel, versteht aber nicht automatisch alles und braucht klare, genaue Anweisungen.“
