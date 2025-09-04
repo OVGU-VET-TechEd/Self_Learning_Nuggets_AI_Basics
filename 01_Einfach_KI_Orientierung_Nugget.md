@@ -61,6 +61,7 @@ Am Ende dieses Nuggets können Sie:
 @@ danach eine SLide dazu wie schnell die Entwicklung von KI im Vergelich zu anderen Technologien sicht verbreitet hat @@
 
 ## Modul 3: Wie verändert KI in der Gesellschaft ud Arbeitswelt
+@@ hier wäre es super jeweils 1 Video zu Risiken und Chancen einzubinden @@
 ### Risks of Artificial Intelligence
 
 Data Bias and Discrimination
