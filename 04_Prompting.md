@@ -1,1351 +1,483 @@
-
 <!--
-edit: true
+author: TVET AI Learning Initiative
+email: support@tvet-ai.edu
+version: 1.0.0
+language: en
+narrator: US English Female
+comment: Self-learning nugget on AI prompting techniques for TVET educators focusing on Learning Objective 4.1.2
+
+link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css
+
+@h5p: <div class="h5p-element"><iframe src="@0" width="100%" height="@1" frameborder="0"></iframe></div>
+
+@aiDemo: <div class="ai-tool-demo">**AI Demo:** @0<br>**Tool:** @1<br>**Try it:** [Click here](@2)</div>
+
+@competencyHighlight: <div class="competency-framework"><img src="@0" alt="AI Competency Framework" style="max-width: 100%; height: auto;"><br><p style="color: #2196f3; font-weight: bold;">@1</p></div>
+
+@motivationalStatement: <div class="motivational-statement">@0 @1</div>
+
+@resourceLink: <a href="@1" class="resource-link" target="_blank">@0</a>
+
+@highlightCell: <span style="background-color: #e3f2fd; border: 2px solid #2196f3; padding: 0.5rem; border-radius: 5px; font-weight: bold;">@0</span>
+
+@normalCell: <span style="padding: 0.5rem;">@0</span>
+
+@customQuiz: [[...]] <script>"@0" == btoa( "@input".trim().toLowerCase() )</script> @end
+
 -->
 
+## Welcome Page
 
+<div class="welcome-container">
 
-# Content Creation with AI
+**Mastering AI Prompting for TVET Education**
 
+Dear TVET Educator,
 
-## Prompting
+Welcome to our comprehensive learning nugget on AI prompting techniques! This self-learning module will guide you through understanding and applying AI systems in your teaching, learning, and assessment practices.
 
-> Prompting is the process of designing and refining input queries to AI models to achieve desired outputs. It involves crafting specific instructions or questions that guide the AI in generating relevant and accurate responses.
+> **Learning Intention**
+
+This 15-minute learning experience will equip you with practical knowledge about different categories of AI systems that support educational activities. You'll learn to identify their potential, understand their limitations, and develop effective prompting strategies for your specific TVET context.
+
+> **Funding & Partnership Acknowledgment**
+
+<div class="funding-acknowledgment">
+This learning resource is developed through:
+
+• **UNESCO** - United Nations Educational, Scientific and Cultural Organization
+• **TVET AI Learning Initiative** 
+• **International Collaboration Partners**
+
+This content supports the UNESCO AI Competency Framework for Teachers, fostering innovation in technical and vocational education.
+</div>
+
+## Course Overview
+
+> **Learning Structure:**
+
+- **Duration:** 15 minutes
+- **Learning Level:** AI Pedagogy - Acquire Level
+- **Time Investment:** Self-paced with guided checkpoints
+- **Format:** Interactive self-learning with practical activities
+
+**Processing Mode:**
+- **Self-Directed Learning:** Complete activities at your own pace with immediate feedback and self-assessment opportunities
+
+---
+
+<div class="orientation-page">
+
+@competencyHighlight(https://via.placeholder.com/600x200/2196f3/ffffff?text=UNESCO+AI+Competency+Framework, You are here: AI Pedagogy - Level 4.1.2)
+
+@motivationalStatement(Ready to transform your teaching with AI-powered prompting techniques?, 🚀)
+
+<div class="contact-info">
+📧 **Need Help?** Contact us at: support@tvet-ai.edu
+</div>
+
+</div>
+
+---
+
+#### Why This Learning Format?
+
+We chose this interactive self-learning approach because:
+• **Immediate Application** - Practice prompting techniques as you learn
+• **Real-World Scenarios** - Work with actual TVET contexts
+• **Self-Assessment** - Check your understanding at your own pace
+• **Practical Focus** - Build skills you can use immediately in your teaching
+
+#### Commitment to Inclusivity
+
+<div class="inclusivity-notice">
+🌍 **Our Commitment:** This learning nugget is designed to be accessible and inclusive for all TVET educators, regardless of technical background or experience level. We provide step-by-step guidance, multiple examples, and various learning checkpoints to ensure effective learning.
+
+**Accessibility Features:** Audio narration available, mobile-responsive design, clear visual indicators, and progressive skill building.
+</div>
+
+![AI in TVET Education](https://via.placeholder.com/800x300/4CAF50/ffffff?text=AI+Transforming+TVET+Education)
+
+</div>
+
+# AI Prompting Mastery for TVET Educators
+
+<div class="nugget-header">
+**Virtual Training Nugget 4.1.2:** Understanding AI Systems for Teaching, Learning, and Assessment
+<br>
+**Competency Level:** AI Pedagogy - Acquire | **Duration:** 15 minutes
+</div>
+
+<div class="audio-control">
+🎵 **Audio Narration Available** - Click the speaker icon to listen to this content
+</div>
+
+## Learning Objectives
+
+By the end of this nugget, you will be able to:
+
+1. **Identify** different types of AI systems that can support teaching and learning in TVET contexts
+2. **Explain** the potential and limitations of AI-supported testing and assessment tools
+3. **Demonstrate** specific examples of how AI can support or improve teaching in your subject area
+4. **Evaluate** different scenarios for the use of AI in teaching, learning, and assessment
+5. **Justify** in which situations AI systems are pedagogically useful and in which they are problematic
+
+> **Module 4: AI Pedagogy**
+
+> **AI-Assisted Teaching and Learning**
+
+> **Key Concept:** AI systems are computational tools that can process information, recognize patterns, and generate responses to support various educational activities, but they require effective human guidance through well-crafted prompts to produce useful results.
+
+<div class="framework-card">
+**Core Elements of AI Prompting:**
+</div>
+
+1. **Task Definition** - Clearly specify what the AI should accomplish
+2. **Context Provision** - Supply relevant background information and constraints
+3. **Format Specification** - Define how the output should be structured
+4. **Quality Criteria** - Set standards for evaluating the AI's response
+5. **Iterative Refinement** - Improve prompts based on results and feedback
+
+## Real-World TVET Scenarios
+
+--{{0}}--
+Let's explore how AI prompting works in real TVET contexts. These scenarios will help you understand the practical applications and considerations when using AI systems in your teaching.
+
+### Scenario 1: Construction Training - Safety Assessment
+
+**Maria**, a construction training instructor at a technical college, needs to create varied safety assessment scenarios for her students learning scaffolding procedures.
+
+**Challenge:** Maria wants to generate realistic but safe practice scenarios that test students' knowledge of safety protocols without exposing them to actual hazards.
+
+**Key Question:** How can Maria effectively prompt an AI system to create appropriate assessment materials while ensuring accuracy and safety relevance?
 
     {{1}}
-<section>
+**AI Prompting Solution:**
 
-## 5 Step Framework (by Google)
+Instead of a generic request like "Create safety questions," Maria uses a structured approach:
 
-1. __Task:__ What the AI shall do!
-2. __Context:__ Background information and details relevant to the task.
-3. __References:__ Any external sources or materials to consider.
-4. __Evaluate:__ Criteria for assessing the output.
-5. __Iterate:__ Process for refining the prompt based on feedback.
+```
+Role: You are a construction safety expert with 15 years of scaffolding experience.
 
-</section>
+Task: Create 5 realistic scenario-based safety assessment questions for intermediate scaffolding students.
 
-### 1. Task
+Context: 
+- Students have completed basic scaffolding training
+- Focus on identifying potential hazards and proper procedures
+- Questions should reflect real workplace situations
+- Must align with OSHA standards
 
-__What the AI shall do!__
+Format: Each question should include:
+- A detailed scenario description (2-3 sentences)
+- Multiple choice options with one clearly correct answer
+- Brief explanation of why the correct answer ensures safety
 
-``` markdown
-Make suggestions for a poetry course for 2nd graders.
+Constraints:
+- Scenarios must be realistic but not graphic
+- Include common mistakes students make
+- Difficulty level: intermediate
 ```
 
-    {{1}}
-<section>
+### Scenario 2: Automotive Training - Diagnostic Assessment
 
-#### Persona
+**James**, an automotive technology instructor, wants to create personalized diagnostic challenges for students learning engine troubleshooting.
 
-__Instead of only focusing on the task, instruct the AI to have a certain background.__
+**Challenge:** James needs AI assistance to generate diverse engine problem scenarios that match different student skill levels and learning progress.
 
-``` markdown
-You are a teacher and a hobby poet that loves to inspire young minds.
-Make suggestions for a poetry course for 2nd graders.
-```
-
-</section>
+**Key Question:** How can James structure his prompts to ensure the AI generates technically accurate and pedagogically appropriate diagnostic scenarios?
 
     {{2}}
-<section>
+**AI Prompting Solution:**
 
-#### Format
+James develops a systematic prompting approach:
 
-__Give detailed instructions on how the output should be structured and formatted and define upper bounds.__
+```
+Context: Automotive technology course, Engine Diagnostics module
+Student Level: Second-year automotive students
+Learning Goal: Systematic diagnostic problem-solving
 
-``` markdown
-You are a teacher and a hobby poet that loves to inspire young minds.
-Make suggestions for a poetry course for 2nd graders.
-Format the output as a table of 5 topics.
+Task: Generate a step-by-step diagnostic scenario for a specific engine problem.
+
+Scenario Parameters:
+- Vehicle: [specific make/model/year]
+- Presenting symptom: [customer complaint]
+- Underlying cause: [specific technical issue]
+- Required tools: [standard automotive diagnostic equipment]
+
+Output Format:
+1. Customer complaint description
+2. Initial inspection checklist
+3. Diagnostic steps sequence
+4. Expected findings at each step
+5. Correct diagnosis and repair recommendation
+6. Common mistakes to avoid
+
+Technical Requirements:
+- Must be technically accurate
+- Include proper diagnostic procedures
+- Reference appropriate service manual procedures
+- Consider safety protocols throughout
 ```
 
-</section>
+## Hands-On Activity 1: Crafting Effective AI Prompts
 
+> **Activity 1: Prompt Construction Workshop**
 
-### 2. Context
+**Instructions:** You'll practice creating effective prompts for AI systems by working through a structured approach. This activity focuses on the 5-step framework for effective prompting.
 
-The more context you can provide the better the AI can understand the task and generate relevant outputs. Consider including:
+> **Step 1: Define Your Teaching Context**
 
-- Specific details about the target audience (e.g., age, background, interests, abilities, ...)
-- Any constraints or limitations (e.g., word count, style guidelines)
+Think about your specific TVET subject area and identify a teaching challenge where AI assistance could be valuable.
 
+    [[___]]
+    **Your TVET Subject Area:** (e.g., electrical, healthcare, culinary arts, welding)
 
-    {{1}}
-``` markdown
-You are a teacher and a hobby poet that loves to inspire young minds.
-Make suggestions for a poetry course for 2nd graders.
+    [[___]]
+    **Specific Teaching Challenge:** (e.g., creating varied practice scenarios, generating assessment questions, developing troubleshooting exercises)
 
-- The students have a basic understanding of language.
-- Students come from diverse cultural backgrounds.
-- Some of them are not fluent in English.
-```
+> **Step 2: Apply the 5-Step Prompting Framework**
 
-### 3. References
+Using your identified challenge, complete each component:
 
-References are any external sources or materials that can provide additional context or information relevant to the task.
+    [[___]]
+    **1. TASK - What should the AI do?** (Be specific and actionable)
 
-The AI is very very very good in using examples. So if you already have some specific material that you like, probably for another target group, you can share that as well.
+    [[___]]
+    **2. CONTEXT - What background information is crucial?** (Include student level, learning objectives, constraints)
 
-    {{1}}
-``` markdown
-You are a teacher and a hobby poet that loves to inspire young minds.
-Make suggestions for a poetry course for 2nd graders.
+    [[___]]
+    **3. REFERENCES - What standards or materials should guide the AI?** (Industry standards, curriculum guidelines, specific examples)
 
-- The students have a basic understanding of language.
-- Students come from diverse cultural backgrounds.
-- Some of them are not fluent in English.
+    [[___]]
+    **4. EVALUATE - What criteria will determine if the output is successful?** (Quality measures, accuracy requirements, pedagogical appropriateness)
 
-----
+    [[___]]
+    **5. ITERATE - How will you refine the prompt based on results?** (What adjustments might be needed?)
 
-In Germany we have a poem format called "Elfchen" (Elevenie).
+> **Step 3: Self-Assessment Checkpoint**
 
-It consists of 11 words arranged in a specific pattern:
+Review your completed prompt against these criteria:
 
-1. One word (the title)
-2. Two words (describing the title)
-3. Three words (expressing a feeling about the title)
-4. Four words (describing a scene related to the title)
-5. One word (a synonym for the title)
+- [ ] Is the task clearly defined and actionable?
+- [ ] Does the context provide sufficient background?
+- [ ] Are relevant standards or references included?
+- [ ] Are quality criteria specific and measurable?
+- [ ] Is there a plan for prompt refinement?
 
-This format can be a simple starting point, encourages creativity
-and helps young poets focus on specific aspects of their subject.
-```
+## Interactive Quiz Section
 
-### 4. Evaluate & 5. Iterate
+> **Knowledge Check 1: AI System Categories**
 
-    {{1}}
-__Is this the output that I wanted?__
+Test your understanding of different AI systems used in education.
 
-    {{2}}
-__If not, what can be improved? How can I refine the prompt to get closer to the desired output?__
+> **Question 1: System Identification**
 
-## Technologies
+Which type of AI system would be most appropriate for generating personalized practice problems in mathematics?
 
-https://ai-27.com
+    [( )] Computer Vision System
+    [( )] Natural Language Processing System
+    [(X)] Large Language Model with Mathematical Capabilities
+    [( )] Speech Recognition System
+    [[?]] Consider which AI capability is needed to understand mathematical concepts and generate varied problems.
+    <script>
+      if (@input === 3) {
+        send.lia("✅ **Excellent!** Large Language Models with mathematical capabilities can understand problem types, generate variations, and adapt difficulty levels for personalized practice.");
+      } else {
+        send.lia("❌ **Not quite right.** Think about which AI system can both understand mathematical concepts and generate varied, appropriate practice problems.");
+      }
+    </script>
 
-### Libraries
+> **Question 2: Limitations Assessment**
 
-- [AI for Education](https://www.aiforeducation.io/prompt-library)
+What is a key limitation when using AI for assessment in TVET contexts?
 
-- [Microsoft Prompts for Education](https://github.com/microsoft/prompts-for-edu)
+    [[ ]] AI cannot process text input
+    [[ ]] AI systems are too expensive for education
+    [[X]] AI may generate technically accurate but pedagogically inappropriate content
+    [[X]] AI lacks understanding of specific workplace safety requirements
+    [[ ]] AI cannot work with multiple choice questions
+    [[?]] Select all significant limitations that TVET educators should consider.
+    <script>
+      let correct = [3, 4];
+      let selected = @input;
+      
+      let isCorrect = correct.every(i => selected.includes(i)) && 
+                     selected.every(i => correct.includes(i));
+      
+      if (isCorrect) {
+        send.lia("✅ **Perfect!** AI systems can produce content that is technically correct but may not align with pedagogical goals or may lack awareness of specific safety contexts critical in TVET education.");
+      } else {
+        send.lia("❌ **Consider both technical and pedagogical aspects.** AI limitations in TVET include both content appropriateness and context awareness issues.");
+      }
+    </script>
 
-- [UNIGlobal Careers Prompt Library](https://learn.uniglobalcareers.com/docs/prompt-library/)
+---
 
-### Tools
+## Hands-On Activity 2: Scenario-Based Prompt Evaluation
 
-    {{1-2}}
-??[ai-27](https://ai-27.com)
+> **Activity 2: Evaluating AI Responses in TVET Contexts**
 
+**Instructions:** You'll analyze different AI-generated responses to determine their suitability for TVET education. This helps develop critical evaluation skills for AI-assisted teaching.
 
-    {{2}}
-??[Prompt-Library](https://aipromptlibrary.org/library.html)
+> **Step 1: Review the Scenario**
 
-## Prompting Techniques
+**Context:** A healthcare training instructor asked AI to create a patient care scenario for nursing students.
 
-### Variables & Templates
+**Original Prompt:** "Create a patient scenario for nursing students."
 
-`[ Variables ]` are placeholders that can be used to represent different values in a prompt.
+**AI Response A:**
+"Patient John, age 65, presents with chest pain. Students should take vital signs and call for help."
 
-Later these variables can be replaced with specific values when the prompt is executed. (`variable = new value`)
+**AI Response B:**
+"Mrs. Rodriguez, 72 years old, admitted with acute chest pain (8/10 severity), onset 2 hours ago. Vital signs: BP 180/95, HR 110, RR 22, O2 sat 94% on room air. Patient appears anxious and diaphoretic. Medical history includes hypertension and diabetes type 2. Current medications: Lisinopril 10mg daily, Metformin 500mg BID. Allergies: NKDA.
 
-    {{1}}
-``` markdown
-Create a flashcard on the topic **{topic}**.
+Learning objectives: Students will demonstrate proper cardiac assessment techniques, prioritize nursing interventions, and document findings according to SBAR format."
 
-Target audience: **{audience}**
+> **Step 2: Evaluate Both Responses**
 
-Format: Question–Answer
+    [( )] Response A is better - it's simple and clear
+    [(X)] Response B is better - it provides comprehensive clinical context
+    [( )] Both responses are equally useful
+    [( )] Neither response is appropriate for nursing education
+    [[?]] Consider which response provides better learning value and realistic clinical context.
+    <script>
+      if (@input === 2) {
+        send.lia("✅ **Correct!** Response B provides specific clinical details, measurable parameters, relevant patient history, and clear learning objectives - all essential for effective nursing education scenarios.");
+      } else {
+        send.lia("❌ **Reconsider the educational value.** Which response gives nursing students realistic, detailed information they need for proper clinical decision-making practice?");
+      }
+    </script>
 
-Difficulty level: **{level}**
+> **Step 3: Identify Improvement Strategies**
 
-Provide a concise question and a short, clear answer.
-```
-
-    {{2}}
-``` markdown
-{topic} = "Quantum computers"
-{audience} = "First-year university students"
-{level} = "high"
-```
-
-    {{3}}
-``` markdown                 visualization
-The following LiaScript code generates an interactive chart on different types of quadratic functions,
-where the user can manipulate certain parameters.
-Rewrite this to draw another [ visualization ] and change the number of input parameters, if required.
-Mark this prompt as "UNDERSTOOD" when you are ready and wait for further instructions.
-
-$a =$ <script modify="false" input="range" step="1"   min="-1"  max="6"  value="2" output="a">@input</script>,
-$b =$ <script modify="false" input="range" step="0.1" min="-10" max="10" value="0" output="b">@input</script>,
-$c =$ <script modify="false" input="range" step="0.1" min="-10" max="10" value="0" output="c">@input</script>
-
-<script modify="false" run-once style="display: inline-block; width: 100%">
-"LIASCRIPT: ### $$f(x) = x^{@input(`a`)} + x * @input(`b`) + @input(`c`)$$"
-</script>
-
-<script run-once style="display: inline-block; width: 100%">
-function func(x) {
-  return Math.pow(x,  @input(`a`)) + @input(`b`) * x + @input(`c`);
-}
-
-function generateData() {
-  let data = [];
-  for (let i = -15; i <= 15; i += 0.01) {
-    data.push([i, func(i)]);
-  }
-  return data;
-}
-
-let option = {
-  grid: { top: 40, left: 50, right: 40, bottom: 50 },
-  xAxis: {
-    name: 'x',
-    minorTick: { show: true },
-    splitLine: { lineStyle: { color: '#999' } },
-    minorSplitLine: { show: true, lineStyle: { color: '#ddd' } }
-  },
-  yAxis: {
-    name: 'y', min: -10, max: 10,
-    minorTick: { show: true },
-    splitLine: { lineStyle: { color: '#999' } },
-    minorSplitLine: { show: true, lineStyle: { color: '#ddd' } }
-  },
-  series: [
-    {
-      type: 'line',
-      showSymbol: false,
-      data: generateData()
-    }
-  ]
-};
-
-"HTML: <lia-chart option='" + JSON.stringify(option) + "'></lia-chart>"
-</script>
-```
-
-### Chain of Thought (CoT)
-
-> Chain of Thought prompting is a technique that encourages the AI to break down complex tasks into smaller, manageable steps.
-> This approach helps the AI to reason through the problem and arrive at a more accurate solution.
-
-    {{1}}
-``` markdown
-You are an expert educational content creator.
-
-Task: Generate a short lesson about **{topic}** for **{audience}**.
-
-Think step by step before writing the final output:
-
-1. Identify the key learning objective for {audience}.
-2. Break down the topic into 3–4 simple sub-concepts in logical order.
-3. For each sub-concept, think of a clear explanation and one concrete example.
-4. Anticipate one common misconception and explain how to avoid it.
-5. Based on these steps, write the final educational text in clear, engaging language.
-
-Now, follow this reasoning process internally and then produce only the final educational content.
-
-Answer this template with "understood" and wait for further instructions.
-```
-
-    {{2}}
-``` markdown
-- {topic} = "poetry with elfchen"
-- {audience} = "2nd grade students"
-```
-
-### Tree of Thought (ToT)
-
-> Tree of Thought prompting is a more advanced version of Chain of Thought prompting.
-> It allows the AI to explore multiple branches of reasoning simultaneously, leading to more comprehensive and nuanced outputs.
-
-    {{1}}
-``` markdown
-You are an expert educational content creator.
-
-Task: Generate a short lesson about **{topic}** for **{audience}**.
-
-Think step by step before writing the final output:
-
-1. Identify the three key learning objective for {audience}.
-   Let the user decide on the specific objectives, before you go one with the next step.
-
-2. Break down the topic into 3 distinct sets sub-concepts in logical order.
-   Wait for the user to confirm the sub-concepts before proceeding.
-
-3. For each sub-concept, think of a three variations of clear explanation and one concrete example.
-   Print every explanation and example in an ordered list and let the user choose one of them.
-
-4. Anticipate a list of common misconceptions and explain how to avoid it.
-   Print every misconception and its explanation in an ordered list and let the user choose some of them.
-
-5. Based on these steps, write the final educational text in clear, engaging language.
-
-Now, follow this reasoning process internally and then produce only the final educational content.
-
-Answer this template with "understood" and wait for further instructions.
-```
-
-    {{2}}
-``` markdown
-- {topic} = "poetry with elfchen"
-- {audience} = "2nd grade students"
-```
-
-### Translating Formats
-
-https://github.com/liascript/markdownify
-
-??[Markdownify](https://liascript.github.io/Markdownify/)
-
-
-```` markdown   -Markdownify Prompt
-The following JSON schema defines the structure of a LiaScript document.
-Analyze the schema to understand the key components and their relationships.
-Then, whenever the command `Markdownify` is invoked,
-translate the relevant content into this JSON format and print.
-
-``` json
-{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/LiaScript/Markdownify/refs/heads/main/liascript.schema.json",
-  "title": "LiaScript Document",
-  "$comment": "This is the **original** LiaScript JSON‑Schema enriched only with additional `description`, `examples`, and `$comment` annotations so that generative AI systems can more easily understand the intent and capabilities of LiaScript. **No structural validation rules were changed** – every extra field added here is purely documentary.",
-
-  "type": "object",
-  "properties": {
-    "meta": {
-      "type": "object",
-      "description": "Document‑level metadata injected via the `<!-- meta: ... -->` macro at the very top of a LiaScript file. Unknown keys are permitted and simply forwarded to the runtime, which allows custom macros and future extensions.",
-      "$comment": "Typical extra keys include `scripts`, `css`, `imports`, and `macros`. These are not validated explicitly here because LiaScript intentionally keeps the meta block open‑ended, but AIs SHOULD know they exist and feel free to emit them.",
-      "properties": {
-        "author": {
-          "type": "string",
-          "description": "Primary author or authors. Multiple names can be separated by comma or semicolon."
-        },
-        "email": {
-          "type": "string",
-          "description": "Contact e‑mail address shown in the about dialog and exported into ePub metadata."
-        },
-        "language": {
-          "type": "string",
-          "description": "ISO‑639‑1 language code (e.g. `en`, `de`, `es`)."
-        },
-        "mode": {
-          "type": "string",
-          "enum": ["Presentation", "Textbook", "Slides"],
-          "description": "Preferred presentation mode, otherwise the default user mode is used."
-        },
-        "dark": {
-          "type": "boolean",
-          "description": "Force dark theme regardless of viewer preference or auto‑detection."
-        },
-        "narrator": {
-          "@ref": "#/definitions/Voice",
-          "description": "Default TTS voice (see the `Voice` enum)."
-        }
-      },
-      "examples": [
-        {
-          "author": "Ada Lovelace; Alan Turing",
-          "email": "course@example.org",
-          "language": "en",
-          "mode": "slides",
-          "scripts": ["https://example.org/3d-panorama.js"],
-          "css": ["https://example.org/theme-dark.css"],
-          "imports": [
-            "https://raw.githubusercontent.com/LiaTemplates/CodeRunner/master/README.md"
-          ]
-        }
-      ],
-      "additionalProperties": true
-    },
-
-    "sections": {
-      "type": "array",
-      "items": { "$ref": "#/definitions/section" }
-    }
-  },
-
-  "required": ["sections"],
-
-  "$comment": "------------------------------------------------------------\nATTR FIELD\n------------------------------------------------------------\nEvery Block or inline element MAY contain an `attr` object. It is passed straight through to the resulting HTML tag, so any valid attribute name is accepted. Common examples include: \n  { \"id\": \"hero\", \"class\": [\"center\", \"fade-in\"], \"style\": \"color:#e91e63;\", \"data-step\": 3 }.\nLLMs should treat `attr` as a free‑form bag of key/value pairs for styling, ARIA roles, data‑attributes, etc.",
-
-  "definitions": {
-    "section": {
-      "type": "object",
-      "properties": {
-        "title": {
-          "type": "string",
-          "description": "Section heading (Markdown line starting with one or more `#`)."
-        },
-        "indent": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6,
-          "description": "Heading level depth. Courses usually start at 1."
-        },
-        "body": { "$ref": "#/definitions/Blocks" },
-        "meta": {
-          "type": "object",
-          "description": "Local overrides for narrator, author, etc. Same structure as the top‑level meta block."
-        }
-      },
-      "required": ["title", "indent", "body"]
-    },
-
-    "StringOrList": {
-      "oneOf": [
-        { "type": "string" },
-        {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "description": "Each string represents a line. When rendered, all lines are concatenated with a newline separator so authors can keep long code or formulas readable."
-        }
-      ]
-    },
-
-    "Blocks": {
-      "type": "array",
-      "items": {
-        "oneOf": [
-          { "$ref": "#/definitions/Block" },
-          { "$ref": "#/definitions/inlines" }
-        ]
-      },
-      "description": "An ordered list of block‑level elements. For convenience, a single inline (or an array of inlines) can also stand in as a block so authors don't have to wrap e.g. a lone image inside a `Paragraph`."
-    },
-
-    "Block": {
-      "oneOf": [
-        { "$ref": "#/definitions/Paragraph" },
-        { "$ref": "#/definitions/Line" },
-        { "$ref": "#/definitions/Comment" },
-        { "$ref": "#/definitions/Effect" },
-        { "$ref": "#/definitions/Gallery" },
-        { "$ref": "#/definitions/Formula" },
-        { "$ref": "#/definitions/Quote" },
-        { "$ref": "#/definitions/List" },
-        { "$ref": "#/definitions/Html" },
-        { "$ref": "#/definitions/Code" },
-        { "$ref": "#/definitions/Table" },
-        { "$ref": "#/definitions/Tasks" },
-        { "$ref": "#/definitions/Quiz" },
-        { "$ref": "#/definitions/Ascii" },
-        { "$ref": "#/definitions/Chart" }
-      ]
-    },
-
-    "Paragraph": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Paragraph" },
-        "body": { "$ref": "#/definitions/inlines" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "A block element that displays its content as a paragraph. The 'body' can be a string, a single inline element, or an array of strings and inlines. Additional HTML attributes can be set via 'attr' for custom styling."
-    },
-
-    "Line": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Line" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type"],
-      "description": "A horizontal line, corresponds to hr tag in html, can be styled via attr and has no body"
-    },
-
-    "Comment": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Comment" },
-        "body": {
-          "$ref": "#/definitions/inlines",
-          "description": "The content of the comment, which can be a string, a single inline element, or an array of strings and inlines. This text will be read aloud by the TTS engine at the specified animation step."
-        },
-        "start": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "The animation step at which this comment will be read aloud in Presentation or Slides mode."
-        },
-        "voice": {
-          "$ref": "#/definitions/Voice",
-          "description": "Overrides the default TTS voice for this comment. Optional."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "A comment is a paragraph that will be read aloud by the TTS engine at a specific animation step in Presentation or Slides mode. In Textbook mode, it is rendered as visible text. Comments are typically used to narrate or explain animation steps. If multiple comments share the same 'start' value, they are read together in order of appearance."
-    },
-
-    "Effect": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Effect" },
-        "body": {
-          "oneOf": [
-            { "$ref": "#/definitions/Block" },
-            { "$ref": "#/definitions/Blocks" }
-          ],
-          "description": "The content to animate. Can be a single block or an array of blocks."
-        },
-        "start": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Step when the effect appears (optional)."
-        },
-        "stop": {
-          "type": "integer",
-          "description": "Step when the effect disappears, should only be defined in combination with start (optional)."
-        },
-        "playback": {
-          "type": "boolean",
-          "description": "If true, adds a TTS playback button (optional)."
-        },
-        "voice": {
-          "$ref": "#/definitions/Voice",
-          "description": "Specifies the TTS voice to use for playback. Only relevant if 'playback' is true. Overrides the default voice set at the document or section level (optional)."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "A block element that animates its content to appear and/or disappear at specific steps in a slide. Optionally, a TTS playback button can be added, and a custom voice can be set for spoken output."
-    },
-
-    "Gallery": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Gallery" },
-        "body": {
-          "type": "array",
-          "items": { "$ref": "#/definitions/multimedia" },
-          "description": "An array of multimedia links (image, audio, video, or embed) to display in the gallery."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Displays a gallery of media elements. The body must be an array of multimedia links."
-    },
-
-    "Formula": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Formula" },
-        "body": {
-          "$ref": "#/definitions/StringOrList",
-          "description": "The formula content in KaTeX syntax. Can be a single string or an array of strings (for readability); if an array, lines are joined with newlines before rendering."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Displays a mathematical formula using KaTeX. The body can be a single string or an array of strings for multi-line formulas."
-    },
-
-    "Quote": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Quote" },
-        "body": {
-          "oneOf": [
-            { "$ref": "#/definitions/Block" },
-            { "$ref": "#/definitions/Blocks" }
-          ],
-          "description": "The quoted content. Can be a single block or an array of blocks."
-        },
-        "by": {
-          "$ref": "#/definitions/inlines",
-          "description": "Optional. If provided, displays the quote as a citation with the given author or source."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Displays a blockquote. The 'body' contains the quoted content (single block or array of blocks). If 'by' is set, the quote is rendered as a citation."
-    },
-
-    "List": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "List" },
-        "body": {
-          "oneOf": [
-            { "$ref": "#/definitions/Block" },
-            { "$ref": "#/definitions/Blocks" }
-          ],
-          "description": "The quoted content. Can be a single block or an array of blocks."
-        },
-        "ordered": {
-          "type": "boolean",
-          "description": "Defines if it is an ordered or an unordered list, by default it is false."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Displays an ordered or unordered list of block elements. The 'body' contains list entries as blocks or nested blocks."
-    },
-
-    "Html": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Html" },
-        "htmlTag": {
-          "type": "string",
-          "description": "Define an inline html tag name like div, span, etc."
-        },
-        "body": {
-          "oneOf": [
-            { "$ref": "#/definitions/Block" },
-            { "$ref": "#/definitions/Blocks" }
-          ]
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "htmlTag", "body"],
-      "description": "In contrast to an html inline element, this body can contain entire Block elements."
-    },
-
-    "Code": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Code" },
-        "title": { "type": "string", "description": "A filename" },
-        "language": {
-          "type": "string",
-          "description": "This is a short code for the used syntax highlighting, such java, markdown, cpp, lua, prolog, etc."
-        },
-        "closed": {
-          "type": "boolean",
-          "description": "Defines if the content of the file shall be hidden at first, the user can decide to open it afterwards."
-        },
-        "body": { "$ref": "#/definitions/StringOrList" },
-        "execute": {
-          "$ref": "#/definitions/StringOrList",
-          "description": "This optional property that makes the code block editable and executable. It contains JavaScript with an @input marker. This marker is replaced before the execution with the current content of the code-block."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "This will show an entire code block with syntax highlighting and an optional title. The execute field will turn the code-block into an editor with a run button that will execute the code."
-    },
-
-    "Table": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Table" },
-        "head": {
-          "type": "array",
-          "items": { "$ref": "#/definitions/inlines" },
-          "description": "Defines the table header. Each entry represents the content of a column header and can be a string, a single inline element, or an array of inlines."
-        },
-        "alignment": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": ["left", "right", "center"]
-          },
-          "description": "Specifies the alignment of each column: 'left', 'right', or 'center'. The number of entries must match the number of columns in the header. If omitted, all columns default to left alignment."
-        },
-        "body": {
-          "type": "array",
-          "items": {
-            "type": "array",
-            "items": { "$ref": "#/definitions/inlines" }
-          },
-          "description": "Defines the table rows. Each row is an array of cells, and each cell can contain a string, a single inline element, or an array of inlines."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "head", "body"],
-      "description": "Displays a table with a header, optional column alignment, and a body of rows. Each cell can contain rich inline content. Additional HTML attributes can be set via 'attr' for custom styling."
-    },
-
-    "Tasks": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Tasks" },
-        "body": {
-          "type": "array",
-          "items": { "$ref": "#/definitions/inlines" },
-          "description": "An array of task descriptions. Each entry represents a single task and can contain text or rich inline content."
-        },
-        "done": {
-          "$ref": "#/definitions/Solution",
-          "description": "Defines which tasks are marked as completed. Can be a single integer (one checked), an array of integers (multiple checked), an empty array (none checked), or a boolean array (true for checked tasks)."
-        },
-        "attr": {
-          "type": "object",
-          "description": "Optional HTML attributes for custom styling or additional properties."
-        }
-      },
-      "required": ["type", "body", "done"],
-      "description": "Displays a GitHub-flavored task list. Each task can contain rich inline content. The 'done' property specifies which tasks are checked."
-    },
-
-    "Quiz": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Quiz" },
-        "quizType": {
-          "type": "string",
-          "enum": [
-            "input",
-            "selection",
-            "single-choice",
-            "multiple-choice",
-            "gap-text"
-          ],
-          "description": "Specifies the type of quiz. Determines the interaction style and which properties are required. \n\n- 'input': A single-line text input where the user's answer is matched against a solution string.\n- 'selection': A dropdown menu where the user selects one or more options from a list.\n- 'single-choice': A list of radio buttons where only one option can be selected.\n- 'multiple-choice': A list of checkboxes where multiple options can be selected.\n- 'gap-text': A fill-in-the-blank quiz where input/select elements are placed directly in the content."
-        },
-        "hints": {
-          "type": "array",
-          "items": { "$ref": "#/definitions/inlines" },
-          "description": "Optional hints to assist the user in solving the quiz."
-        },
-        "answer": {
-          "oneOf": [
-            { "$ref": "#/definitions/Block" },
-            { "$ref": "#/definitions/Blocks" }
-          ],
-          "description": "The answer or solution block(s) for the quiz. Revealed only after the user solves the quiz or requests the solution."
-        },
-        "execute": {
-          "$ref": "#/definitions/StringOrList",
-          "description": "Optional code to execute for code-based quizzes. The @input marker within the code block will be replaced with the user's input or the selected option index, allowing for custom processing."
-        }
-      },
-      "required": ["type", "quizType"],
-      "allOf": [
-        {
-          "if": { "properties": { "quizType": { "const": "input" } } },
-          "then": {
-            "required": ["type", "quizType", "solution"],
-            "properties": {
-              "solution": {
-                "type": "string",
-                "description": "The user input will be matched against this string. Trailing whitespace is ignored."
-              }
-            },
-            "description": "A quiz block presenting a single-line text input. The user's input is checked against the 'solution' string."
-          }
-        },
-        {
-          "if": { "properties": { "quizType": { "const": "selection" } } },
-          "then": {
-            "required": ["type", "quizType", "solution", "body"],
-            "properties": {
-              "body": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/inlines" },
-                "description": "An array of selectable options presented in a dropdown menu. Each option can contain rich inline content."
-              },
-              "solution": {
-                "$ref": "#/definitions/Solution",
-                "description": "Defines the correct answer(s) for the dropdown. Can be a single integer, an array of integers, an empty array, or a boolean array."
-              }
-            },
-            "description": "A quiz block presenting a dropdown field with multiple options. The user's selection is checked against the 'solution'."
-          }
-        },
-        {
-          "if": { "properties": { "quizType": { "const": "single-choice" } } },
-          "then": {
-            "required": ["type", "quizType", "solution", "body"],
-            "properties": {
-              "body": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/inlines" },
-                "description": "An array of options presented as radio buttons. Each option can contain rich inline content."
-              },
-              "solution": {
-                "$ref": "#/definitions/Solution",
-                "description": "Defines the correct answer for the radio buttons. Should be a single integer."
-              }
-            },
-            "description": "A quiz block presenting a list of radio buttons. The user's selection is checked against the 'solution'."
-          }
-        },
-        {
-          "if": {
-            "properties": { "quizType": { "const": "multiple-choice" } }
-          },
-          "then": {
-            "required": ["type", "quizType", "solution", "body"],
-            "properties": {
-              "body": {
-                "type": "array",
-                "items": { "$ref": "#/definitions/inlines" },
-                "description": "An array of options presented as checkboxes. Each option can contain rich inline content."
-              },
-              "solution": {
-                "$ref": "#/definitions/Solution",
-                "description": "Defines the correct answers for the checkboxes. Can be an array of integers or booleans."
-              }
-            },
-            "description": "A quiz block presenting a list of checkboxes, where multiple options can be selected. The user's selection is checked against the 'solution'."
-          }
-        },
-        {
-          "if": { "properties": { "quizType": { "const": "gap-text" } } },
-          "then": {
-            "required": ["type", "quizType", "body"],
-            "properties": {
-              "body": {
-                "oneOf": [
-                  { "$ref": "#/definitions/Paragraph" },
-                  { "$ref": "#/definitions/Table" },
-                  { "$ref": "#/definitions/Gallery" },
-                  { "$ref": "#/definitions/Quote" }
-                ],
-                "description": "The block containing the gap(s) for fill-in-the-blank quizzes. Inline input/select elements define the gaps."
-              }
-            },
-            "description": "A quiz block presenting a gap text. No 'solution' is required, as the correct answers are defined by inline input and select elements within the body."
-          }
-        }
-      ],
-      "description": "A flexible quiz block supporting various quiz types:\n- 'input': Single-line text input matched against a solution string.\n- 'select': Dropdown menu with selectable options.\n- 'single-choice': Radio buttons for single selection.\n- 'multiple-choice': Checkboxes for multiple selections.\n- 'gap-text': Fill-in-the-blank with inline input/select elements.\n\nThe structure and required properties depend on the selected 'quizType'. The actual quiz question should be defined in a separate block or paragraph above the quiz-block."
-    },
-
-    "Ascii": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Ascii" },
-        "title": {
-          "$ref": "#/definitions/inlines",
-          "description": "Image title"
-        },
-
-        "body": { "$ref": "#/definitions/StringOrList" },
-
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "This is an ASCII-art image, with support for boxes, lines, arrows, text and Unicode and emojis."
-    },
-
-    "Chart": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "Chart" },
-
-        "body": { "$ref": "#/definitions/StringOrList" },
-
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "This is a special type of diagram drawn as an ASCII art with points x an y axes and values in form of +,*,#,a,b,c, ...."
-    },
-
-    "inlines": {
-      "oneOf": [
-        {
-          "type": "array",
-          "items": { "$ref": "#/definitions/inline" }
-        },
-        { "$ref": "#/definitions/inline" }
-      ]
-    },
-
-    "inline": {
-      "oneOf": [
-        { "$ref": "#/definitions/bold" },
-        { "$ref": "#/definitions/italic" },
-        { "$ref": "#/definitions/strike" },
-
-        { "$ref": "#/definitions/sup" },
-        { "$ref": "#/definitions/underline" },
-        { "$ref": "#/definitions/effect" },
-        { "$ref": "#/definitions/html" },
-        { "$ref": "#/definitions/script" },
-        { "$ref": "#/definitions/code" },
-        { "$ref": "#/definitions/footnote" },
-        { "$ref": "#/definitions/formula" },
-        { "$ref": "#/definitions/symbol" },
-
-        { "$ref": "#/definitions/link" },
-        { "$ref": "#/definitions/multimedia" },
-
-        { "$ref": "#/definitions/input" },
-        { "$ref": "#/definitions/select" },
-
-        { "type": "string" }
-      ]
-    },
-
-    "bold": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "bold" },
-        "body": { "$ref": "#/definitions/inlines" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "An inline element that displays its content in bold. --> __bold text__"
-    },
-
-    "italic": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "italic" },
-        "body": { "$ref": "#/definitions/inlines" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Displays the contained elements in italic text. --> _italic text_"
-    },
-
-    "strike": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "strike" },
-        "body": { "$ref": "#/definitions/inlines" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Displays the contained elements with a strikethrough (crossed out). --> ~striked text~"
-    },
-
-    "sup": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "sup" },
-        "body": { "$ref": "#/definitions/inlines" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Displays the contained elements as superscript (raised text). --> ^bold text^"
-    },
-
-    "underline": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "underline" },
-        "body": { "$ref": "#/definitions/inlines" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Displays the contained elements with an underline. --> ~~underlined text~~"
-    },
-
-    "html": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "html" },
-        "htmlTag": {
-          "type": "string",
-          "description": "Define an inline html tag name like div, span, etc."
-        },
-        "body": { "$ref": "#/definitions/inlines" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "htmlTag"],
-      "description": "Displays an inline HTML element that might contain further inline elements, parameters are defined in attr."
-    },
-
-    "script": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "script" },
-
-        "body": {
-          "oneOf": [
-            { "type": "string" },
-            {
-              "type": "array",
-              "items": { "type": "string" },
-              "description": "Each string represents a line; all lines will be joined with a newline separator."
-            }
-          ]
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Create a script tag with code from the body. The body can be a single string or an array of strings (joined with newlines for readability)."
-    },
-
-    "code": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "code" },
-
-        "body": { "type": "string" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Display a verbatim element, the body will be displayed as it is."
-    },
-
-    "footnote": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "footnote" },
-        "body": { "type": "string" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Add a reference to a footnote block element."
-    },
-
-    "formula": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "formula" },
-        "body": { "type": "string" },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Use KaTeX formatted formulas in the string."
-    },
-
-    "effect": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "effect" },
-        "body": { "$ref": "#/definitions/inlines" },
-        "start": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Step when the effect appears (optional)."
-        },
-        "stop": {
-          "type": "integer",
-          "description": "Step when the effect disappears, should only be defined in combination with start (optional)."
-        },
-        "playback": {
-          "type": "boolean",
-          "description": "If true, adds a TTS playback button (optional)."
-        },
-        "voice": {
-          "$ref": "#/definitions/Voice",
-          "description": "Specifies the TTS voice to use for playback. Only relevant if 'playback' is true. Overrides the default voice set at the document or section level (optional)."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "An inline element that animates its content to appear and/or disappear at specific steps in a slide. Optionally, a TTS playback button can be added, and a custom voice can be set for spoken output."
-    },
-
-    "link": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "link" },
-        "url": {
-          "type": "string",
-          "description": "The target URL for the hyperlink."
-        },
-        "body": {
-          "$ref": "#/definitions/inlines",
-          "description": "The link text. If omitted, the URL is shown."
-        },
-        "title": {
-          "$ref": "#/definitions/inlines",
-          "description": "A title or tooltip for the link. Optional."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "url"],
-      "description": "Specifies a hyperlink"
-    },
-
-    "multimedia": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "multimedia" },
-        "embedType": {
-          "type": "string",
-          "enum": ["image", "audio", "video", "embed"]
-        },
-        "alt": { "$ref": "#/definitions/inlines" },
-        "url": { "type": "string" },
-        "title": { "$ref": "#/definitions/inlines" }
-      },
-      "required": ["type", "embedType", "url"],
-      "description": "Embed a multimedia resource (image, audio, video, or embeddable content via oEmbed)."
-    },
-
-    "symbol": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "symbol" },
-        "body": {
-          "oneOf": [
-            { "$ref": "#/definitions/symbols" },
-            {
-              "type": "string",
-              "description": "Any Unicode character, such as an emoji or special symbol."
-            }
-          ]
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body"],
-      "description": "Displays a single symbol, such as an arrow, emoji, or any Unicode character. Use a predefined symbol from the list or provide any string for custom symbols or emojis."
-    },
-
-    "input": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "input" },
-        "solution": {
-          "type": "string",
-          "description": "The correct answer that user input will be checked against. Trailing whitespaces in the user's input will be ignored during comparison."
-        },
-        "length": {
-          "type": "integer",
-          "description": "Specifies the visible width of the input field in characters. Should be greater than or equal to the length of the solution. Optional."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "solution"],
-      "description": "An inline text input field, typically used for fill-in-the-blank (GapText) quizzes. The 'solution' property defines the correct answer."
-    },
-
-    "select": {
-      "type": "object",
-      "properties": {
-        "type": { "const": "select" },
-        "solution": {
-          "$ref": "#/definitions/Solution",
-          "description": "Defines the correct answer(s) for the dropdown. Can be a single integer (for one correct option), an array of integers (for multiple correct options), an empty array (if no selection is correct), or an array of booleans (where 'true' marks the correct options)."
-        },
-        "body": {
-          "type": "array",
-          "items": { "$ref": "#/definitions/inlines" },
-          "description": "The selectable options displayed in the dropdown. Each option can be any inline element, including text, images, formulas, HTML, etc."
-        },
-        "attr": { "type": "object" }
-      },
-      "required": ["type", "body", "solution"],
-      "description": "Displays a dropdown menu with selectable options, typically used for fill-in-the-blank (GapText) quizzes. The 'body' property defines the list of options, and the 'solution' property specifies which option(s) are correct."
-    },
-
-    "Solution": {
-      "description": "Defines the correct answer(s) for selection-based quizzes. Can be a single integer (for one correct option), an array of integers (for multiple correct options), an empty array (if no selection is correct), or an array of booleans (where 'true' marks the correct options).",
-      "oneOf": [
-        {
-          "type": "integer",
-          "description": "A single integer indicating the index of the correct option."
-        },
-        {
-          "type": "array",
-          "items": { "type": "integer" },
-          "description": "An array of integers indicating the indices of all correct options. Use an empty array if no selection is correct."
-        },
-        {
-          "type": "array",
-          "items": { "type": "boolean" },
-          "description": "An array of booleans, where each 'true' value marks the corresponding option as correct."
-        }
-      ]
-    },
-
-    "symbols": {
-      "type": "string",
-      "enum": [
-        "<-->",
-        "<--",
-        "-->",
-        "<<-",
-        "->>",
-        "<->",
-        ">->",
-        "<-<",
-        "->",
-        "<-",
-        "<~",
-        "~>",
-        "<==>",
-        "==>",
-        "<==",
-        "<=>",
-        "=>",
-        "<=",
-        ":-)",
-        ";-)",
-        ":-D",
-        ":-O",
-        ":-(",
-        ":-|",
-        ":-/",
-        ":-\\",
-        ":-P",
-        ":-p",
-        ";-P",
-        ";-p",
-        ":-*",
-        ";-*",
-        ":')",
-        ":'(",
-        ":'[",
-        ":-[",
-        ":-#",
-        ":-X",
-        ":-§"
-      ],
-      "description": "A predefined symbol, such as an arrow, emoticon, or other special character. Use one of these for common symbols, or provide any Unicode string in the 'body' property for custom symbols or emojis."
-    },
-    "Voice": {
-      "type": "string",
-      "enum": [
-        "UK English Female",
-        "UK English Male",
-        "US English Female",
-        "US English Male",
-        "Afrikaans Male",
-        "Albanian Male",
-        "Arabic Female",
-        "Arabic Male",
-        "Armenian Male",
-        "Australian Female",
-        "Australian Male",
-        "Bangla Bangladesh Female",
-        "Bangla Bangladesh Male",
-        "Bangla India Female",
-        "Bangla India Male",
-        "Bosnian Male",
-        "Brazilian Portuguese Female",
-        "Brazilian Portuguese Male",
-        "Catalan Male",
-        "Chinese Female",
-        "Chinese Male",
-        "Chinese (Hong Kong) Female",
-        "Chinese (Hong Kong) Male",
-        "Chinese Taiwan Female",
-        "Chinese Taiwan Male",
-        "Croatian Male",
-        "Czech Female",
-        "Czech Male",
-        "Danish Female",
-        "Danish Male",
-        "Deutsch Female",
-        "Deutsch Male",
-        "Dutch Female",
-        "Dutch Male",
-        "Esperanto Male",
-        "Estonian Male",
-        "Filipino Female",
-        "Finnish Female",
-        "Finnish Male",
-        "French Canadian Female",
-        "French Canadian Male",
-        "French Female",
-        "French Male",
-        "Greek Female",
-        "Greek Male",
-        "Hindi Female",
-        "Hindi Male",
-        "Hungarian Female",
-        "Hungarian Male",
-        "Icelandic Male",
-        "Indonesian Female",
-        "Indonesian Male",
-        "Italian Female",
-        "Italian Male",
-        "Japanese Female",
-        "Japanese Male",
-        "Korean Female",
-        "Korean Male",
-        "Latin Female",
-        "Latin Male",
-        "Latvian Male",
-        "Macedonian Male",
-        "Moldavian Female",
-        "Moldavian Male",
-        "Montenegrin Male",
-        "Nepali",
-        "Norwegian Female",
-        "Norwegian Male",
-        "Polish Female",
-        "Polish Male",
-        "Portuguese Female",
-        "Portuguese Male",
-        "Romanian Female",
-        "Romanian Male",
-        "Russian Female",
-        "Russian Male",
-        "Serbian Male",
-        "Serbo-Croatian Male",
-        "Sinhala",
-        "Slovak Female",
-        "Slovak Male",
-        "Spanish Female",
-        "Spanish Male",
-        "Spanish Latin American Female",
-        "Spanish Latin American Male",
-        "Swahili Male",
-        "Swedish Female",
-        "Swedish Male",
-        "Tamil Female",
-        "Tamil Male",
-        "Thai Female",
-        "Thai Male",
-        "Turkish Female",
-        "Turkish Male",
-        "Ukrainian Female",
-        "Vietnamese Female",
-        "Vietnamese Male",
-        "Welsh Male"
-      ],
-      "description": "TTS voice to use (optional)."
-    }
-  }
-}
-```
-````
-
-## Video generation & narration
-
-> heygen is an AI-powered video generation platform that allows users to create high-quality videos from text prompts. It offers a range of customization options, including voice selection, video style, and more.
->
-> ![heygen screenshot](img/heygen.png)
->
-> https://www.heygen.com
-
-    {{1}}
-!?[LiaScript Hello World example](https://www.youtube.com/watch?v=YYhvGnE1PAA)
-
-### How is it done?
-
-````markdown
-    --{{1}}--
-This is a comment, where the last or the first element is a video or and audio element.
-?[audio](todo#t=start,end)
-
-     {{1}}
-This is a markdown-block that will appear on the first animation step.
-````
-
-## AI Workflows
-
-### n8n
-
-> n8n is a powerful open-source workflow automation tool that allows you to connect various services and automate tasks. It can be used to create complex workflows with minimal coding.
->
-> ![n8n screenshot](img/n8n.png)
->
-> https://n8n.io
-
-
-    {{1}}
-!?[n8n Tutorial](https://www.youtube.com/watch?v=ONgECvZNI3o)
-
-### Google Opal
-
-> Googles Opal is an AI for generating workflows from prompts, it is not available in the EU.
->
-> ![Opal screenshot](img/opal.png)
-
-    {{1}}
-1. Download and install the [Opera browser](https://www.opera.com/de/download)
-2. Enable the VPN and choose a location inside the US.
-3. Visit: https://opal.withgoogle.com
-
-
-## Local AIs
-
-![LM Studio screenshot](img/LM-Studio.png)
-
-https://lmstudio.ai
+Based on this comparison, what elements make an AI-generated TVET scenario more effective?
+
+    [[___]]
+    **Key Element 1:** (What specific details improve learning value?)
+
+    [[___]]
+    **Key Element 2:** (How should learning objectives be integrated?)
+
+    [[___]]
+    **Key Element 3:** (What context information is essential for realism?)
+
+#### Evaluation Framework
+
+> **Criterion 1: Technical Accuracy**
+
+    [( )] Content contains minor technical errors that don't affect learning
+    [( )] Content is completely technically accurate
+    [( )] Content has significant technical errors that could mislead students
+    [( )] Content accuracy cannot be determined without expert review
+    [[?]] How important is technical accuracy in TVET AI-generated content?
+
+> **Criterion 2: Pedagogical Appropriateness**
+
+    [( )] Content matches learning objectives and student level perfectly
+    [( )] Content is somewhat appropriate but needs adjustment
+    [( )] Content difficulty level doesn't match intended students
+    [( )] Content lacks clear pedagogical structure
+    [[?]] Does the AI-generated content serve the intended educational purpose effectively?
+
+---
+
+## Reflection Section
+
+<div class="reflection-section">
+
+> **🤔 Personal Reflection**
+
+Take a moment to reflect on your learning about AI prompting in TVET contexts:
+
+    [[___]]
+    **How will you apply effective prompting techniques in your specific TVET subject area?**
+
+    [[___]]
+    **What potential challenges do you anticipate when using AI systems for teaching and assessment in your context?**
+
+    [[___]]
+    **What safeguards will you implement to ensure AI-generated content meets your educational standards?**
+
+### 💡 Key Insights
+
+What are your main takeaways about AI systems' potential and limitations in TVET education?
+
+    [[___]]
+    **Most significant insight about AI systems in TVET education:**
+
+</div>
+
+## Further Reading & Resources
+
+<div class="audio-control">
+🎵 **Audio Summary Available** - Listen to key points from this section
+</div>
+
+> **Essential Resources**
+
+@resourceLink(UNESCO AI Competency Framework for Teachers, https://www.unesco.org/en/digital-education/ai-future-learning)
+@resourceLink(Google's AI for Education Prompt Library, https://www.aiforeducation.io/prompt-library)
+@resourceLink(Microsoft Education AI Prompting Guide, https://education.microsoft.com/en-us/resource/9c8f)
+
+> **Extended Learning**
+
+• [Prompt Engineering Guide for Educators](https://www.promptingguide.ai/introduction/education) - Comprehensive techniques and strategies
+• [AI Ethics in Education](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics) - UNESCO guidelines for responsible AI use
+• [TVET Digital Transformation](https://www.unesco.org/en/education/digital-transformation) - Broader context for AI integration
+• [Evaluation Rubrics for AI Content](https://www.teachingevaluation.ai/rubrics) - Tools for assessing AI-generated materials
+• [AI Limitations and Bias in Education](https://www.aiforeducation.io/ai-bias) - Critical considerations for educators
+
+> **Tools for Practice**
+
+@aiDemo(Practice prompt crafting with real-time feedback, Claude AI, https://claude.ai)
+@aiDemo(Educational content generation with prompting templates, ChatGPT for Educators, https://chat.openai.com)
+@aiDemo(Specialized AI for creating learning assessments, Quizgecko, https://quizgecko.com)
+
+## Next Steps & Module Progression
+
+### ✅ Completion Checklist
+
+Before moving to the next learning objective, ensure you have:
+
+- [ ] Completed both hands-on prompting activities
+- [ ] Identified specific AI applications for your TVET subject area
+- [ ] Practiced evaluating AI-generated educational content
+- [ ] Reflected on implementation strategies and potential challenges
+- [ ] Reviewed additional resources relevant to your teaching context
+
+### 🎯 Preparation for Next Learning Objective
+
+**Coming Up:** LO 4.1.3 - Integrating AI Tools into TVET Curriculum Design
+
+**Preview:** You'll learn to systematically integrate AI tools into your curriculum while maintaining pedagogical effectiveness and addressing ethical considerations.
+
+**Recommended Preparation:**
+• Review your current curriculum structure and identify integration opportunities
+• Consider the technical requirements and constraints in your teaching environment
+• Think about student readiness and digital literacy needs
+• Explore institutional policies regarding AI use in education
+
+---
+
+## Course Navigation
+
+> **📚 AI Pedagogy Learning Path**
+
+4.1.1. [Understanding AI Fundamentals in Education](./LO4-1-1.md) - Completed
+4.1.2. **AI Systems for Teaching, Learning, and Assessment** - **Current**
+4.1.3. [Integrating AI Tools into Curriculum Design](./LO4-1-3.md) - Next
+4.1.4. [Ethical Considerations in AI-Enhanced Teaching](./LO4-1-4.md) - Upcoming
+4.1.5. [Assessment and Evaluation with AI Support](./LO4-1-5.md) - Upcoming
+
+---
+
+**🎉 Congratulations on completing Virtual Training Nugget 4.1.2!**
+
+<div class="contact-info">
+**Support & Feedback:**
+📧 Email: support@tvet-ai.edu
+🌐 Course Portal: https://tvet-ai.edu/ai-pedagogy
+📋 Feedback Form: https://forms.tvet-ai.edu/nugget-feedback
+</div>
+
+> *"Effective AI prompting is not about finding the perfect question, but about understanding how to communicate your educational intent clearly and systematically to enhance learning outcomes."*
