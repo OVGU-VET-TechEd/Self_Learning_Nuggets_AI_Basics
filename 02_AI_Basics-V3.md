@@ -28,8 +28,9 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/Integrating_AI_in_TVET_U
 }
 
 .challenge-box {
-    background: linear-gradient(45deg, #ff6b6b, #ffa726);
-    color: white;
+    background: #fff5f5;
+    border: 2px solid #ff6b6b;
+    color: #d63031;
     padding: 1rem;
     border-radius: 10px;
     margin: 1rem 0;
@@ -37,8 +38,9 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/Integrating_AI_in_TVET_U
 }
 
 .opportunity-box {
-    background: linear-gradient(45deg, #4CAF50, #8BC34A);
-    color: white;
+    background: #f0fff4;
+    border: 2px solid #4CAF50;
+    color: #2d3436;
     padding: 1rem;
     border-radius: 10px;
     margin: 1rem 0;
@@ -54,8 +56,9 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/Integrating_AI_in_TVET_U
 }
 
 .policy-highlight {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: #f8f9ff;
+    border: 2px solid #667eea;
+    color: #2d3436;
     padding: 1rem;
     border-radius: 10px;
     margin: 0.5rem 0;
@@ -64,6 +67,39 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/Integrating_AI_in_TVET_U
 .interactive-element {
     background: #fff3e0;
     border: 2px dashed #ff9800;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.reflection-section {
+    background: #fafafa;
+    border-left: 4px solid #9c27b0;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.nugget-header {
+    background: #f8f9fa;
+    border: 2px solid #0072CE;
+    color: #2d3436;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.audio-control {
+    background: #e8f5e8;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+.inclusivity-notice {
+    background: #f1f8e9;
+    border: 2px solid #8bc34a;
+    color: #2d3436;
     border-radius: 10px;
     padding: 1rem;
     margin: 1rem 0;
@@ -105,7 +141,7 @@ if (!SpeechRecognition) {
     if (t === solution) {
       send.lia("true");
     } else {
-      send.lia("Please try again …",[],false);
+      send.lia("Please try again…",[],false);
     }
   };
   recognition.onerror = ev => send.lia("Error: "+ev.error,[],false);
@@ -247,59 +283,12 @@ Dear TVET Educator, Welcome to our comprehensive course on AI Ethics in Technica
 
 # 📚 AI Ethics in TVET Education: Building Responsible Digital Citizens
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
 --{{0}}--
 This learning experience is carefully structured to maximize your understanding and practical application of AI prompting techniques. You'll progress through interactive scenarios, hands-on activities, and real-world applications specific to TVET education.**Course Intention**. This nugget aims to develop your ability to critically evaluate AI tools for your specific TVET subject area, understand their pedagogical limitations, and make informed decisions about their appropriate use while maintaining human agency in education. 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0;">
 
-<div style="background: linear-gradient(45deg, #ff6b6b, #ffa500); color: white; padding: 25px; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+<div style="background: #fff5f5; border: 2px solid #ff6b6b; color: #2d3436; padding: 25px; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
 
 ### ⏱️ **Duration & Structure**
 - **Time Investment:** 15 minutes
@@ -308,11 +297,11 @@ This learning experience is carefully structured to maximize your understanding 
 
 </div>
 
-<div style="background: linear-gradient(45deg, #4ecdc4, #44a08d); color: white; padding: 25px; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+<div style="background: #f0fff4; border: 2px solid #4CAF50; color: #2d3436; padding: 25px; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
 
 ### 🎯 **Why This Format?**
 - **🔄 Immediate Application** - Practice as you learn
-- **🏗️ Real-World Scenarios** - Actual TVET contexts
+- **🗝️ Real-World Scenarios** - Actual TVET contexts
 - **✅ Self-Assessment** - Check understanding instantly
 - **🛠️ Practical Focus** - Skills for immediate use
 
@@ -321,55 +310,6 @@ This learning experience is carefully structured to maximize your understanding 
 </div>
 
 ## 🌟 Why LiaScript?  
-
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
 
 We chose **LiaScript** as our platform because:  
 
@@ -395,55 +335,6 @@ We chose **LiaScript** as our platform because:
 
 ## Commitment to Inclusivity
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
 <div class="inclusivity-notice">
 🌍 **Our Commitment:** This course is designed to be accessible and inclusive for all learners, regardless of background, location, or learning preferences. We provide multiple formats, language options, and accessibility features to ensure everyone can participate effectively.
 
@@ -465,55 +356,6 @@ We chose **LiaScript** as our platform because:
 
 # AI Ethics in TVET Education
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
 <div class="nugget-header">
 **Virtual Training Nugget 2.1.1:** Ethical Principles and Controversies in AI-Enhanced TVET
 <br>
@@ -527,8 +369,7 @@ We chose **LiaScript** as our platform because:
 
 ## 🎯 Learning Objectives
 
-
-<div style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); padding: 30px; border-radius: 20px; margin: 30px 0; border-left: 8px solid #2196f3;">
+<div style="background: #e3f2fd; border: 2px solid #2196f3; padding: 30px; border-radius: 20px; margin: 30px 0;">
 
 ### 🏆 **By the end of this nugget, you will master:**
 
@@ -558,106 +399,8 @@ We chose **LiaScript** as our platform because:
 
 </div>
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
 
 ## **Module 2: Ethics of AI**
-
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
 
 > **Section 2.1: Ethical Principles**
 
@@ -675,55 +418,6 @@ We chose **LiaScript** as our platform because:
 
 ## Introduction to AI Ethics in TVET
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
 <div class="audio-control">
 🎵 **Audio Introduction Available**
 </div>
@@ -738,56 +432,7 @@ We chose **LiaScript** as our platform because:
 
 ### 🌍 **Scenario 1: Culturally-Biased Safety Monitoring**
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
-<div style="background: linear-gradient(135deg, #5f72bd, #9b59b6); color: white; padding: 25px; border-radius: 20px; margin: 25px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+<div style="background: #f8f9ff; border: 2px solid #5f72bd; color: #2d3436; padding: 25px; border-radius: 20px; margin: 25px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
 
 **👷‍♀️ Maria** teaches Construction Technology at a vocational college in São Paulo. Her department uses an AI safety system trained on data from Northern Europe and North America to monitor student movements. The system flags the diverse, culturally-influenced working styles of her students as "unsafe," despite them meeting local safety standards.
 
@@ -811,7 +456,7 @@ We chose **LiaScript** as our platform because:
 
 ### 🏥 **Scenario 2: AI in Healthcare Communication Training**
 
-<div style="background: linear-gradient(135deg, #1cd8d2, #93edc7); color: white; padding: 25px; border-radius: 20px; margin: 25px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+<div style="background: #f0fff4; border: 2px solid #1cd8d2; color: #2d3436; padding: 25px; border-radius: 20px; margin: 25px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
 
 **🧑‍⚕️ Dr. James** oversees a Healthcare Assistant program in Manila. He uses an AI tutor, trained on Western communication patterns, to teach patient interaction skills. The AI provides feedback that conflicts with the culturally-appropriate practices taught by local clinical supervisors, confusing students.
 
@@ -831,105 +476,8 @@ We chose **LiaScript** as our platform because:
 
     [[___]]
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
 
 ## Hands-On Activity 1: Ethical Framework Analysis
-
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
 
 > **Activity 1: Building Your Ethical Decision-Making Framework**
 
@@ -988,55 +536,6 @@ ${total <= 6 ? "• Proceed with standard monitoring\n• Regular ethical review
 </script>
 
 ## Interactive Quiz Section
-
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
 
 > **Knowledge Check 1: Identifying Ethical Issues**
 
@@ -1103,55 +602,6 @@ Which statement best describes appropriate human oversight in AI-enhanced TVET e
 
 ## Hands-On Activity 2: AI Tool Evaluation Workshop
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
 > **Activity 2: Practical AI Ethics Assessment**
 
 **Instructions:** Use the AI Ethics Evaluation Framework to assess a real AI tool for your TVET program. This practical exercise helps you apply ethical principles to tool selection decisions.
@@ -1197,55 +647,6 @@ Rate each factor (1-5 scale):
 
 #### Evaluation Framework
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
 > **Criterion 1: Fairness and Equity**
 
     [( )] 1 - Creates significant disadvantages for certain student groups
@@ -1286,55 +687,6 @@ Rate each factor (1-5 scale):
 
 ## Reflection Section
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
 <div class="reflection-section">
 
 > **🤔 Personal Reflection**
@@ -1364,70 +716,21 @@ What are your main takeaways from this nugget?
 
 ## Further Reading & Resources
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
 <div class="audio-control">
 🎵 **Audio Summary Available** - Listen to key points from this section
 </div>
 
 > **Essential Resources**
 
-@resourceLink(UNESCO AI and Education: Guidance for Policy-makers, https://www.unesco.org/en/articles/artificial-intelligence-education-guidance-policy-makers)
+• [UNESCO AI and Education: Guidance for Policy-makers](https://www.unesco.org/en/articles/artificial-intelligence-education-guidance-policy-makers)
 
-@resourceLink(UNESCO Ethics of AI Recommendation, https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
+• [UNESCO Ethics of AI Recommendation](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
 
-@resourceLink(Beijing Consensus on AI and Education, https://www.unesco.org/en/articles/beijing-consensus-artificial-intelligence-and-education)
+• [Beijing Consensus on AI and Education](https://www.unesco.org/en/articles/beijing-consensus-artificial-intelligence-and-education)
 
-@resourceLink(Partnership on AI - Educational Technology, https://www.partnershiponai.org/workstream/education/)
+• [Partnership on AI - Educational Technology](https://www.partnershiponai.org/workstream/education/)
 
-@resourceLink(IEEE Standards for Ethical AI in Education, https://standards.ieee.org/initiatives/artificial-intelligence-systems/)
+• [IEEE Standards for Ethical AI in Education](https://standards.ieee.org/initiatives/artificial-intelligence-systems/)
 
 > **Extended Learning**
 
@@ -1445,64 +748,31 @@ What are your main takeaways from this nugget?
 
 > **Tools for Practice**
 
-@aiDemo(Evaluate AI bias in educational tools, AI Fairness 360, https://aif360.mybluemix.net/)
+<div class="interactive-element">
+**AI Demo:** Evaluate AI bias in educational tools<br>
+**Tool:** AI Fairness 360<br>
+**Try it:** [Click here](https://aif360.mybluemix.net/)
+</div>
 
-@aiDemo(Check privacy policies of AI tools, Privacy Policy Analyzer, https://www.privacypolicies.com/)
+<div class="interactive-element">
+**AI Demo:** Check privacy policies of AI tools<br>
+**Tool:** Privacy Policy Analyzer<br>
+**Try it:** [Click here](https://www.privacypolicies.com/)
+</div>
 
-@aiDemo(Test AI transparency and explainability, IBM Watson OpenScale, https://www.ibm.com/cloud/watson-openscale)
+<div class="interactive-element">
+**AI Demo:** Test AI transparency and explainability<br>
+**Tool:** IBM Watson OpenScale<br>
+**Try it:** [Click here](https://www.ibm.com/cloud/watson-openscale)
+</div>
 
-@aiDemo(Assess cultural sensitivity in language AI, Hugging Face Model Cards, https://huggingface.co/models)
+<div class="interactive-element">
+**AI Demo:** Assess cultural sensitivity in language AI<br>
+**Tool:** Hugging Face Model Cards<br>
+**Try it:** [Click here](https://huggingface.co/models)
+</div>
 
 ## Next Steps & Module Progression
-
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
 
 ✅ Completion Checklist
 
@@ -1515,55 +785,6 @@ Before moving to the next nugget, ensure you have:
 - [ ] Developed strategies for maintaining human responsibility with AI tools
 
 ### 🎯 Preparation for Next Nugget
-
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
 
 **Coming Up:** AI Applications and Tool Selection for TVET
 
@@ -1580,62 +801,13 @@ Before moving to the next nugget, ensure you have:
 
 ## Course Navigation
 
-<!-- UNEVOC -->
-<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
-</div>
-
-<!-- ASSET -->
-<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
-</div>
-
-<!-- HWK Blume -->
-<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
-</div>
-
-<!-- GIZ -->
-<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
-</div>
-
-<!-- UoVT -->
-<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
-</div>
-
-<!-- OVGU -->
-<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
-</div>
-
-<!-- HRDC -->
-<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
-</div>
-
-<!-- MITD -->
-<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
-  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
-  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
-</div>
-
-
 > **📚 All Course Nuggets**
 
-1. [AI Ethics in TVET Education](current) - ✅ Completed
-2. [AI Applications and Tool Selection](next-nugget-url) - 🔄 Next
-3. [Implementation Strategies](nugget-3-url) - ⏳ Upcoming
-4. [Assessment and Evaluation](nugget-4-url) - ⏳ Upcoming
-5. [Professional Development](nugget-5-url) - ⏳ Upcoming
+1. [AI Orientation for TVET Educators](https://liascript.github.io/course/?https://github.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/blob/main/01_Orientation-V3.md) - Current
+2. [AI Basics](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/02_AI_Basics-V3.md) - Next
+3. [AI Tools Presentation](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/03_Tool_Presentations-V3.md) - Upcoming
+4. [Prompting](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/04_Prompting_V2.md) - Upcoming
+5. [Assessment and Evaluation with AI](https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/05_Quality_%26_Ethics_V2.md) - Upcoming
 
 ---
 
@@ -1644,7 +816,7 @@ Before moving to the next nugget, ensure you have:
 <div class="contact-info">
 **Support & Feedback:**
 📧 Email: support@tvet-ai-ethics.edu
-🌐 Course Portal: https://tvet-ai-ethics.edu/portal
+🌍 Course Portal: https://tvet-ai-ethics.edu/portal
 📋 Feedback Form: https://forms.gle/ai-ethics-feedback
 </div>
 
@@ -1653,7 +825,7 @@ Before moving to the next nugget, ensure you have:
 # END
 
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
-  <title id="title">End Slide — Technical Accuracy Motivation</title>
+  <title id="title">End Slide – Technical Accuracy Motivation</title>
   <desc id="desc">Thank you slide emphasising technical accuracy in TVET AI content.</desc>
 
   <!-- Background -->
@@ -1678,7 +850,7 @@ Before moving to the next nugget, ensure you have:
 
   <!-- Headline -->
   <text x="180" y="210" font-family="Inter, Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#ffffff">
-    Thank you — keep striving for accuracy
+    Thank you – keep striving for accuracy
   </text>
 
   <!-- Divider line -->
