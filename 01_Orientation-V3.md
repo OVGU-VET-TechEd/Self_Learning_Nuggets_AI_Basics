@@ -252,7 +252,7 @@ This learning experience is carefully structured to maximize your understanding 
 
 ### ⏱️ **Duration & Structure**
 - **Time Investment:** 15 minutes
-- **Learning Objective:** Human-centered mindset: Human agency  
+- **Learning Objective:** Using AI while maintaining human agency  
 - **Format:** Interactive self-learning
 - **Mode:** Self-paced with guided checkpoints
 
@@ -328,7 +328,8 @@ This introductory video explores the fundamental principle of maintaining human 
 ## 🗃️ Module 2: TVET-Specific AI Applications & Scenarios
 
 --{{0}}--
- **Work context:** 
+ **Work context:**
+ 
 Let's explore how AI applications work in authentic TVET contexts. These detailed scenarios will help you understand the practical applications and critical considerations when using AI systems in your specific teaching environment.
 
 ---
@@ -996,6 +997,7 @@ You've developed a critical framework for evaluating AI tools in TVET education 
   <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
   <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
 </div>
+
 
 
 
