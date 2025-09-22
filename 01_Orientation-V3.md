@@ -467,39 +467,6 @@ Expand your knowledge with these carefully curated resources for TVET AI integra
 * [TVET Digital Transformation Guide](https://www.ilo.org/skills/areas/skills-training-for-poverty-reduction/WCMS_740847/lang--en/index.htm) - ILO perspective on skills development
 * [Critical Thinking in Digital Age Education](https://www.brookings.edu/research/critical-thinking-digital-age/) - Maintaining analytical skills with technology
 
-> **Tools for Practice**
-
-* AI Ethics Simulator - Explore ethical decision-making scenarios
-* TVET AI Assessment Tool - Practice subject-specific AI evaluation
-* AI Limitations Explorer - Test understanding of AI capabilities and constraints
-
-## Next Steps & Module Progression
-
-✅ Completion Checklist
-
-Before moving to the next nugget, ensure you have:
-
-- [ ] Completed both TVET scenario analyses
-- [ ] Finished the AI tool assessment framework
-- [ ] Scored satisfactorily on all quiz questions
-- [ ] Developed a preliminary AI integration strategy for your field
-- [ ] Identified key ethical considerations for your TVET context
-- [ ] Created an action plan for implementing human-centered AI practices
-
-## 🎯 Preparation for Next Nugget
-
-**Coming Up:** Ethics and Quality Assurance in AI-Enhanced TVET Education
-
-**Preview:** Building on your understanding of human agency, the next nugget will dive deeper into establishing quality assurance processes and ethical frameworks for AI implementation in technical and vocational education.
-
-**Recommended Preparation:**
-• Review your completed AI assessment framework
-• Gather examples of current AI tools used in your TVET field
-• Consider specific ethical dilemmas you've encountered or might encounter
-• Research industry standards and regulations relevant to your teaching area
-
----
-
 ## Course Navigation
 
 > **📚 All Course Nuggets**
@@ -636,6 +603,7 @@ You've developed a critical framework for evaluating AI tools in TVET education 
   <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
   <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
 </div>
+
 
 
 
