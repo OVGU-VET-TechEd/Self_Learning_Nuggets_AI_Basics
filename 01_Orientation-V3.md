@@ -535,7 +535,7 @@ You've developed a critical framework for evaluating AI tools in TVET education 
     </text>
 
   <!-- Secondary short CTA -->
-  <text x="180" y="420" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#bfe6d9">
+  <text x="180" y="405" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="#bfe6d9">
     Aim for rigor. Validate with experts. Iterate with learners.
   </text>
 
@@ -606,6 +606,7 @@ You've developed a critical framework for evaluating AI tools in TVET education 
   <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
   <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
 </div>
+
 
 
 
