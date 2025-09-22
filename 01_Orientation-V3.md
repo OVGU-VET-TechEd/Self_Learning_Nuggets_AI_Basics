@@ -150,7 +150,7 @@ if (!SpeechRecognition) {
 @end
 -->
 
-# 🚀 Mastering AI Prompting for TVET Education
+# 🚀 Mastering AI for TVET Education
 
 --{{0}}--
 Welcome to this comprehensive learning experience on AI prompting techniques specifically designed for Technical and Vocational Education and Training educators. This interactive module will transform your understanding of how to effectively communicate with AI systems to enhance your teaching, learning, and assessment practices.
@@ -993,3 +993,4 @@ You've developed a critical framework for evaluating AI tools in TVET education 
   <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
   <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
 </div>
+
