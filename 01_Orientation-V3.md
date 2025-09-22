@@ -330,6 +330,8 @@ This introductory video explores the fundamental principle of maintaining human 
 --{{0}}--
  **Work context** Let's explore how AI applications work in authentic TVET contexts. These detailed scenarios will help you understand the practical applications and critical considerations when using AI systems in your specific teaching environment.
 
+---
+
 ### 🔨 **Scenario 1: Construction Technology Training**
 
 <div style="background: linear-gradient(135deg, #ff9a56, #ff6b6b); color: white; padding: 25px; border-radius: 20px; margin: 25px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
@@ -993,5 +995,6 @@ You've developed a critical framework for evaluating AI tools in TVET education 
   <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
   <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
 </div>
+
 
 
