@@ -311,7 +311,7 @@ This introductory video explores the fundamental principle of maintaining human 
 🎵 **Video Narration:** Understanding Human Agency in AI-Enhanced TVET Education
 </div>
 
-!?[Understanding Human Agency in AI-Enhanced TVET Education] (https://www.youtube.com/watch?v=YLe8XQTsarM)
+!?[Understanding Human Agency in AI-Enhanced TVET Education](https://www.youtube.com/watch?v=YLe8XQTsarM)
 
 **Video Summary:** This video introduces the principle of preserving human agency in the use of AI for technical and vocational education. It shows that while AI can support learning, educators remain central in guiding, evaluating, and contextualizing its outputs for meaningful learning experiences.
 
@@ -604,6 +604,7 @@ You've developed a critical framework for evaluating AI tools in TVET education 
   <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
   <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
 </div>
+
 
 
 
