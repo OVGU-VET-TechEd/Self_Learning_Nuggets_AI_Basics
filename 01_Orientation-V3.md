@@ -520,7 +520,7 @@ You've developed a critical framework for evaluating AI tools in TVET education 
 
   <!-- Headline -->
   <text x="180" y="210" font-family="Inter, Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#ffffff">
-    Thank you â€" keep striving for accuracy
+    Thank you and keep striving for accuracy
   </text>
 
   <!-- Divider line -->
@@ -528,7 +528,10 @@ You've developed a critical framework for evaluating AI tools in TVET education 
 
   <!-- Motivational line (main) -->
   <text x="180" y="320" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28" fill="#e6f0ff">
-    Technical accuracy matters: it empowers learning, builds trust, and ensures safe, effective skills for the workplace.
+    Technical accuracy matters:
+    * it empowers learning 
+    * builds trust
+    * and ensures safe, effective skills for the workplace
   </text>
 
   <!-- Secondary short CTA -->
@@ -603,6 +606,7 @@ You've developed a critical framework for evaluating AI tools in TVET education 
   <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
   <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
 </div>
+
 
 
 
