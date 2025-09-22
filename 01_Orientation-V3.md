@@ -479,7 +479,7 @@ Expand your knowledge with these carefully curated resources for TVET AI integra
 
 ---
 
-**🎉 Congratulations on completing Virtual Training Nugget 2.1!**
+**🎉 Congratulations on completing Virtual Training Nugget 1!**
 
 You've developed a critical framework for evaluating AI tools in TVET education while maintaining human agency and educational quality. Your thoughtful approach to balancing innovation with pedagogical soundness will serve your students well.
 
@@ -610,6 +610,7 @@ You've developed a critical framework for evaluating AI tools in TVET education 
   <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
   <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
 </div>
+
 
 
 
