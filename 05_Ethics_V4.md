@@ -396,6 +396,7 @@ By the end of this final nugget, you will be able to:
 @competencyHighlight(🎯 Capstone Focus: Understanding and upholding ethical principles including protection of human rights, human agency, promotion of linguistic and cultural diversity, inclusion and environmental sustainability)
 
 **Core Ethical Framework:**
+
 - **Human Rights:** Protecting dignity, privacy, and fundamental freedoms
 - **Inclusion & Diversity:** Ensuring equitable access and cultural representation  
 - **Environmental Sustainability:** Responsible resource use and environmental stewardship
@@ -436,6 +437,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **The Challenge:** AI tools often require student data to function effectively, creating tension between personalization and privacy.
 
 **Rani's Approach:**
+
 - **Informed Consent:** Students understand exactly what data is collected and how it's used
 - **Data Minimization:** Only collect data essential for educational purposes
 - **Transparent Alternatives:** Offer non-AI options for students who opt out
@@ -448,6 +450,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Critical Recognition:** AI systems can perpetuate or amplify existing biases, potentially violating students' rights to fair and equal treatment.
 
 **Systematic Bias Prevention:**
+
 1. **Pre-Implementation Evaluation:** Test AI tools for bias before deployment
 2. **Ongoing Monitoring:** Regularly assess outcomes across different student groups
 3. **Diverse Representation:** Ensure AI-generated content reflects student diversity
@@ -460,6 +463,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Empowerment Principle:** Students should understand AI's role in their education and maintain agency over their learning experience.
 
 **Implementation Strategies:**
+
 - **AI Literacy Education:** Teaching students to understand and interact critically with AI
 - **Choice and Control:** Providing options for AI assistance levels
 - **Transparency:** Clear communication about when and how AI is used
@@ -482,6 +486,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Challenge:** Many AI tools perform better in dominant languages, potentially disadvantaging multilingual students.
 
 **Rani's Multi-Language Solution:**
+
 - **Translation Integration:** Using AI translation tools to make materials accessible in students' native languages
 - **Cultural Adaptation:** Ensuring translated content maintains cultural relevance
 - **Language Learning Support:** AI tools that help students develop technical vocabulary in multiple languages
@@ -494,6 +499,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Recognition:** AI tools and access vary significantly based on economic resources, potentially creating or exacerbating educational inequalities.
 
 **Equity-Focused Approaches:**
+
 - **Free Tool Prioritization:** Focusing on open-source and freely available AI tools
 - **Device-Agnostic Solutions:** Ensuring AI tools work on various devices and connection speeds
 - **Digital Divide Bridging:** Providing institutional access to premium AI tools for all students
@@ -504,6 +510,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Issue:** AI systems often reflect the cultural contexts of their training data, which may not represent global diversity.
 
 **Cultural Inclusion Framework:**
+
 1. **Diverse Examples:** Actively seeking AI outputs that represent multiple cultures
 2. **Local Context Integration:** Adapting AI-generated content to local cultural contexts  
 3. **Student Voice Amplification:** Encouraging students to share their cultural perspectives in AI-enhanced projects
@@ -528,6 +535,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Educational Responsibility:** Students should understand the environmental cost of AI systems and develop habits of responsible use.
 
 **Rani's Environmental AI Curriculum:**
+
 - **Carbon Footprint Education:** Teaching students that large AI models consume significant energy
 - **Efficient Use Training:** Strategies for getting better results with fewer AI interactions
 - **Green AI Awareness:** Discussing renewable energy in data centers and sustainable computing
@@ -540,6 +548,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Opportunity:** Using AI tools to enhance education about renewable energy, sustainable manufacturing, and environmental technology.
 
 **Sustainable TVET Applications:**
+
 - **Renewable Energy Simulations:** AI-powered modeling of solar and wind systems
 - **Energy Efficiency Optimization:** Using AI to teach about smart building systems
 - **Sustainable Manufacturing:** AI applications in waste reduction and resource optimization
@@ -573,6 +582,7 @@ This transformation mirrors your own journey from learning individual skills to 
 4. **Accessibility Compliance:** Content must meet accessibility standards for students with disabilities
 
 **Rani's Quality Control Process:**
+
 - **Dual Review System:** AI content reviewed by both subject matter experts and pedagogical specialists
 - **Student Feedback Integration:** Regular surveys about AI-enhanced materials' effectiveness
 - **Peer Collaboration:** Sharing AI-generated materials with colleagues for feedback
@@ -583,6 +593,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Challenge:** Ensuring AI-assisted assessment maintains fairness, validity, and reliability while respecting student dignity.
 
 **Ethical Assessment Framework:**
+
 - **Transparent Criteria:** Students understand how AI is used in evaluation processes
 - **Human Final Authority:** Teachers retain ultimate responsibility for grades and feedback
 - **Bias Monitoring:** Regular checks for systematic unfairness in AI-assisted assessment
@@ -595,6 +606,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Ongoing Responsibility:** Maintaining and improving AI literacy while staying current with ethical developments.
 
 **Professional Growth Framework:**
+
 - **Regular Training:** Staying updated on AI developments and ethical guidelines
 - **Peer Learning:** Participating in professional communities focused on ethical AI use
 - **Reflective Practice:** Regular self-assessment of AI implementation effectiveness
@@ -613,24 +625,28 @@ This transformation mirrors your own journey from learning individual skills to 
 ### Essential Policy Components
 
 **Data Protection and Privacy:**
+
 - Clear guidelines for student data collection and use
 - Consent processes and opt-out mechanisms  
 - Data storage, sharing, and deletion protocols
 - Vendor assessment and management procedures
 
 **Equity and Inclusion:**
+
 - Non-discrimination requirements for AI tools
 - Accessibility standards and accommodations
 - Cultural sensitivity guidelines
 - Digital divide mitigation strategies
 
 **Quality and Academic Integrity:**
+
 - Standards for AI-generated content review
 - Guidelines for AI-assisted assessment and grading
 - Academic integrity policies addressing AI use
 - Professional development requirements
 
 **Environmental Responsibility:**
+
 - Sustainable AI usage guidelines
 - Energy efficiency requirements for AI tools
 - Environmental impact assessment procedures
@@ -641,6 +657,7 @@ This transformation mirrors your own journey from learning individual skills to 
 **Sustainable Transformation:** Building lasting change requires community engagement and continuous support.
 
 **Change Leadership Strategies:**
+
 1. **Start with Champions:** Identify and support early adopters like Rani
 2. **Provide Ongoing Support:** Training, resources, and troubleshooting assistance
 3. **Celebrate Successes:** Share positive outcomes and lessons learned
@@ -802,18 +819,21 @@ As a TVET educator committed to ethical AI implementation, I pledge to:
 ## Your Continuing Professional Development Path
 
 ### Immediate Next Steps (This Month)
+
 - **Apply Learning:** Implement at least three techniques from this course in your teaching practice
 - **Share Knowledge:** Present key insights to colleagues or educational leadership
 - **Join Communities:** Connect with other educators exploring ethical AI implementation
 - **Document Impact:** Begin tracking how AI integration affects your teaching effectiveness and student outcomes
 
 ### Advanced Development (This Year)
+
 - **Institutional Leadership:** Volunteer to participate in or lead AI policy development initiatives  
 - **Professional Recognition:** Pursue AI literacy certifications or professional development credits
 - **Community Contribution:** Share successful AI implementations as Open Educational Resources
 - **Continuous Learning:** Stay current with UNESCO guidance and emerging best practices
 
 ### Long-term Leadership (Ongoing)
+
 - **Mentor Others:** Guide colleagues through their own AI adoption journeys
 - **Policy Influence:** Contribute to regional or national policies on AI in TVET education
 - **Research and Innovation:** Participate in or conduct research on effective AI integration practices
@@ -826,11 +846,13 @@ As a TVET educator committed to ethical AI implementation, I pledge to:
 ## Essential Policy and Ethics Resources
 
 **UNESCO Core Documents:**
+
 @resourceLink(UNESCO Recommendation on the Ethics of AI (2021), https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
 @resourceLink(UNESCO Guidance for Generative AI in Education (2023), https://www.unesco.org/en/artificial-intelligence/guidance-schools)
 @resourceLink(Beijing Consensus on AI and Education (2019), https://unesdoc.unesco.org/ark:/48223/pf0000368303)
 
 **Professional Development Networks:**
+
 @resourceLink(UNEVOC AI in TVET Community, https://www.unevoc.unesco.org/home/dynamic-tertiary-menu/tvsd/ai-and-skills-development)
 @resourceLink(OECD AI in Education Portal, https://www.oecd.org/education/artificial-intelligence-in-education.htm)
 @resourceLink(UNESCO AI and Education Network, https://www.unesco.org/en/weeks/digital-learning)
@@ -838,12 +860,14 @@ As a TVET educator committed to ethical AI implementation, I pledge to:
 ## Institutional Implementation Support
 
 **Policy Templates and Frameworks:**
+
 - Institutional AI Ethics Policy Template
 - Student Data Privacy Guidelines for AI Tools
 - Quality Assurance Checklist for AI-Enhanced Materials
 - Environmental Impact Assessment Framework for Educational AI
 
 **Assessment and Evaluation Tools:**
+
 - AI Implementation Impact Measurement Framework
 - Student AI Literacy Assessment Rubric  
 - Ethical AI Practice Self-Assessment Tool
@@ -852,6 +876,7 @@ As a TVET educator committed to ethical AI implementation, I pledge to:
 ## Global Community Engagement
 
 **International Collaboration Opportunities:**
+
 - UNESCO TVET-AI Working Groups
 - Global Partnership for Education AI Initiative
 - International Conference on AI in TVET Education
@@ -872,6 +897,7 @@ As a TVET educator committed to ethical AI implementation, I pledge to:
 **Your Community:** Join thousands of educators worldwide committed to ethical AI implementation  
 
 ### **What You've Accomplished:**
+
 ✨ **Technical Mastery** - Expert-level AI tool selection and application  
 ✨ **Communication Excellence** - Advanced prompting and AI integration skills  
 ✨ **Ethical Leadership** - Comprehensive understanding of responsible AI practices  
@@ -879,6 +905,7 @@ As a TVET educator committed to ethical AI implementation, I pledge to:
 ✨ **Professional Growth** - Commitment to lifelong learning and community contribution  
 
 ### **Your Impact Begins Now!**
+
 Every student you teach, every colleague you mentor, and every policy you influence will benefit from your commitment to ethical AI integration. You are not just using AI—you are shaping how AI serves humanity's educational future.
 
 </div>
