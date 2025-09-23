@@ -311,7 +311,7 @@ Understanding AI terminology empowers you to make informed decisions about educa
 
 ## Core AI Vocabulary
 
-@definitionCard(Artificial Intelligence (AI), The broad field of creating machines or software that perform tasks requiring human-like intelligence—learning, pattern recognition, decision-making, and content generation. In education, AI might personalize learning paths or provide instant feedback.)
+@definitionCard(Artificial Intelligence, The broad field of creating machines or software that perform tasks requiring human-like intelligence—learning, pattern recognition, decision-making, and content generation. In education, AI might personalize learning paths or provide instant feedback.)
 
 @definitionCard(Algorithm, A step-by-step procedure or set of rules for solving problems. Traditional algorithms follow explicit human programming; AI algorithms learn and improve from data. Think of it as a "recipe" that computers follow.)
 
@@ -319,7 +319,7 @@ Understanding AI terminology empowers you to make informed decisions about educa
 
 @definitionCard(Weights, Internal parameters that determine how an AI model processes information. During training, these weights adjust to improve performance—like strengthening neural connections in learning. You won't see weights directly, but they control model behavior.)
 
-@definitionCard(Bias (AI Context), Systematic errors or unfair patterns in AI outputs, often reflecting prejudices in training data or design. In education, this might manifest as AI tools favoring certain demographics over others.)
+@definitionCard(Bias, Systematic errors or unfair patterns in AI outputs, often reflecting prejudices in training data or design. In education, this might manifest as AI tools favoring certain demographics over others.)
 
 @definitionCard(Prompting, The process of communicating with AI systems through carefully crafted inputs or questions. Effective prompting requires clear instructions, context, and examples to guide AI responses toward desired outcomes.)
 
