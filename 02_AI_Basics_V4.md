@@ -366,16 +366,19 @@ Different AI approaches serve different educational needs. Understanding these t
 **Core concept:** Learn patterns from data rather than following fixed rules
 
 ### Supervised Learning
+
 - **Process:** Learns from labeled examples (input-output pairs)
 - **TVET Application:** Training a system to classify correct vs. incorrect solder joints using labeled images
 - **Strength:** High accuracy when sufficient quality data is available
 
 ### Unsupervised Learning  
+
 - **Process:** Finds hidden patterns in unlabeled data
 - **TVET Application:** Clustering student learning behaviors to identify different learning styles
 - **Strength:** Discovers unexpected patterns humans might miss
 
 ### Reinforcement Learning
+
 - **Process:** Learns through trial and error with rewards/penalties
 - **TVET Application:** AI that learns optimal teaching sequences by tracking student engagement and success
 - **Strength:** Continuously improves through interaction
@@ -424,6 +427,7 @@ Understanding AI's failure modes is essential for maintaining human agency and p
 **Classroom Danger:** Students might ask AI to explain circuit analysis and receive a response containing invented formulas or non-existent components, potentially spreading misinformation.
 
 **Protection Strategy:**
+
 - Always verify factual claims from AI sources
 - Cross-reference technical information with authoritative sources  
 - Teach students to treat AI as a starting point, not final authority
@@ -455,12 +459,14 @@ Understanding AI's failure modes is essential for maintaining human agency and p
 ### Recognizing and Addressing Bias
 
 **Detection Strategies:**
+
 - Monitor AI outputs across different student demographics
 - Compare AI recommendations with your professional judgment
 - Question whether AI training data represents your student population
 - Look for systematic patterns in AI decisions
 
 **Mitigation Approaches:**
+
 - Use diverse AI tools to cross-check results
 - Supplement AI insights with human oversight
 - Explicitly prompt AI to consider diverse perspectives
@@ -477,21 +483,25 @@ Human agency means educators retain ultimate authority over educational decision
 ## Principles of Human Agency in Education
 
 ### 1. Critical Oversight
+
 **Practice:** Review all AI-generated content before using it with students  
 **Example:** Rani uses AI to draft quiz questions but edits each one for accuracy, clarity, and appropriateness  
 **Rationale:** AI may not understand your specific context, student needs, or learning objectives
 
 ### 2. Final Decision Authority  
+
 **Practice:** Treat AI outputs as recommendations, not commands  
 **Example:** If AI suggests a student needs additional support, Rani investigates using her professional judgment and multiple data sources  
 **Rationale:** Educational decisions affect real people and require contextual understanding AI lacks
 
 ### 3. Accountability Awareness
+
 **Practice:** Accept responsibility for all AI-assisted educational content and decisions  
 **Example:** Rani ensures any AI-generated materials align with her professional standards and institutional policies  
 **Rationale:** AI systems don't bear responsibility for educational outcomes—humans do
 
 ### 4. Transparent Communication
+
 **Practice:** Inform students and colleagues when AI tools are used in educational processes  
 **Example:** Rani explains to students when homework feedback was AI-assisted vs. entirely human-generated  
 **Rationale:** Builds trust and helps learners understand the educational process
@@ -499,18 +509,21 @@ Human agency means educators retain ultimate authority over educational decision
 ## Practical Human Agency Strategies
 
 ### Before Using AI:
+
 - Define clear objectives for AI assistance
 - Understand the AI tool's capabilities and limitations  
 - Establish criteria for evaluating AI outputs
 - Plan how to verify AI-generated content
 
 ### During AI Interaction:
+
 - Provide specific, detailed prompts
 - Ask follow-up questions to test AI understanding
 - Request AI to explain its reasoning when possible
 - Remain skeptical of overconfident responses
 
 ### After AI Response:
+
 - Fact-check claims against authoritative sources
 - Consider whether outputs align with educational objectives
 - Evaluate potential bias or inappropriate content
@@ -536,6 +549,7 @@ Let's examine how Rani applies human agency principles when using AI for assessm
 ## Rani's Human Agency Analysis
 
 ### ✅ What the AI Did Well:
+
 - Focused on the requested topic (Ohm's Law)
 - Provided multiple-choice format
 - Included correct answer (option b)
@@ -556,6 +570,7 @@ Let's examine how Rani applies human agency principles when using AI for assessm
 (d) 0.2V"*
 
 **Improvements Made:**
+
 - Tests application, not just recall
 - Uses realistic values from electronics work
 - All distractors represent plausible calculation errors
@@ -700,6 +715,7 @@ Consider your current or planned use of AI in TVET education. Address these huma
 ### 📖 Professional Development
 
 **Recommended Courses:**
+
 - **Ethics in AI Design** - Understanding bias and fairness in educational AI
 - **Critical AI Literacy** - Developing skills to evaluate AI systems
 - **Human-AI Collaboration** - Best practices for maintaining human agency
@@ -720,12 +736,14 @@ You now understand:
 
 **Coming Next:** Hands-on exploration of specific AI tools for TVET education  
 **Preview Topics:**
+
 - Comparative analysis of popular AI platforms
 - Selecting appropriate tools for specific educational tasks  
 - Practical integration strategies
 - Building your personal AI toolkit
 
 **Recommended Preparation:**
+
 - Identify one specific teaching challenge where AI might help
 - Create accounts on 2-3 AI platforms (ChatGPT, Claude, Perplexity)
 - Begin documenting your AI experiments and observations
