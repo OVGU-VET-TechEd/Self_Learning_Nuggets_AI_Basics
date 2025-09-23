@@ -552,9 +552,7 @@ Human agency means educators retain ultimate authority over educational decision
 
 # 🔬 Practical Example: Human Agency in Action
 
-Let's examine how Rani applies human agency principles when using AI for assessment creation.
-
-## The Scenario: Creating a Circuit Analysis Quiz
+@competencyHighlight(The Scenario: Creating a Circuit Analysis Quiz)
 
 **AI Prompt:** "Create a multiple-choice question testing students' understanding of Ohm's Law."
 
@@ -567,19 +565,19 @@ Let's examine how Rani applies human agency principles when using AI for assessm
 
 ## Rani's Human Agency Analysis
 
-### ✅ What the AI Did Well:
+@competencyHighlight(✅ What the AI Did Well:)
 
 - Focused on the requested topic (Ohm's Law)
 - Provided multiple-choice format
 - Included correct answer (option b)
 
-### ⚠️ Areas Needing Human Oversight:
+@competencyHighlight(⚠️ Areas Needing Human Oversight:)
 
 1. **Question Quality:** The question tests memorization, not understanding
 2. **Distractor Issues:** Option (d) is obviously wrong—adding voltage and current makes no physical sense
 3. **Learning Assessment:** Doesn't evaluate students' ability to apply Ohm's Law
 
-### 🔧 Rani's Human Improvements:
+@competencyHighlight(🔧 Rani's Human Improvements:)
 
 **Revised Question:**
 *"A circuit has a resistance of 10Ω and carries a current of 2A. Using Ohm's Law, what is the voltage across the resistor?  
@@ -595,9 +593,12 @@ Let's examine how Rani applies human agency principles when using AI for assessm
 - All distractors represent plausible calculation errors
 - Aligns with hands-on learning objectives
 
-## The Lesson: AI as Starting Point, Human Expertise as Finisher
+@competencyHighlight(The Lesson)
+
+**AI as Starting Point, Human Expertise as Finisher**
 
 Rani demonstrates perfect human agency: she leverages AI efficiency while applying professional judgment to ensure educational quality.
+
 
 ---
 
