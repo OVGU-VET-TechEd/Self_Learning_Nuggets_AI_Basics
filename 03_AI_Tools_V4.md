@@ -874,11 +874,11 @@ You've successfully developed:
 
 ## 📚 Complete Learning Path
 
-1. [AI Orientation](link-to-module-1) - ✅ Completed: Foundation and lifelong learning mindset
-2. [AI Basics & Human Agency](link-to-module-2) - ✅ Completed: Technical foundations and control  
+1. [AI Orientation](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/01_AI_Orientation_V4.md) - ✅ Completed: Foundation and lifelong learning mindset
+2. [AI Basics & Human Agency](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/01_AI_Orientation_V4.md) - ✅ Completed: Technical foundations and control  
 3. **AI Tools & Applications** - ✅ Current: Practical tool mastery and evaluation
-4. [AI-Assisted Teaching & Prompting](link-to-module-4) - 🔜 Next: Advanced communication and integration
-5. [Ethics & Quality Assurance](link-to-module-5) - 🔜 Final: Responsible implementation
+4. [AI-Assisted Teaching & Prompting](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/04_Prompting_V4.md) - 🔜 Next: Advanced communication and integration
+5. [Ethics and Quality in AI Education](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/05_Ethics_V4.md) - 🔜 Responsible AI use
 
 ---
 
