@@ -359,7 +359,6 @@ AI is creating new possibilities in TVET education:
 
 @competencyHighlight(🚀 Building an AI Learning Mindset)
 
-
 **Curiosity Over Perfection:** Rani discovered that learning AI is like learning any new technical skill - start with basics, practice regularly, and build confidence through hands-on experience.
 
 **Growth Mindset:** You don't need to become a programmer to use AI effectively. Focus on understanding AI's possibilities and limitations rather than the complex mathematics behind it.
