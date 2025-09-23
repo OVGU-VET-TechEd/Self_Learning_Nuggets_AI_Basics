@@ -129,7 +129,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 
 <svg xmlns='http://www.w3.org/2000/svg' width='1100' height='400' viewBox='0 0 800 450'>
   <!-- Background -->
-  <rect width='800' height='450' fill='#0072CE' />
+  <rect width='900' height='450' fill='#0072CE' />
   
   <!-- White rounded rectangle container -->
   <rect x='50' y='50' width='700' height='350' rx='20' fill='white' />
@@ -225,13 +225,12 @@ Dear Learner,
 
 Welcome to your comprehensive AI orientation journey! This interactive learning experience is designed specifically for Technical and Vocational Education and Training (TVET) educators who want to embrace AI as a tool for lifelong professional learning.
 
-> **🎯 Learning Intention**
+**🎯 Learning Intention**
 
 By the end of this 15-minute nugget, you will understand how AI can transform both your teaching practice and your students' future workplace success. You'll discover practical strategies for continuous learning in the rapidly evolving AI landscape.
 
-> **🤝 Partnership Acknowledgment**
+**🤝 Partnership Acknowledgment**
 
-<div style="background: #e3f2fd; border-left: 5px solid #2196f3; padding: 1rem; margin: 1rem 0;">
 This course is made possible through the generous support of:
 
 • **UNESCO** - United Nations Educational, Scientific and Cultural Organization
@@ -240,7 +239,6 @@ This course is made possible through the generous support of:
 • **Otto von Guericke University Magdeburg**
 
 This project fosters international collaboration in technical and vocational education and training.
-</div>
 
 </div>
 
