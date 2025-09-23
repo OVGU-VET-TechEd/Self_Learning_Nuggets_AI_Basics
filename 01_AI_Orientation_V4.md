@@ -595,10 +595,10 @@ Take a moment to consider these questions about your own AI learning journey:
 > **📚 Complete Learning Path**
 
 1. **AI Orientation for TVET Educators** - ✅ Current Module
-2. [AI Basics and Human Agency](link-to-next) - 🔜 Next: Understanding AI fundamentals
-3. [AI Tools and Applications](link-to-module-3) - 🔜 Exploring practical AI tools
-4. [AI-Assisted Teaching and Prompting](link-to-module-4) - 🔜 Advanced AI integration
-5. [Ethics and Quality in AI Education](link-to-module-5) - 🔜 Responsible AI use
+2. [AI Basics and Human Agency](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/02_AI_Basics_V4.md) - 🔜 Next: Understanding AI fundamentals
+3. [AI Tools and Applications](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/03_AI_Tools_V4.md) - 🔜 Exploring practical AI tools
+4. [AI-Assisted Teaching and Prompting](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/04_Prompting_V4.md) - 🔜 Advanced AI integration
+5. [Ethics and Quality in AI Education](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/05_Ethics_V4.md) - 🔜 Responsible AI use
 
 ---
 
