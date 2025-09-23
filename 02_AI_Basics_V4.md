@@ -1,85 +1,869 @@
+<!--
+author: AI in TVET Workshop Team
+email: tvet.ai@education.org
+version: 1.5.0
+language: en
+narrator: US English Female
+comment: AI Basics and Human Agency for TVET Teachers. A comprehensive 15-minute learning nugget focused on developing critical understanding of AI fundamentals while maintaining human decision-making authority in educational contexts.
 
-02_AI_Basics.md
-<!-- author: AI in TVET Workshop Team version: 1.0.0 language: en narrator: US English Female comment: AI Basics for TVET Teachers (Human Agency Competency) link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css @style .sector-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; margin: 1rem; border-radius: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); transition: transform 0.3s ease; } .sector-card:hover { transform: translateY(-5px); } .ai-tool-demo { background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 1.5rem; margin: 1rem 0; } .quiz-interactive { background: linear-gradient(45deg, #ff6b6b, #ffa726); color: white; padding: 1rem; border-radius: 10px; margin: 1rem 0; } .resource-link { background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; display: inline-block; margin: 0.25rem; transition: all 0.3s ease; } .resource-link:hover { background: #218838; transform: scale(1.05); } @end @customQuiz [[.]] <script> "@0" == btoa( "@input".trim().toLowerCase() ) </script> @end @aiDemo: <div class="ai-tool-demo">**AI Demo:** @0<br>**Tool:** @1<br>**Try it:** [Click here](@2)</div> @sectorCard: <div class="sector-card">**@0**<br>@1</div> @resourceLink: <a href="@1" class="resource-link" target="_blank">@0</a> -->
-AI Basics: Building Understanding and Human Agency
-<div style="text-align:center;"> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" width="80" style="margin:0 10px;"/> </div>
-Introduction
-In this module, we will establish clear definitions of key AI concepts and explore why human agency is paramount – meaning that humans (teachers and students) stay in control of AI, rather than being controlled by it. Rani, our electronics teacher, has started learning about AI. Now she wants to understand the technical basics: What exactly are these “models” and “algorithms” she keeps hearing about? Why do people mention AI “hallucinating” or being “biased”? We’ll unpack these terms with simple explanations and practical examples from the classroom. By the end, you should feel comfortable with the vocabulary of AI and recognize how to maintain human oversight when using AI in education.
-Key Definitions: AI Jargon Demystified
-Let’s define some fundamental terms in simple language:
-AI (Artificial Intelligence): The broad field of creating machines or software that can perform tasks requiring human-like intelligence. This ranges from simple algorithms recommending what video to watch next, to complex systems like self-driving car software. In essence, AI tries to mimic cognitive functions such as learning and problem-solving. (Example: A tutoring app that adapts to a student’s answers is using AI to “intelligently” personalize practice questions.)
-Algorithm: A step-by-step procedure or set of rules for solving a problem. In computing, an algorithm is like a recipe that tells the computer what steps to take. Traditional algorithms are explicitly programmed by humans. In AI, algorithms often improve themselves by learning from data. (Example: A sorting algorithm arranges student names alphabetically. An AI algorithm might learn to sort images of components by type after being trained on labeled examples.)
-Model: In AI, a “model” usually means the trained program that can make predictions or decisions. It’s the result of a learning process. Think of a model as a function or formula that has been tuned based on data. For instance, after feeding an AI many circuit diagrams and their fault diagnoses, you get a model that can predict faults in a new circuit diagram. The model is defined by its weights (see below) which encode the patterns it learned.
-Weights: These are the internal parameters of an AI model that get adjusted during training. If the AI model is like a brain, the weights are like the strengths of the connections between neurons. They determine how input is transformed into output. When we train a model (say, to recognize faulty circuits), we are essentially tweaking the weights so that the model’s predictions match the correct answers in our training data. (You won’t typically see weights, but they’re the reason a model behaves as it does.)
-Bias (in AI models): This can mean two things. One is technical bias – e.g., a model’s bias term, which is an offset added in calculations. More importantly for us, bias refers to systematic errors in the AI’s output that discriminate or favor one outcome unfairly. This happens if the training data or algorithm design has skewed patterns. For example, if an AI teaching assistant was trained mostly on questions from one region, it might be biased and not understand contexts from another region. Bias in AI can lead to unfair or misleading results, so we must be vigilant.
-Prompting: Communicating with an AI by giving it an input or question (a prompt). With modern AI like chatbots and large language models, prompting is how you “program” the AI in plain language. The quality of the AI’s response depends on how well you phrase your prompt. Prompting involves giving clear instructions, context, or even examples to guide the AI’s output. (We’ll cover specific prompting strategies in a later module, but essentially, learning to prompt is like learning to ask questions effectively.)
-Now, let’s make sure we truly understand these. Here’s an interactive match of terms to simple explanations:
-<details><summary><strong>AI</strong></summary>Machines performing intelligent tasks (learning, decision-making) that typically require human intelligence.</details> <details><summary><strong>Algorithm</strong></summary>A set of step-by-step instructions for solving a problem or performing a task (like a recipe for the computer).</details> <details><summary><strong>Model</strong></summary>An AI program that has been trained on data and can make predictions or decisions (the end product of AI training).</details> <details><summary><strong>Weights</strong></summary>Internal numbers in a model that the training process adjusts. They determine how the model makes predictions (its “knowledge”).</details> <details><summary><strong>Bias</strong></summary>A systematic error or unfairness in AI outputs, often caused by biased training data or assumptions, leading to prejudice in results.</details> <details><summary><strong>Prompt</strong></summary>The input given to an AI system to get a result. Good prompting means giving clear, detailed instructions or questions to guide the AI’s answer.</details>
-(Click each term to reveal the definition.) These definitions highlight that AI systems learn from data and can exhibit unexpected behaviors if we’re not careful. Understanding these concepts helps teachers maintain human agency – because if you know how the “AI brain” works at a high level, you can better guide and control it.
-Types of AI Algorithms and Systems
-Not all AI is the same. Different tasks use different approaches. Here are a few major types of AI algorithms and systems you might hear about:
-Rule-based systems: The earliest form of AI – here, human experts define rules (“if-then” logic). For example, a simple tutoring program might have a rule “IF answer is wrong AND common error is X, THEN display hint Y.” These don’t learn on their own; they follow the rules given. They’re transparent and under human control, but not adaptable.
-Machine Learning (ML): Instead of relying only on fixed rules, ML algorithms learn from examples. You feed them data, and they find patterns. Within ML:
-Supervised Learning: The algorithm learns from labeled examples (we give the right answers during training). E.g., training a model with labeled images of correct vs incorrect solder joints, so it can later classify new images.
-Unsupervised Learning: The algorithm finds patterns in unlabeled data on its own (like clustering similar student errors without being told which are which).
-Reinforcement Learning: The algorithm learns by trial and error, receiving rewards or penalties (imagine an AI figuring out how to adjust a machine by getting a “score” for performance).
-Neural Networks: A subset of ML, inspired by the human brain’s network of neurons. Neural networks consist of layers of interconnected “neurons” (actually just math functions) that can learn very complex patterns. Deep Learning refers to neural networks with many layers (“deep” networks). These are behind much of the recent AI breakthroughs. For instance, a neural network can learn to translate languages or detect objects in images after sufficient training. For Rani, a deep learning model might, say, analyze the sound of a motor and predict if it’s likely to fail soon (because it learned the subtle patterns of sound frequencies that indicate a problem).
-Generative AI: These are models designed to generate new content. Examples include large language models (like ChatGPT) which generate text, or image generators like DALL-E. They produce something (essay, image, audio) based on the patterns they learned. Generative models are impressive (they can write answers, create designs, etc.), but they also can hallucinate (produce incorrect or nonsensical output – we’ll discuss this shortly).
-Expert Systems: AI systems built to emulate the decision-making of a human expert in a specific field. They often combine rule-based logic with databases of knowledge. In the 1980s-90s, these were common – e.g., an expert system for medical diagnosis or, say, for troubleshooting an electronic device. They require extensive knowledge engineering and don’t learn new rules by themselves, but can be very accurate within their narrow domain if well-crafted.
-As a teacher, you don’t need to know the math behind these, but it helps to know what’s out there. For example, if someone says “our school is using a neural network to predict student dropouts,” you know it’s an ML system that was trained on data about students. Or if an app claims “we have an expert system for career guidance,” you know it’s based on predefined knowledge and rules from career counselors. Different AI types have different pros/cons: some are more interpretable (rule-based systems – you can follow the logic), others are more accurate with complexity but opaque (deep neural nets – huge accuracy in pattern recognition, but you can’t easily see why they made a given decision).
-Understanding the type of AI helps you anticipate its behavior and limitations. For instance, generative AI might create amazingly human-like text, but it might also confidently state false information (a byproduct of how it’s trained to predict likely words, not verify facts). As teachers, this awareness lets us apply AI appropriately and maintain authority over the final decisions.
-Hallucination and Bias: AI’s Quirks and Risks
-Two terms that often come up when using modern AI tools are hallucination and bias. These represent ways AI can go wrong. Let’s break them down with examples relevant to teaching:
-AI Hallucination: This is when an AI generates an answer that is factually incorrect or nonsensical, but it may sound confident or plausible. The AI isn’t “lying” on purpose; it’s usually a side effect of how generative models work – they predict likely sentences and sometimes stitch together things that seem real but aren’t. For example, Rani once asked a chatbot for a brief bio of a famous electronics engineer. The AI confidently wrote a paragraph with some true facts… and one completely made-up award that engineer supposedly won. The award didn’t exist! The AI “hallucinated” that detail. In a more dangerous case, a student might ask an AI to explain a circuit concept and the AI could invent a fake formula or explanation. If the student or teacher doesn’t catch it, misinformation spreads. Key point: Always verify AI outputs, especially factual ones. As a teacher, double-check any content an AI provides, just like you’d verify a student’s research from Wikipedia or the internet.
-AI Bias: We touched on bias in definitions. Bias in AI is when the system’s outputs unfairly favor or disfavor certain groups or outcomes. This often originates from biased training data. For instance, suppose an AI grading assistant was trained mostly on essays written in English by native speakers and it learned to give lower scores to essays with non-native phrasing. If Rani uses this AI on her students, it might systematically give lower marks to students who are ESL (English as a Second Language), not because their content is worse, but because the AI has a bias toward a certain writing style. That would be unfair and reinforce existing inequalities – a clear ethical problem. Another example: an AI career guidance tool might (due to biased historical data) suggest electronics engineering careers more often to male students than female students, thus perpetuating gender stereotypes. Key point: Teachers must be alert to these biases. We should ask: “How was this AI trained? Could that have left out certain populations or perspectives?” and then monitor outputs for signs of bias. If found, we either avoid using that AI or put in safeguards (like telling students about the potential bias or using additional unbiased materials).
-Why Human Agency Matters
-“Human agency” means humans keep the decision-making power. AI hallucinations and biases illustrate why this is critical. As a teacher, you decide how to use AI output. You don’t blindly accept what the AI says. Human agency involves:
-Critical Oversight: Rani uses AI to draft quiz questions, but she reviews each question before giving it to students, to ensure accuracy and appropriateness.
-Final Decision Authority: If an AI suggests a grade or feedback, Rani treats it as a suggestion, not the final verdict. She moderates the grade using her professional judgment.
-Accountability: Remember that an AI won’t take responsibility if something goes wrong – the teacher or institution will. So Rani remains accountable for any AI-assisted content she shares. This mindset helps her stay in control and not become over-reliant on automation.
-Now, let’s illustrate these concepts with a scenario that highlights the risks of bias and hallucination in a classroom decision-making context:
-@sectorCard("AI Grading Gone Wrong","Rani experimented with an AI tool that automatically graded student essays about recent advancements in electronics. Initially, it seemed like a time-saver. However, she noticed something troubling: essays written by students whose first language wasn’t English consistently got lower scores, even when their technical content was solid. Upon investigation, Rani realized the AI’s training data didn’t include many examples of non-native English writing, so it had learned a bias for a certain style. In one extreme case, the AI hallucinated feedback, telling a student their essay lacked a section that was actually there! This was a turning point – Rani understood that without her active oversight, the AI could mislead and unfairly judge her students. She decided to stop using the auto-grader and instead use AI in a more controlled way (like generating a draft rubric that she then fine-tunes).")
-In the scenario above, Rani’s awareness and human agency prevented potential harm. The lesson: AI can assist, but not replace, the nuanced judgment of a teacher. By understanding AI’s quirks, you can use it as a helpful assistant while shielding your students from its mistakes.
-Practical Classroom Example: Bias/Hallucination in Action
-Let’s walk through a concrete example to solidify these concepts. Imagine Rani uses an AI-powered quiz generator for a unit test. She inputs “Create a question to test understanding of Ohm’s Law.” The AI outputs: “What is Ohm’s Law? (a) Voltage = Current / Resistance (b) Voltage = Current × Resistance (c) Voltage = Resistance / Current (d) Voltage = Current + Resistance.”
-At first glance, option (b) is the correct formula (V = I × R). However, Rani spots a problem – the phrasing of the question is literally just “What is Ohm’s Law?” with formulas as options. One option (d) is nonsensical (you wouldn’t add current and resistance). The AI did the task, but not perfectly: it gave a trivial recall question with one silly distractor. If Rani had blindly used it, students might actually get confused why (d) is even there. This is a mild example of hallucination (the AI generating a bad option) and also a missed opportunity for a better question. Rani intervenes: she edits the question to “Which equation represents Ohm’s Law?” and replaces the silly option with a more plausible mistake (e.g., “Voltage = Current – Resistance”) to truly test understanding. This way, the AI’s output was just a starting point – human insight made it a quality item.
-For bias, consider if Rani asked the AI, “Generate a short context for a circuit problem involving a student.” If the AI always names the student “John” who loves electronics, there might be an implicit bias (perhaps all examples in training data featured male students). Rani notices this pattern and starts prompting the AI with diverse names or explicitly telling it to vary contexts (e.g., “use a female student in the problem”). This ensures the materials she generates are inclusive.
-Through these small examples, the message is clear: Teachers must remain in the driver’s seat. AI is like a trainee teacher’s aide – capable but needing supervision. By mastering the basics of AI vocabulary and being aware of issues like hallucinations and bias, you are empowered to use AI tools beneficially without surrendering your professional judgment. This balance upholds human agency in education, aligning with UNESCO’s principle of protecting human decision-making and autonomy in the age of AI
-unesco.org
-unesco.org
-.
-Interactive Quiz: Test Your AI Basics Knowledge
-What best describes an AI “hallucination” in the context of an educational tool?
-[[ ]] The AI gets confused and refuses to answer a question.
-[[X]] The AI produces a very confident answer that includes made-up or incorrect information.
-[[ ]] The AI generates an image instead of text in its answer unexpectedly.
-[[ ]] The AI repeats exactly something it read in the training data.
-A school uses an AI to identify students who might need extra help, based on past grades and attendance. What is a key step to ensure human agency and fairness?
-[[X]] Have counselors or teachers review the AI’s suggestions and consider factors the AI might have missed (maintaining human judgment).
-[[ ]] Let the AI’s list be final, since it’s data-driven and probably unbiased.
-[[ ]] Not use AI at all, because any use of AI removes human agency.
-[[X]] Check how the AI was trained – for example, ensure the data isn’t biased against any group of students – and monitor its recommendations over time for bias
-unesco.org
-unesco.org
-.
-Match the term to its definition (write the letter):
-A. Model
-B. Bias
-C. Prompting
-[[A]] A trained AI system that makes predictions or decisions based on learned patterns.
-[[B]] An unfair trend in AI outputs that can discriminate, often due to skewed training data.
-[[C]] The process of giving instructions or questions to an AI to get desired outputs.
-(In order: A = Model, B = Bias, C = Prompting.)
-True or False: A neural network “learns” by adjusting its weights based on training data, improving its performance over time.
-[[X]] True
-[[ ]] False
-Which of these is an example of maintaining human agency when using an AI translation tool in class?
-[[X]] Rani double-checks the AI’s translated technical terms in a circuit diagram explanation before giving it to students, to ensure accuracy and clarity.
-[[ ]] Rani trusts the AI completely and hands out the translation without reading it, to save time.
-[[X]] Rani allows students to use the tool but teaches them to verify the results and encourages them to ask if something seems off, keeping human judgment in the loop.
-[[ ]] Rani prohibits any corrections to the AI output, assuming the AI knows best.
-Great job! By answering these, you reinforce the concepts of AI basics. In summary, always remember: understand the tools you use (know the basics), and stay in charge (exercise human agency). Next, we’ll move on to exploring common AI tools and applications in education, connecting these concepts to real software you can use.
-Reflection: How do you feel about using AI in your teaching after learning these basics? Write down one concern you have and one opportunity you see. Consider how maintaining human agency can address the concern.
-Open answer: [[___]]
-(Take a moment to reflect. There are no “right” answers here – this is for you to connect the module content with your own thoughts and context.)
-<div style="text-align:center;"> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" width="80" style="margin:0 10px;"/> </div>
+link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css
+
+@style
+.welcome-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem;
+    margin: 2rem 0;
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+.sector-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.sector-card:hover {
+    transform: translateY(-5px);
+}
+
+.ai-tool-demo {
+    background: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.nugget-header {
+    background: linear-gradient(45deg, #ff6b6b, #ffa726);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.competency-framework {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.reflection-section {
+    background: #fafafa;
+    border-left: 4px solid #9c27b0;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.resource-link {
+    background: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.resource-link:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+.quiz-interactive {
+    background: linear-gradient(45deg, #ff6b6b, #ffa726);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.contact-info {
+    background: #fff3e0;
+    border: 1px solid #ff9800;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.audio-control {
+    background: #e8f5e8;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+.definition-card {
+    background: #e3f2fd;
+    border: 1px solid #2196f3;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.definition-card:hover {
+    background: #bbdefb;
+    transform: scale(1.02);
+}
+
+.risk-warning {
+    background: #fff3e0;
+    border: 2px solid #ff9800;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #f57c00;
+}
+
+.human-agency-box {
+    background: #e8f5e8;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-left: 5px solid #2e7d32;
+}
+@end
+
+@customQuiz
+[[.]]
+<script>
+"@0" == btoa( "@input".trim().toLowerCase() )
+</script>
+@end
+
+@aiDemo: <div class="ai-tool-demo">**🤖 AI Demo:** @0<br>**🛠️ Tool:** @1<br>**🔗 Try it:** [Click here](@2)</div>
+
+@sectorCard: <div class="sector-card">**@0**<br>@1</div>
+
+@resourceLink: <a href="@1" class="resource-link" target="_blank">@0</a>
+
+@competencyHighlight: <div class="competency-framework"><p style="color: #2196f3; font-weight: bold;">@0</p></div>
+
+@scenarioCard: <div style="background: #f8f9fa; color: #333; padding: 1.5rem; margin: 1rem 0; border-radius: 15px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); border-left: 4px solid #007bff;"><h4>🛠️ @0</h4><p>@1</p></div>
+
+@definitionCard: <div class="definition-card"><strong>@0:</strong> @1</div>
+
+@riskWarning: <div class="risk-warning"><strong>⚠️ @0</strong><br>@1</div>
+
+@humanAgency: <div class="human-agency-box"><strong>🤝 Human Agency Principle:</strong> @0</div>
+
+@h5p: <div class="h5p-element"><iframe src="@0" width="100%" height="@1" frameborder="0"></iframe></div>
+-->
+
+# 🧠 AI Basics: Building Understanding and Human Agency
+
+<svg xmlns='http://www.w3.org/2000/svg' width='1100' height='400' viewBox='0 0 800 450'>
+  <!-- Background -->
+  <rect width='800' height='450' fill='#0072CE' />
+  
+  <!-- White rounded rectangle container -->
+  <rect x='50' y='50' width='700' height='350' rx='20' fill='white' />
+  
+  <!-- Title -->
+  <text x='400' y='120' font-family='Segoe UI, Arial, sans-serif' font-size='36' font-weight='bold' text-anchor='middle' fill='#0072CE'>
+    AI Basics &amp; Human Agency
+  </text>
+  
+  <!-- Subtitle -->
+  <text x='400' y='160' font-family='Segoe UI, Arial, sans-serif' font-size='24' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
+    Virtual Training Nugget 2.0
+  </text>
+
+  <!-- Framework Reference -->
+  <text x='400' y='190' font-family='Segoe UI, Arial, sans-serif' font-size='16' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
+    UNESCO AI Competency: Human-Centered Mindset
+  </text>
+
+  <!-- Collaboration info -->
+  <text x='400' y='215' font-family='Segoe UI, Arial, sans-serif' font-size='16' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
+    Maintaining Human Control in AI-Enhanced Education
+  </text>
+
+  <!-- Academic reference -->
+  <text x='400' y='240' font-family='Segoe UI, Arial, sans-serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
+    A collaboration of the UNEVOC Network - ASSET Project
+  </text>
+  
+  <!-- Key Focus -->
+  <text x='400' y='280' font-family='Segoe UI, Arial, sans-serif' font-size='18' font-weight='bold' text-anchor='middle' fill='#0072CE'>
+    Understanding AI Fundamentals While Staying in Control
+  </text>
+</svg>
+
+<!-- License info -->
+<div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px; opacity: 0.7;">
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="margin-left: 5px; text-decoration: none;">CC BY-SA 4.0</a>
+</div>
+
+<!-- UNEVOC -->
+<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
+</div>
+
+<!-- ASSET -->
+<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
+</div>
+
+<!-- HWK Blume -->
+<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
+</div>
+
+<!-- GIZ -->
+<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
+</div>
+
+<!-- UoVT -->
+<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
+</div>
+
+<!-- OVGU -->
+<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
+</div>
+
+<!-- HRDC -->
+<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
+</div>
+
+<!-- MITD -->
+<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
+</div>
+
+---
+
+## 🎯 Course Overview
+
+<div class="nugget-header">
+**Virtual Training Nugget 2:** AI Basics and Human Agency
+<br>
+**Competency Focus:** Human-Centered Mindset (Acquire Level) | **Duration:** 15 minutes
+</div>
+
+<div class="audio-control">
+🎵 **Audio Narration Available** - Click the speaker icon to listen to this content
+</div>
+
+**📚 Learning Objectives**
+
+By the end of this nugget, you will be able to:
+
+1. **Define** essential AI terminology (algorithm, model, weights, bias, prompting) in simple terms
+2. **Distinguish** between different types of AI systems and their applications in education
+3. **Recognize** AI hallucinations and bias in educational contexts
+4. **Apply** human agency principles to maintain control over AI-assisted teaching
+5. **Evaluate** AI outputs critically while leveraging their benefits responsibly
+
+---
+
+## UNESCO Competency Focus: Human-Centered Mindset
+
+@competencyHighlight(🎯 Current Focus: Developing critical understanding that AI is human-led, ensuring human agency in educational decision-making)
+
+**Core Principle:** Teachers maintain authority over AI systems, not the reverse. AI serves human learning goals, and educators retain final decision-making power in educational contexts.
+
+| Learning Progression | Your Current Level | What This Means |
+|---------------------|-------------------|-----------------|
+| **Acquire** | **🎯 YOU ARE HERE** | Develop critical understanding of AI's human-led nature |
+| **Deepen** | Next Level | Apply human-centered principles in AI tool selection |
+| **Create** | Advanced Level | Design AI-enhanced experiences prioritizing human agency |
+
+---
+
+## Continuing Rani's Journey
+
+@scenarioCard(Rani's Next Challenge, After completing her AI orientation, Rani feels ready to dive deeper. She wants to understand the technical basics: What exactly are these "models" and "algorithms" everyone mentions? Why do people talk about AI "hallucinating" or being "biased"? Most importantly, how can she use AI tools while ensuring she—not the AI—remains in charge of her students' educational experience?)
+
+Rani's questions reflect a critical need: **understanding AI terminology and principles while maintaining human agency.** Let's explore these concepts together.
+
+---
+
+# 🔤 Key AI Definitions: Demystifying the Jargon
+
+Understanding AI terminology empowers you to make informed decisions about educational technology. Let's break down essential concepts:
+
+## Core AI Vocabulary
+
+@definitionCard(Artificial Intelligence (AI), The broad field of creating machines or software that perform tasks requiring human-like intelligence—learning, pattern recognition, decision-making, and content generation. In education, AI might personalize learning paths or provide instant feedback.)
+
+@definitionCard(Algorithm, A step-by-step procedure or set of rules for solving problems. Traditional algorithms follow explicit human programming; AI algorithms learn and improve from data. Think of it as a "recipe" that computers follow.)
+
+@definitionCard(Model, A trained AI system that makes predictions or decisions based on learned patterns. After training on thousands of examples, a model becomes capable of handling new, similar situations. It's the "graduate" of the AI learning process.)
+
+@definitionCard(Weights, Internal parameters that determine how an AI model processes information. During training, these weights adjust to improve performance—like strengthening neural connections in learning. You won't see weights directly, but they control model behavior.)
+
+@definitionCard(Bias (AI Context), Systematic errors or unfair patterns in AI outputs, often reflecting prejudices in training data or design. In education, this might manifest as AI tools favoring certain demographics over others.)
+
+@definitionCard(Prompting, The process of communicating with AI systems through carefully crafted inputs or questions. Effective prompting requires clear instructions, context, and examples to guide AI responses toward desired outcomes.)
+
+### 🎓 Interactive Definition Matching
+
+Test your understanding by matching terms to scenarios:
+
+**Scenario 1:** Rani trains a system to recognize faulty circuit components by showing it thousands of labeled images. The final trained system is called a ______.
+
+    [(X)] Model
+    [( )] Algorithm  
+    [( )] Prompt
+    [( )] Weight
+
+**Scenario 2:** When Rani asks an AI assistant "Create a quiz question about Ohm's Law for beginner students," she is ______.
+
+    [( )] Training
+    [(X)] Prompting
+    [( )] Modeling
+    [( )] Weighting
+
+**Scenario 3:** An AI grading tool consistently gives lower scores to essays written by non-native English speakers, even when content quality is equivalent. This demonstrates ______.
+
+    [( )] Hallucination
+    [(X)] Bias
+    [( )] Prompting
+    [( )] Algorithm
+
+---
+
+# 🔧 Types of AI Systems: Understanding the Landscape
+
+Different AI approaches serve different educational needs. Understanding these types helps you choose appropriate tools:
+
+## Traditional Rule-Based Systems
+
+**How they work:** Follow explicit "if-then" rules programmed by humans  
+**Educational example:** A tutoring program that displays specific hints when students make common errors  
+**Advantages:** Transparent, predictable, easy to control  
+**Limitations:** Cannot adapt to unexpected situations or learn from experience
+
+## Machine Learning (ML) Systems
+
+**Core concept:** Learn patterns from data rather than following fixed rules
+
+### Supervised Learning
+- **Process:** Learns from labeled examples (input-output pairs)
+- **TVET Application:** Training a system to classify correct vs. incorrect solder joints using labeled images
+- **Strength:** High accuracy when sufficient quality data is available
+
+### Unsupervised Learning  
+- **Process:** Finds hidden patterns in unlabeled data
+- **TVET Application:** Clustering student learning behaviors to identify different learning styles
+- **Strength:** Discovers unexpected patterns humans might miss
+
+### Reinforcement Learning
+- **Process:** Learns through trial and error with rewards/penalties
+- **TVET Application:** AI that learns optimal teaching sequences by tracking student engagement and success
+- **Strength:** Continuously improves through interaction
+
+## Neural Networks and Deep Learning
+
+**Structure:** Networks of interconnected mathematical functions mimicking brain neurons  
+**Capability:** Excel at complex pattern recognition (images, speech, text)  
+**TVET Applications:**
+- Analyzing motor sounds to predict equipment failure
+- Recognizing hand-drawn circuit diagrams
+- Converting technical speech to text for accessibility
+
+@aiDemo(Experience neural networks in action, Google's Teachable Machine, https://teachablemachine.withgoogle.com/)
+
+## Generative AI
+
+**Capability:** Creates new content (text, images, code, audio) based on learned patterns  
+**Popular examples:** ChatGPT, DALL-E, GitHub Copilot  
+**Educational power:** Can generate lesson materials, practice problems, and explanations  
+**Critical consideration:** May produce convincing but incorrect content ("hallucinations")
+
+## Expert Systems
+
+**Approach:** Combine rule-based logic with specialized knowledge databases  
+**TVET Application:** Diagnostic systems for troubleshooting electronic equipment  
+**Advantage:** Highly accurate within narrow domains  
+**Limitation:** Cannot learn or adapt without human programming
+
+@sectorCard(Choosing the Right AI Type, Rani considers different AI systems for her electronics lab. For equipment diagnostics, she prefers an expert system's reliability and explainability. For generating diverse practice problems, she uses generative AI but always reviews outputs. For analyzing student progress patterns, she explores machine learning tools. Understanding each type's strengths helps her make informed choices.)
+
+---
+
+# ⚠️ AI's Critical Limitations: Hallucinations and Bias
+
+Understanding AI's failure modes is essential for maintaining human agency and protecting student learning.
+
+## AI Hallucinations: When AI Confidently Gets It Wrong
+
+@riskWarning(Definition, AI hallucination occurs when systems generate factually incorrect or nonsensical information while appearing confident and authoritative. This happens because AI predicts likely words/content, not truth.)
+
+### Real-World Examples in Education
+
+**Rani's Experience:** She asked a chatbot for a biography of a famous electronics engineer. The AI provided accurate basic information but invented a prestigious award the engineer never received. The fabricated detail was seamlessly integrated with true facts.
+
+**Classroom Danger:** Students might ask AI to explain circuit analysis and receive a response containing invented formulas or non-existent components, potentially spreading misinformation.
+
+**Protection Strategy:**
+- Always verify factual claims from AI sources
+- Cross-reference technical information with authoritative sources  
+- Teach students to treat AI as a starting point, not final authority
+- Use AI for brainstorming and drafts, not definitive answers
+
+### Types of Hallucinations to Watch For
+
+1. **Factual Errors:** Incorrect dates, names, specifications, or formulas
+2. **Invented Sources:** References to non-existent research papers or websites
+3. **Logical Inconsistencies:** Contradictory statements within the same response
+4. **Technical Impossibilities:** Describing processes or components that violate physical laws
+
+## AI Bias: When Systems Perpetuate Unfairness
+
+@riskWarning(Definition, AI bias refers to systematic prejudice in AI outputs that unfairly advantages or disadvantages certain groups. This typically stems from biased training data or flawed assumptions built into algorithms.)
+
+### Educational Bias Examples
+
+**Language Bias:** An AI writing evaluator trained primarily on native English speakers might systematically score ESL students lower, regardless of content quality.
+
+**Gender Bias:** Career guidance AI might recommend electronics engineering more frequently to male students if historical data shows gender imbalances in the field.
+
+**Cultural Bias:** AI tools trained on Western educational contexts might not recognize valid learning approaches from other cultural traditions.
+
+### Rani's Bias Discovery
+
+@scenarioCard(AI Grading Bias, Rani experimented with an AI essay grader for technical writing assignments. She noticed a troubling pattern: essays by non-native English speakers consistently received lower scores, even when their technical content was excellent. Investigation revealed the AI was trained predominantly on native English academic writing, creating an inherent bias against different writing styles. Rani abandoned automated grading and instead uses AI to generate rubric suggestions, which she then reviews and adapts.)
+
+### Recognizing and Addressing Bias
+
+**Detection Strategies:**
+- Monitor AI outputs across different student demographics
+- Compare AI recommendations with your professional judgment
+- Question whether AI training data represents your student population
+- Look for systematic patterns in AI decisions
+
+**Mitigation Approaches:**
+- Use diverse AI tools to cross-check results
+- Supplement AI insights with human oversight
+- Explicitly prompt AI to consider diverse perspectives
+- Educate students about potential AI biases
+
+---
+
+# 🤝 Maintaining Human Agency: You Stay in Control
+
+Human agency means educators retain ultimate authority over educational decisions, using AI as a tool rather than allowing it to drive choices.
+
+@humanAgency(Teachers make final decisions about curriculum, assessment, and student support. AI provides suggestions and assistance, but human judgment determines educational outcomes.)
+
+## Principles of Human Agency in Education
+
+### 1. Critical Oversight
+**Practice:** Review all AI-generated content before using it with students  
+**Example:** Rani uses AI to draft quiz questions but edits each one for accuracy, clarity, and appropriateness  
+**Rationale:** AI may not understand your specific context, student needs, or learning objectives
+
+### 2. Final Decision Authority  
+**Practice:** Treat AI outputs as recommendations, not commands  
+**Example:** If AI suggests a student needs additional support, Rani investigates using her professional judgment and multiple data sources  
+**Rationale:** Educational decisions affect real people and require contextual understanding AI lacks
+
+### 3. Accountability Awareness
+**Practice:** Accept responsibility for all AI-assisted educational content and decisions  
+**Example:** Rani ensures any AI-generated materials align with her professional standards and institutional policies  
+**Rationale:** AI systems don't bear responsibility for educational outcomes—humans do
+
+### 4. Transparent Communication
+**Practice:** Inform students and colleagues when AI tools are used in educational processes  
+**Example:** Rani explains to students when homework feedback was AI-assisted vs. entirely human-generated  
+**Rationale:** Builds trust and helps learners understand the educational process
+
+## Practical Human Agency Strategies
+
+### Before Using AI:
+- Define clear objectives for AI assistance
+- Understand the AI tool's capabilities and limitations  
+- Establish criteria for evaluating AI outputs
+- Plan how to verify AI-generated content
+
+### During AI Interaction:
+- Provide specific, detailed prompts
+- Ask follow-up questions to test AI understanding
+- Request AI to explain its reasoning when possible
+- Remain skeptical of overconfident responses
+
+### After AI Response:
+- Fact-check claims against authoritative sources
+- Consider whether outputs align with educational objectives
+- Evaluate potential bias or inappropriate content
+- Adapt or reject AI suggestions based on professional judgment
+
+---
+
+# 🔬 Practical Example: Human Agency in Action
+
+Let's examine how Rani applies human agency principles when using AI for assessment creation.
+
+## The Scenario: Creating a Circuit Analysis Quiz
+
+**AI Prompt:** "Create a multiple-choice question testing students' understanding of Ohm's Law."
+
+**AI Response:**
+*"What is Ohm's Law?  
+(a) Voltage = Current / Resistance  
+(b) Voltage = Current × Resistance  
+(c) Voltage = Resistance / Current  
+(d) Voltage = Current + Resistance"*
+
+## Rani's Human Agency Analysis
+
+### ✅ What the AI Did Well:
+- Focused on the requested topic (Ohm's Law)
+- Provided multiple-choice format
+- Included correct answer (option b)
+
+### ⚠️ Areas Needing Human Oversight:
+
+1. **Question Quality:** The question tests memorization, not understanding
+2. **Distractor Issues:** Option (d) is obviously wrong—adding voltage and current makes no physical sense
+3. **Learning Assessment:** Doesn't evaluate students' ability to apply Ohm's Law
+
+### 🔧 Rani's Human Improvements:
+
+**Revised Question:**
+*"A circuit has a resistance of 10Ω and carries a current of 2A. Using Ohm's Law, what is the voltage across the resistor?  
+(a) 5V  
+(b) 12V  
+(c) 20V  
+(d) 0.2V"*
+
+**Improvements Made:**
+- Tests application, not just recall
+- Uses realistic values from electronics work
+- All distractors represent plausible calculation errors
+- Aligns with hands-on learning objectives
+
+## The Lesson: AI as Starting Point, Human Expertise as Finisher
+
+Rani demonstrates perfect human agency: she leverages AI efficiency while applying professional judgment to ensure educational quality.
+
+---
+
+# 🧠 Interactive Knowledge Assessment
+
+<div class="quiz-interactive">
+
+**Test Your Understanding of AI Basics and Human Agency**
+
+Let's reinforce key concepts through practical scenarios:
+
+</div>
+
+### Question 1: Recognizing AI Hallucinations
+
+A student asks an AI tool to explain parallel circuits. The AI responds with mostly correct information but states: "Current in parallel circuits is always equal in each branch, following Kirchhoff's Current Law." As Rani, what should you do?
+
+    [( )] Accept the AI's answer since it mentions Kirchhoff's Law
+    [(X)] Correct this misinformation—in parallel circuits, voltage is equal across branches, not current
+    [( )] Tell students to ignore all AI explanations
+    [( )] Let students figure it out themselves through trial and error
+
+<script>
+if (@input === 1) {
+  send.lia("✅ **Excellent!** You recognized the hallucination. In parallel circuits, voltage is equal across branches while current divides based on resistance. This demonstrates perfect human agency—catching AI errors before they mislead students.");
+} else {
+  send.lia("❌ **Not quite right.** The AI statement contains a dangerous error: in parallel circuits, VOLTAGE is equal across branches, not current. Current divides based on each branch's resistance. Always verify AI technical explanations.");
+}
+</script>
+
+### Question 2: Identifying Bias (Multiple Select)
+
+Which scenarios demonstrate potential AI bias in educational settings? Select all that apply.
+
+    [[X]] An AI writing evaluator consistently gives lower scores to essays with non-Western cultural references
+    [[X]] A career guidance AI recommends technical trades more often to students from lower socioeconomic backgrounds
+    [[ ]] An AI generates different quiz questions for each student based on their learning pace
+    [[X]] An AI language tutor performs poorly with regional dialects not represented in its training data
+    [[ ]] An AI creates varied problem contexts to maintain student interest
+
+<script>
+let correct = [0, 1, 3];
+let selected = @input;
+
+let isCorrect = correct.every(i => selected.includes(i)) && 
+               selected.every(i => correct.includes(i));
+
+if (isCorrect) {
+  send.lia("✅ **Perfect understanding!** You identified bias scenarios where AI systematically disadvantages certain groups due to training data limitations or embedded assumptions. Personalization (option 3) and variety (option 5) are actually beneficial AI applications.");
+} else {
+  send.lia("❌ **Review needed.** Bias occurs when AI systematically treats groups unfairly, often due to skewed training data. Look for patterns where AI consistently disadvantages certain demographics or cultural backgrounds.");
+}
+</script>
+
+### Question 3: Human Agency in Practice
+
+Rani uses AI to generate a lesson plan for teaching voltage dividers. Which approach best demonstrates human agency?
+
+    [( )] Use the AI-generated plan exactly as provided to save time
+    [(X)] Review the plan, adapt it to her specific students' needs, and verify technical accuracy
+    [( )] Reject AI assistance entirely to maintain full control
+    [(X)] Combine AI suggestions with her professional expertise and curriculum requirements
+
+<script>
+let correct2 = [1, 3];
+let selected2 = @input;
+
+let isCorrect2 = correct2.every(i => selected2.includes(i)) && 
+                selected2.every(i => correct2.includes(i));
+
+if (isCorrect2) {
+  send.lia("✅ **Outstanding!** You understand that human agency means leveraging AI efficiency while maintaining professional judgment and final decision-making authority.");
+} else {
+  send.lia("❌ **Think deeper.** Human agency isn't about avoiding AI entirely, but about maintaining control over educational decisions while benefiting from AI assistance. The teacher's expertise guides the process.");
+}
+</script>
+
+### Question 4: AI System Types
+
+Match each educational scenario with the most appropriate AI system type:
+
+**Scenario A:** Automatically detecting plagiarism in student reports  
+**Scenario B:** Generating creative writing prompts for technical communication class  
+**Scenario C:** Following a flowchart to diagnose common lab equipment problems
+
+    [[machine learning]] **Scenario A** - Pattern recognition in text requires learning from examples
+    [[generative AI]] **Scenario B** - Creating new content based on learned patterns  
+    [[rule-based system]] **Scenario C** - Following explicit diagnostic procedures
+
+---
+
+# 🤔 Professional Reflection
+
+<div class="reflection-section">
+
+**Critical Thinking Exercise**
+
+Consider your current or planned use of AI in TVET education. Address these human agency questions:
+
+1. **Risk Assessment:** What specific hallucinations or biases might affect AI tools in your subject area?
+
+2. **Quality Control:** How will you verify AI-generated content before using it with students?
+
+3. **Decision Authority:** In what situations should you trust AI suggestions vs. rely on your professional judgment?
+
+4. **Student Education:** How will you teach students to collaborate with AI while maintaining critical thinking?
+
+5. **Ethical Responsibility:** What standards will guide your use of AI in educational contexts?
+
+**Action Planning:**
+- Choose one AI tool you'd like to explore for your teaching
+- Define specific quality check procedures for that tool
+- Plan how to maintain human agency while using it effectively
+
+</div>
+
+---
+
+# 📚 Resources for Deeper Learning
+
+### 🔍 Essential Reading on AI Ethics and Human Agency
+
+**UNESCO Resources:**
+@resourceLink(AI and Education: Guidance for Policy-makers, https://www.unesco.org/en/weeks/digital-learning)
+@resourceLink(Beijing Consensus on AI and Education, https://www.unesco.org/en/weeks/digital-learning)
+@resourceLink(Recommendation on the Ethics of AI, https://www.unesco.org/en/weeks/digital-learning)
+
+### 🛠️ Tools for Understanding AI Bias
+
+@aiDemo(Test AI bias in image recognition, Google's Teachable Machine, https://teachablemachine.withgoogle.com/)
+@aiDemo(Explore AI decision-making, MIT's Moral Machine, http://moralmachine.mit.edu/)
+@aiDemo(Understanding AI limitations, AI Explainer Tools, https://pair-code.github.io/what-if-tool/)
+
+### 📖 Professional Development
+
+**Recommended Courses:**
+- **Ethics in AI Design** - Understanding bias and fairness in educational AI
+- **Critical AI Literacy** - Developing skills to evaluate AI systems
+- **Human-AI Collaboration** - Best practices for maintaining human agency
+
+---
+
+# 🔗 Course Navigation & Next Steps
+
+## 🎯 Key Takeaways
+
+You now understand:
+✅ Essential AI terminology and system types  
+✅ How to recognize AI hallucinations and bias  
+✅ Principles of maintaining human agency in AI-enhanced education  
+✅ Practical strategies for responsible AI use in TVET contexts
+
+## 🚀 Preparing for Module 3: AI Tools and Applications
+
+**Coming Next:** Hands-on exploration of specific AI tools for TVET education  
+**Preview Topics:**
+- Comparative analysis of popular AI platforms
+- Selecting appropriate tools for specific educational tasks  
+- Practical integration strategies
+- Building your personal AI toolkit
+
+**Recommended Preparation:**
+- Identify one specific teaching challenge where AI might help
+- Create accounts on 2-3 AI platforms (ChatGPT, Claude, Perplexity)
+- Begin documenting your AI experiments and observations
+
+## 📚 Complete Learning Sequence
+
+1. [AI Orientation](link-to-module-1) - ✅ Completed: Foundation and motivation
+2. **AI Basics & Human Agency** - ✅ Current: Technical foundations  
+3. [AI Tools & Applications](link-to-module-3) - 🔜 Next: Practical tools exploration
+4. [AI-Assisted Teaching & Prompting](link-to-module-4) - 🔜 Advanced integration strategies
+5. [Ethics & Quality Assurance](link-to-module-5) - 🔜 Responsible implementation
+
+---
+
+# 🎉 Module Completion
+
+@humanAgency(Remember: You are the educational expert. AI is your assistant, not your replacement. Your professional judgment, understanding of your students, and commitment to quality education guide every decision. AI amplifies your capabilities—it never substitutes your expertise.)
+
+<div class="contact-info">
+**📧 Support & Feedback:**
+Email: tvet.ai@education.org  
+🌐 Course Portal: [GitHub Repository](https://github.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/)  
+📋 Feedback Form: [English](https://umfrage.zwh.de/c/unescoengl) | [Deutsch](https://umfrage.zwh.de/c/unescodeut)
+</div>
+
+> *"Understanding AI's capabilities and limitations empowers educators to harness its benefits while protecting student learning. Human agency ensures technology serves education, not the reverse."*
+
+---
+
+# 🏁 Course Completion
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">AI Basics Completion - Human Agency Success</title>
+  <desc id="desc">Congratulations slide celebrating successful completion of AI Basics and Human Agency module.</desc>
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0b2447"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+
+  <!-- Main content panel -->
+  <rect x="80" y="80" rx="24" ry="24" width="1120" height="560" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="100" y="120" width="16" height="480" rx="8" fill="#10b981" opacity="0.95"/>
+
+  <!-- Headline -->
+  <text x="180" y="200" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">
+    AI Basics Mastered: You're in Control!
+  </text>
+
+  <!-- Divider line -->
+  <line x1="180" y1="220" x2="1060" y2="220" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Success message -->
+  <text x="180" y="300" font-family="Inter, Arial, sans-serif" font-size="26" fill="#e6f0ff">
+    You've built strong AI foundations while maintaining human agency.
+  </text>
+  
+  <text x="180" y="340" font-family="Inter, Arial, sans-serif" font-size="22" fill="#bfe6d9">
+    Ready to explore specific AI tools and applications with confidence.
+  </text>
+
+  <!-- Key achievement -->
+  <text x="180" y="400" font-family="Inter, Arial, sans-serif" font-size="20" fill="#dffcf6">
+    🎯 Key Achievement: Balancing AI efficiency with educational judgment
+  </text>
+
+  <!-- Next steps -->
+  <text x="180" y="450" font-family="Inter, Arial, sans-serif" font-size="18" fill="#dffcf6">
+    Next: Discover practical AI tools for TVET education in Module 3
+  </text>
+
+  <!-- Footer badge -->
+  <g transform="translate(180,520)">
+    <circle cx="0" cy="0" r="28" fill="#0ea5a3" opacity="0.95"/>
+    <text x="48" y="8" font-family="Inter, Arial, sans-serif" font-size="16" fill="#dffcf6">
+      Human Agency • AI Literacy • TVET Excellence
+    </text>
+  </g>
+
+  <!-- Decorative elements -->
+  <g transform="translate(980,140) scale(1.2)" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2">
+    <circle cx="40" cy="40" r="28"/>
+    <circle cx="100" cy="40" r="18"/>
+    <path d="M60 20v40M20 40h40" stroke-linecap="round"/>
+  </g>
+</svg>
+
+<!-- UNEVOC -->
+<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
+</div>
+
+<!-- ASSET -->
+<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
+</div>
+
+<!-- HWK Blume -->
+<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
+</div>
+
+<!-- GIZ -->
+<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
+</div>
+
+<!-- UoVT -->
+<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
+</div>
+
+<!-- OVGU -->
+<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
+</div>
+
+<!-- HRDC -->
+<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
+</div>
+
+<!-- MITD -->
+<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
+</div>
