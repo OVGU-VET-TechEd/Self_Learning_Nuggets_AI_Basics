@@ -380,6 +380,7 @@ By the end of this nugget, you will be able to:
 @competencyHighlight(🎯 Current Focus: Identify and leverage the pedagogical benefits of AI tools through effective prompting while mitigating risks)
 
 **Core Learning Areas:**
+
 - **Communication Mastery:** Learning to communicate effectively with AI systems
 - **Pedagogical Integration:** Using AI prompting to enhance subject-specific teaching
 - **Risk Mitigation:** Recognizing and addressing limitations through better prompting
@@ -436,6 +437,7 @@ Every well-crafted prompt contains several key components:
 </div>
 
 **Analysis:**
+
 - **Weak prompt** is vague and provides no context or specifications
 - **Strong prompt** includes role assignment, specific task, student context, format requirements, and constraints
 - Result quality difference is typically dramatic—specific prompts yield focused, useful content
@@ -523,6 +525,7 @@ Google's structured approach provides a reliable framework for complex education
 **Definition:** Detailed, comprehensive prompts that include multiple requirements, constraints, and specifications in a single request.
 
 **When to Use Mega Prompts:**
+
 - Complex projects like complete lesson plans
 - Multi-component assignments
 - Detailed rubrics or assessment tools
@@ -533,12 +536,14 @@ Google's structured approach provides a reliable framework for complex education
 ## Mega Prompt Advantages and Considerations
 
 **Advantages:**
+
 - **Efficiency:** One comprehensive request instead of multiple iterations
 - **Completeness:** Less likely to miss important components
 - **Consistency:** All elements align with specified requirements
 - **Professional Results:** Often produces institution-ready materials
 
 **Considerations:**
+
 - **Complexity:** If one element is wrong, may need complete regeneration
 - **Specificity Required:** Requires clear understanding of all requirements upfront
 - **Less Flexibility:** Harder to adjust individual components during creation
@@ -572,6 +577,7 @@ Google's structured approach provides a reliable framework for complex education
 ### Digital Literacy Through Prompt Analysis
 
 **Learning Activity Structure:**
+
 1. **Present AI Output:** Show students both excellent and poor AI responses
 2. **Reverse Engineer:** Have students guess what prompts might have produced each result
 3. **Collaborative Improvement:** Work together to craft better prompts
@@ -579,6 +585,7 @@ Google's structured approach provides a reliable framework for complex education
 5. **Reflect and Apply:** Discuss principles of effective AI communication
 
 **Educational Benefits:**
+
 - Develops critical thinking about AI capabilities and limitations
 - Builds practical digital communication skills
 - Reinforces subject matter through interactive exploration
@@ -597,6 +604,7 @@ Google's structured approach provides a reliable framework for complex education
 **Solution:** Add specific context, constraints, and format requirements
 
 **Example Fix:**
+
 - **Before:** "Explain transistors"
 - **After:** "Explain transistors to second-year electronics students who understand basic circuits. Focus on NPN transistors as switches in digital circuits. Include one simple analogy and a basic circuit diagram description. Keep explanation under 200 words."
 
@@ -615,6 +623,7 @@ Google's structured approach provides a reliable framework for complex education
 **Solution:** Use examples and counter-examples to clarify expectations
 
 **Refinement Strategy:**
+
 1. **Initial Prompt:** Make your basic request
 2. **Evaluate Result:** Identify what's wrong or missing  
 3. **Refined Prompt:** "The previous response was [specific issue]. Instead, I need [specific correction]. For example, [provide example of desired output]."
@@ -627,6 +636,7 @@ Google's structured approach provides a reliable framework for complex education
 **Technique:** Break complex requests into sequential, connected prompts
 
 **Example:** Curriculum Development Chain
+
 1. **First Prompt:** "List the key competencies students need for electronics troubleshooting"
 2. **Second Prompt:** "Based on those competencies, create learning objectives for a 2-week troubleshooting unit"  
 3. **Third Prompt:** "Design hands-on activities that develop these specific learning objectives"
@@ -762,16 +772,19 @@ Rate your current abilities and identify development areas:
 ### Implementation Strategy Development
 
 **Immediate Applications (This Week):**
+
 - Choose one recurring teaching task to improve with better prompting
 - Practice the 5-step framework on a lesson planning challenge
 - Experiment with chain-of-thought prompting for a complex instructional problem
 
 **Short-term Integration (This Month):**  
+
 - Develop prompt templates for common educational tasks
 - Try one student engagement activity involving collaborative prompting
 - Create a prompt troubleshooting process for when AI responses miss the mark
 
 **Long-term Mastery (This Semester):**
+
 - Build a library of effective prompts for your subject area
 - Integrate prompting skills into student digital literacy curriculum
 - Develop mega prompts for complex institutional tasks (curriculum development, assessment design)
@@ -779,12 +792,14 @@ Rate your current abilities and identify development areas:
 ### Success Metrics and Reflection Questions
 
 **Quality Indicators:**
+
 - Are AI responses consistently useful with minimal editing required?
 - Do students demonstrate improved AI collaboration skills?
 - Has prompting efficiency improved your teaching workflow?
 - Are you comfortable teaching prompting strategies to colleagues?
 
 **Reflection Prompts:**
+
 - Which prompting strategies feel most natural to your teaching style?
 - How has better AI communication changed your approach to instructional design?
 - What prompting skills do your students most need to develop?
@@ -799,11 +814,13 @@ Rate your current abilities and identify development areas:
 ## Professional Development in AI Communication
 
 **Prompting Mastery Resources:**
+
 @resourceLink(OpenAI Prompt Engineering Guide, https://platform.openai.com/docs/guides/prompt-engineering)
 @resourceLink(Anthropic Prompting Techniques, https://docs.anthropic.com/claude/docs/prompting-techniques)
 @resourceLink(Google AI Prompt Design Guidelines, https://ai.google.dev/docs/prompt_intro)
 
 **Educational Integration Resources:**
+
 @resourceLink(UNESCO AI Pedagogy Framework, https://www.unesco.org/en/weeks/digital-learning)
 @resourceLink(AI-Enhanced Teaching Strategies, https://www.iste.org/areas-of-focus/AI-in-education)
 @resourceLink(Prompt Engineering for Educators, https://www.tcea.org/resources/ai-prompt-engineering/)
@@ -811,12 +828,14 @@ Rate your current abilities and identify development areas:
 ## Advanced Techniques and Strategies
 
 **Specialized Prompting Applications:**
+
 - **Assessment Design:** Creating rubrics, quizzes, and evaluation tools
 - **Curriculum Development:** Building comprehensive learning sequences
 - **Student Support:** Personalized learning assistance and intervention strategies
 - **Professional Communication:** Administrative tasks and stakeholder engagement
 
 **Research and Development:**
+
 - **Prompt Effectiveness Studies:** Understanding what makes prompts work
 - **Educational AI Ethics:** Responsible integration of AI communication tools
 - **Student Digital Literacy:** Teaching next-generation AI collaboration skills
@@ -828,6 +847,7 @@ Rate your current abilities and identify development areas:
 ## 🎯 Module 4 Mastery Summary
 
 You have successfully developed:
+
 ✅ **Structured Prompting Skills:** Using frameworks and systematic approaches  
 ✅ **Advanced Strategy Application:** Chain-of-thought, decision trees, and mega prompts  
 ✅ **Educational Integration:** Prompting for both teaching tasks and student engagement  
@@ -839,12 +859,14 @@ You have successfully developed:
 **Final Module Focus:** Ensuring responsible, ethical, and high-quality AI integration in TVET education
 
 **Preview Topics:**
+
 - Comprehensive quality control frameworks for AI-enhanced education
 - Ethical considerations in AI-assisted teaching and assessment  
 - Student data privacy and protection in AI educational applications
 - Building sustainable, equitable AI practices in TVET institutions
 
 **Preparation for Comprehensive Integration:**
+
 1. **Document Your Toolkit:** Compile effective prompts and templates you've developed
 2. **Assess Impact:** Evaluate how AI integration has affected your teaching effectiveness  
 3. **Consider Ethics:** Reflect on ethical implications of your AI usage patterns
