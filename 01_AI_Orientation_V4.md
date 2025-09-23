@@ -246,10 +246,6 @@ This project fosters international collaboration in technical and vocational edu
 
 </div>
 
-<div class="audio-control">
-🎵 **Audio Narration Available** - Click the speaker icon to listen to this content
-</div>
-
 ---
 
 ## 📚 Course Overview
