@@ -328,7 +328,8 @@ Modern technical fields are experiencing an AI revolution:
 
 ## Impact of AI on Education and Work
 
-### 📖 Transforming Education
+**📖 Transforming Education**  
+
 
 AI is creating new possibilities in TVET education:
 
@@ -340,7 +341,8 @@ AI is creating new possibilities in TVET education:
 
 **The New Dynamic:** Traditional education involved teacher-student interactions. Today's classroom creates a **teacher-AI-student collaboration** where AI serves as an intelligent assistant that amplifies human capabilities.
 
-### 💼 Changing Workplace Demands
+**💼 Changing Workplace Demands**  
+
 
 **Skills Evolution:** The jobs our students will enter require both traditional technical competencies AND AI collaboration skills. Future electronics technicians won't just repair circuits - they'll work alongside AI systems that help diagnose problems, suggest solutions, and optimize performance.
 
