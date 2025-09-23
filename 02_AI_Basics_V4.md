@@ -732,11 +732,12 @@ You now understand:
 
 ## 📚 Complete Learning Sequence
 
-1. [AI Orientation](link-to-module-1) - ✅ Completed: Foundation and motivation
+1. [AI Orientation](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/01_AI_Orientation_V4.md) - ✅ Completed: Foundation and motivation
 2. **AI Basics & Human Agency** - ✅ Current: Technical foundations  
-3. [AI Tools & Applications](link-to-module-3) - 🔜 Next: Practical tools exploration
-4. [AI-Assisted Teaching & Prompting](link-to-module-4) - 🔜 Advanced integration strategies
-5. [Ethics & Quality Assurance](link-to-module-5) - 🔜 Responsible implementation
+3. [AI Tools and Applications](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/03_AI_Tools_V4.md) - 🔜 Exploring practical AI tools
+4. [AI-Assisted Teaching and Prompting](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/04_Prompting_V4.md) - 🔜 Advanced AI integration
+5. [Ethics and Quality in AI Education](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/05_Ethics_V4.md) - 🔜 Responsible AI use
+
 
 ---
 
