@@ -452,58 +452,6 @@ Let's explore the four core AI tools that form the foundation of most educationa
 
 ---
 
-# 📊 AI Tool Comparison Matrix
-
-<table class="comparison-table">
-<tr>
-<th>Tool</th>
-<th>Primary Strength</th>
-<th>Best Use Cases</th>
-<th>Key Limitations</th>
-<th>Accessibility</th>
-</tr>
-<tr>
-<td><strong>ChatGPT</strong></td>
-<td>Versatility & Creativity</td>
-<td>Brainstorming, content creation, coding, explanations</td>
-<td>No citations, may hallucinate facts, knowledge cutoff</td>
-<td>Free tier available, requires account</td>
-</tr>
-<tr>
-<td><strong>Perplexity</strong></td>
-<td>Research & Citations</td>
-<td>Fact-finding, current events, sourced information</td>
-<td>Limited creativity, dependent on web content quality</td>
-<td>Free without account, unlimited with subscription</td>
-</tr>
-<tr>
-<td><strong>Claude</strong></td>
-<td>Document Processing</td>
-<td>Analyzing long texts, careful reasoning, summarization</td>
-<td>Knowledge cutoff, no web browsing, regional limits</td>
-<td>Free with daily limits, requires account</td>
-</tr>
-<tr>
-<td><strong>Gamma</strong></td>
-<td>Visual Presentations</td>
-<td>Slide creation, visual documents, quick formatting</td>
-<td>Generic content, facts need verification, limited customization</td>
-<td>Free tier, web-based</td>
-</tr>
-</table>
-
-## Quick Selection Guide
-
-**For Lesson Planning:** ChatGPT (creative ideas) → Claude (organize and refine) → Gamma (create slides)
-
-**For Research:** Perplexity (current facts) → Claude (analyze and synthesize) → ChatGPT (explain to students)
-
-**For Student Materials:** ChatGPT (generate content) → Claude (review and improve) → Gamma (format visually)
-
-**For Administrative Tasks:** Claude (process documents) → ChatGPT (draft communications) → Perplexity (verify policies)
-
----
-
 # ⚠️ Critical Tool Evaluation: Data, Hallucination, and Bias
 
 Understanding each tool's data sources and limitations is essential for responsible use:
@@ -635,41 +583,41 @@ Understanding the relationship between AI tools and Open Educational Resources i
 
 # 🔄 Practical Workflow: AI-Enhanced Lesson Development
 
-Let's follow Rani through a complete lesson development process using multiple AI tools strategically:
+Let's follow Rani through a complete lesson development process using multiple AI tools strategically to reach the goal.
 
 ## Case Study: "Workplace Safety in Electronics Workshops"
 
-### Step 1: Content Brainstorming
+@competencyHighlight(Step 1: Content Brainstorming)
 @workflowStep(Tool: ChatGPT, Rani starts with: "What key safety topics should I cover in a workshop safety lesson for second-year electronics students?" ChatGPT provides a comprehensive outline including electrical safety, tool usage, PPE, emergency procedures, and hazard identification. She uses this as her foundation structure.)
 
-### Step 2: Current Information Research
+@competencyHighlight(Step 2: Current Information Research)
 @workflowStep(Tool: Perplexity, She needs current statistics: "What are the most recent workplace injury statistics for electronics technicians, and what are the leading causes?" Perplexity returns data from OSHA and industry safety reports with proper citations, giving her credible, current information to make the lesson relevant.)
 
-### Step 3: Content Development and Organization
+@competencyHighlight(Step 3: Content Development and Organization)
 @workflowStep(Tool: Claude, With her outline and research complete, Rani feeds her notes to Claude: "Organize these safety points into a coherent lesson plan with clear learning objectives, hands-on activities, and assessment questions." Claude processes her extensive notes and creates a well-structured lesson plan with appropriate pedagogical flow.)
 
-### Step 4: Visual Presentation Creation
+@competencyHighlight(Step 4: Visual Presentation Creation)
 @workflowStep(Tool: Gamma, Finally, she uses Gamma to transform her lesson plan into slides: "Create a presentation covering electronics workshop safety including hazard identification, proper tool use, emergency procedures, and a safety checklist." Gamma generates slides with appropriate visuals and clean formatting.)
 
-### Step 5: Quality Assurance and Customization
+@competencyHighlight(Step 5: Quality Assurance and Customization)
 @workflowStep(Tool: Human Expertise, Rani reviews all AI outputs: verifies statistics against original sources, adapts language for her specific students, adds local emergency contact information, ensures examples reflect her workshop equipment, and adjusts cultural references to match her student population.)
 
 ## Results Analysis
 
-**Time Investment:**
+@competencyHighlight(Time Investment)
 
 - **Traditional Method:** 4-5 hours of research, writing, and formatting
 - **AI-Enhanced Method:** 1.5 hours of AI interaction plus 1 hour of review and customization
 - **Time Savings:** 60-70% reduction while maintaining quality
 
-**Quality Improvements:**
+@competencyHighlight(Quality Improvements)
 
 - Access to current industry statistics she wouldn't have found manually
 - More comprehensive coverage of safety topics
 - Professional presentation format that engages students
 - Multiple variations of content for differentiated instruction
 
-**Learning Outcomes:**
+@competencyHighlight(Learning Outcomes)
 
 - Students receive more current, comprehensive safety information
 - Visual presentation increases engagement and retention
