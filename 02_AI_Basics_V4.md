@@ -386,8 +386,11 @@ Different AI approaches serve different educational needs. Understanding these t
 ## Neural Networks and Deep Learning
 
 **Structure:** Networks of interconnected mathematical functions mimicking brain neurons  
+
 **Capability:** Excel at complex pattern recognition (images, speech, text)  
-**TVET Applications:**
+
+**TVET Applications:**  
+
 - Analyzing motor sounds to predict equipment failure
 - Recognizing hand-drawn circuit diagrams
 - Converting technical speech to text for accessibility
@@ -397,18 +400,25 @@ Different AI approaches serve different educational needs. Understanding these t
 ## Generative AI
 
 **Capability:** Creates new content (text, images, code, audio) based on learned patterns  
+
 **Popular examples:** ChatGPT, DALL-E, GitHub Copilot  
+
 **Educational power:** Can generate lesson materials, practice problems, and explanations  
-**Critical consideration:** May produce convincing but incorrect content ("hallucinations")
+
+**Critical consideration:** May produce convincing but incorrect content ("hallucinations")  
+
 
 ## Expert Systems
 
 **Approach:** Combine rule-based logic with specialized knowledge databases  
-**TVET Application:** Diagnostic systems for troubleshooting electronic equipment  
-**Advantage:** Highly accurate within narrow domains  
-**Limitation:** Cannot learn or adapt without human programming
 
-@sectorCard(Choosing the Right AI Type, Rani considers different AI systems for her electronics lab. For equipment diagnostics, she prefers an expert system's reliability and explainability. For generating diverse practice problems, she uses generative AI but always reviews outputs. For analyzing student progress patterns, she explores machine learning tools. Understanding each type's strengths helps her make informed choices.)
+**TVET Application:** Diagnostic systems for troubleshooting electronic equipment  
+
+**Advantage:** Highly accurate within narrow domains  
+
+**Limitation:** Cannot learn or adapt without human programming  
+
+@sectorCard(Choosing the Right AI Type, Rani considers different AI systems for her electronics lab. For equipment diagnostics she prefers an expert system's reliability and explainability. For generating diverse practice problems she uses generative AI but always reviews outputs. For analyzing student progress patterns she explores machine learning tools. Understanding each type's strengths helps her make informed choices.)
 
 ---
 
