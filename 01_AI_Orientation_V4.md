@@ -553,9 +553,7 @@ Take a moment to consider these questions about your own AI learning journey:
 
 ---
 
-## Resources for Continued Learning
-
-### 📚 Essential Reading
+## 📚 Essential Reading
 
 **UNESCO AI Resources:**
 
@@ -570,12 +568,15 @@ Take a moment to consider these questions about your own AI learning journey:
 @aiDemo(Presentation Creation, Gamma AI, https://gamma.app/)
 @aiDemo(Visual Content Creation, Canva AI, https://www.canva.com/)
 
-### 🔗 Professional Communities
+## 🔗 Professional Communities
 
 **Join the Conversation:**
-- **UNESCO TVET Networks** - Connect with international TVET educators
-- **AI in Education Groups** - Share experiences and best practices
-- **Subject-Specific Forums** - Find AI applications in your technical field
+
+- **UNESCO TVET Networks:** Connect with international TVET educators
+  
+- **AI in Education Groups:** Share experiences and best practices
+  
+- **Subject-Specific Forums:** Find AI applications in your technical field  
 
 ---
 
