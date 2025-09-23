@@ -301,6 +301,7 @@ Rani's situation reflects a global reality: **AI is reshaping both how we teach 
 ### 🔍 Core AI Concepts for TVET Educators
 
 **AI is fundamentally different from traditional software** because it:
+
 - **Learns from examples** rather than following pre-written instructions
 - **Improves performance** through exposure to more data
 - **Can generalize** from training to new, similar situations
@@ -317,6 +318,7 @@ Modern technical fields are experiencing an AI revolution:
 @sectorCard(Electronics Industry 4.0, In Rani's field, factories embrace Industry 4.0 with AI-driven machines and IoT sensors. Semiconductor plants use AI to adjust machine settings in real-time for optimal output. Future electronics technicians will work with "smart" equipment that can self-diagnose issues and optimize performance. This transformation means students need both traditional technical skills AND AI literacy.)
 
 **Real-World Examples:**
+
 - **Predictive Maintenance:** AI analyzes sensor data to predict when machines will fail
 - **Quality Control:** Computer vision systems detect defects faster than human inspectors  
 - **Smart Manufacturing:** AI optimizes production schedules and resource allocation
@@ -343,6 +345,7 @@ AI is creating new possibilities in TVET education:
 **Skills Evolution:** The jobs our students will enter require both traditional technical competencies AND AI collaboration skills. Future electronics technicians won't just repair circuits - they'll work alongside AI systems that help diagnose problems, suggest solutions, and optimize performance.
 
 **New Opportunities:** AI creates new job categories:
+
 - AI system maintenance technicians
 - Human-AI collaboration specialists  
 - AI-enhanced quality control analysts
@@ -375,6 +378,7 @@ AI is creating new possibilities in TVET education:
 @resourceLink(Coursera AI for Everyone, https://www.coursera.org/learn/ai-for-everyone) - Andrew Ng's popular course designed for non-technical professionals who want to understand AI applications.
 
 **Professional Development Strategy:**
+
 1. **Start Small:** Dedicate 30 minutes per week to AI exploration
 2. **Join Communities:** Connect with other educators exploring AI applications
 3. **Document Learning:** Keep a journal of AI tools you try and their potential applications
@@ -390,33 +394,40 @@ AI is creating new possibilities in TVET education:
 **For Rani:** She champions AI tools that empower students (making learning more accessible) while remaining aware of risks like over-dependence or algorithmic bias. AI should enhance human capabilities, not replace human judgment.
 
 ### ⚖️ 2. Ethics of AI  
+
 **Focus:** Understanding and upholding ethical principles in AI use
 
 **Key Considerations:**
+
 - **Data Privacy:** Protecting student information when using AI tools
 - **Fairness:** Ensuring AI tools don't disadvantage certain groups of students
 - **Transparency:** Understanding how AI systems make decisions
 - **Bias Awareness:** Recognizing potential biases in AI outputs
 
 ### 🔧 3. AI Foundations & Applications
+
 **Focus:** Understanding basic AI concepts and practical tools
 
 **Essential Knowledge:**
+
 - How AI systems learn from data
 - Different types of AI (predictive, generative, recognition systems)
 - Practical skills in selecting and operating AI tools
 - Understanding AI capabilities and limitations
 
 ### 📚 4. AI Pedagogy
+
 **Focus:** Integrating AI into effective teaching practice
 
 **Applications:**
+
 - Using AI for lesson planning and content creation
 - Implementing AI tools for student assessment
 - Creating AI-enhanced learning experiences
 - Balancing AI assistance with human expertise
 
 ### 🌱 5. AI for Professional Learning
+
 **Focus:** Using AI for continuous professional development
 
 **Your Current Journey:** Learning to use AI tools for research, staying current with industry trends, networking with other professionals, and personalizing your learning pathway.
@@ -430,12 +441,14 @@ Let's see these competencies in action:
 **Lesson Topic:** Electronic Circuit Troubleshooting
 
 **Rani's AI Integration:**
+
 1. **Pre-class:** Uses AI to generate diverse circuit fault scenarios based on common industry problems
 2. **During Class:** Students work in pairs to diagnose circuits, with an AI assistant available to ask questions like "What should I check if the LED won't light?"
 3. **Assessment:** AI provides immediate feedback on student solutions while Rani validates the AI's suggestions
 4. **Reflection:** Class discusses both the technical solutions AND the AI's reasoning process
 
 **Learning Outcomes:**
+
 - Students practice technical troubleshooting skills
 - Students learn to collaborate effectively with AI tools
 - Students develop critical thinking about AI suggestions
@@ -545,6 +558,7 @@ Take a moment to consider these questions about your own AI learning journey:
 ### 📚 Essential Reading
 
 **UNESCO AI Resources:**
+
 - [AI and Education: Guidance for Policy-makers](https://www.unesco.org/en/weeks/digital-learning)
 - [Beijing Consensus on Artificial Intelligence and Education](https://www.unesco.org/en/weeks/digital-learning)
 - [Recommendation on the Ethics of Artificial Intelligence](https://www.unesco.org/en/weeks/digital-learning)
