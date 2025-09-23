@@ -357,7 +357,8 @@ AI is creating new possibilities in TVET education:
 
 ## Getting Started: Your AI Learning Journey
 
-### 🚀 Building an AI Learning Mindset
+@competencyHighlight(🚀 Building an AI Learning Mindset)
+
 
 **Curiosity Over Perfection:** Rani discovered that learning AI is like learning any new technical skill - start with basics, practice regularly, and build confidence through hands-on experience.
 
@@ -367,7 +368,7 @@ AI is creating new possibilities in TVET education:
 
 @aiDemo(Try this practical exercise: Ask an AI to help you create a lesson plan for teaching electrical safety., Claude or ChatGPT, https://claude.ai/)
 
-### 🎓 Essential Learning Platforms
+@competencyHighlight(🎓 Essential Learning Platforms)
 
 **Free Resources for AI Education:**
 
