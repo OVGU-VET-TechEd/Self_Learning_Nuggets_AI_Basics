@@ -492,25 +492,25 @@ Human agency means educators retain ultimate authority over educational decision
 
 ## Principles of Human Agency in Education
 
-### 1. Critical Oversight
+@competencyHighlight(Critical Oversight)
 
 **Practice:** Review all AI-generated content before using it with students  
 **Example:** Rani uses AI to draft quiz questions but edits each one for accuracy, clarity, and appropriateness  
 **Rationale:** AI may not understand your specific context, student needs, or learning objectives
 
-### 2. Final Decision Authority  
+@competencyHighlight(Final Decision Authority)  
 
 **Practice:** Treat AI outputs as recommendations, not commands  
 **Example:** If AI suggests a student needs additional support, Rani investigates using her professional judgment and multiple data sources  
 **Rationale:** Educational decisions affect real people and require contextual understanding AI lacks
 
-### 3. Accountability Awareness
+@competencyHighlight(Accountability Awareness)
 
 **Practice:** Accept responsibility for all AI-assisted educational content and decisions  
 **Example:** Rani ensures any AI-generated materials align with her professional standards and institutional policies  
 **Rationale:** AI systems don't bear responsibility for educational outcomes—humans do
 
-### 4. Transparent Communication
+@competencyHighlight(Transparent Communication)
 
 **Practice:** Inform students and colleagues when AI tools are used in educational processes  
 **Example:** Rani explains to students when homework feedback was AI-assisted vs. entirely human-generated  
@@ -518,25 +518,34 @@ Human agency means educators retain ultimate authority over educational decision
 
 ## Practical Human Agency Strategies
 
-### Before Using AI:
+@competencyHighlight(Before Using AI:)
 
 - Define clear objectives for AI assistance
-- Understand the AI tool's capabilities and limitations  
+  
+- Understand the AI tool's capabilities and limitations
+    
 - Establish criteria for evaluating AI outputs
-- Plan how to verify AI-generated content
+  
+- Plan how to verify AI-generated content  
 
-### During AI Interaction:
+@competencyHighlight(During AI Interaction:)
 
 - Provide specific, detailed prompts
+
 - Ask follow-up questions to test AI understanding
+
 - Request AI to explain its reasoning when possible
+
 - Remain skeptical of overconfident responses
 
-### After AI Response:
+@competencyHighlight(After AI Response:)
 
 - Fact-check claims against authoritative sources
+
 - Consider whether outputs align with educational objectives
+
 - Evaluate potential bias or inappropriate content
+
 - Adapt or reject AI suggestions based on professional judgment
 
 ---
