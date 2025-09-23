@@ -233,10 +233,14 @@ By the end of this 15-minute nugget, you will understand how AI can transform bo
 
 This course is made possible through the generous support of:
 
-• **UNESCO** - United Nations Educational, Scientific and Cultural Organization
-• **UNEVOC** - International Centre for TVET
-• **ASSET Project** - Advancing Skills for Sustainable Employment and Transformation
-• **Otto von Guericke University Magdeburg**
+• **UNESCO** - United Nations Educational, Scientific and Cultural Organization  
+
+• **UNEVOC** - International Centre for TVET  
+
+• **ASSET Project** - Advancing Skills for Sustainable Employment and Transformation  
+
+• **Otto von Guericke University Magdeburg**  
+
 
 This project fosters international collaboration in technical and vocational education and training.
 
