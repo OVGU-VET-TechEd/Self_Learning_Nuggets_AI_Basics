@@ -66,7 +66,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 }
 
 .resource-link {
-    background: #28a745;
+    background: #ffa726;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -770,7 +770,7 @@ How will you measure the impact of AI tool integration?
 
 # 📚 Extended Learning Resources
 
-## Professional Development Resources
+@competencyHighlight(Professional Development Resources)
 
 **AI Tool Mastery:**
 
@@ -790,7 +790,7 @@ How will you measure the impact of AI tool integration?
 @resourceLink(AI Ethics for Educators, https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
 @resourceLink(Responsible AI in Education, https://www.unesco.org/en/weeks/digital-learning)
 
-## Advanced Tool Exploration
+@competencyHighlight(Advanced Tool Exploration)
 
 **Emerging AI Tools:**
 
