@@ -1,103 +1,1028 @@
-03_AI_Tools.md
-<!-- author: AI in TVET Workshop Team version: 1.0.0 language: en narrator: US English Female comment: AI Tools for TVET Teaching (AI Techniques & Applications Competency) link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css @style .sector-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; margin: 1rem; border-radius: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.3); transition: transform 0.3s ease; } .sector-card:hover { transform: translateY(-5px); } .ai-tool-demo { background: #f8f9fa; border: 2px solid #007bff; border-radius: 10px; padding: 1.5rem; margin: 1rem 0; } .quiz-interactive { background: linear-gradient(45deg, #ff6b6b, #ffa726); color: white; padding: 1rem; border-radius: 10px; margin: 1rem 0; } .resource-link { background: #28a745; color: white; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; display: inline-block; margin: 0.25rem; transition: all 0.3s ease; } .resource-link:hover { background: #218838; transform: scale(1.05); } @end @customQuiz [[.]] <script> "@0" == btoa( "@input".trim().toLowerCase() ) </script> @end @aiDemo: <div class="ai-tool-demo">**AI Demo:** @0<br>**Tool:** @1<br>**Try it:** [Click here](@2)</div> @sectorCard: <div class="sector-card">**@0**<br>@1</div> @resourceLink: <a href="@1" class="resource-link" target="_blank">@0</a> -->
-AI Tools and Applications: Expanding Your Toolbox
-<div style="text-align:center;"> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" width="80" style="margin:0 10px;"/> </div>
-Introduction
-Now that we’ve covered AI basics and stressed the importance of human agency, let’s look at practical AI tools available to teachers and how they can be applied. This module aligns with the competency of “AI foundations and applications” – essentially building your digital toolkit and understanding how to use it wisely. Rani has heard of various AI tools by name – ChatGPT, Perplexity, Claude, Gamma – but she isn’t sure what each does or how they differ. We will define these tools, discuss where they get their data, and examine issues like accessibility (do you need a login or payment?), hallucination and bias tendencies in each, and how they align with the idea of Open Educational Resources (OER). By exploring and comparing these tools, you’ll be better equipped to choose the right AI tool for the task at hand and use it effectively in your teaching practice.
-Large Language Models (LLMs) and Common AI Tools
-First, what do we mean by LLMs (Large Language Models)? These are AI models trained on huge amounts of text data to predict and generate text. They are the brains behind many modern AI chatbots and assistants. When you interact with ChatGPT, Claude, or even search engines with chat features, you’re talking to an LLM. They excel at understanding natural language inputs and producing human-like responses. However, as we saw, they have no real understanding of truth – they just generate likely responses based on patterns in data. This is why they can be so helpful (rich language, many facts) yet sometimes wrong or weird (they might lack up-to-date info or context).
-Let’s introduce some common AI tools that teachers might use, many of which are powered by LLMs or other AI algorithms:
-@aiDemo("Brainstorm 3 hands-on project ideas for an electronics class about renewable energy.", "ChatGPT", "https://chat.openai.com/")
-@aiDemo("Find recent examples of AI used in electronics manufacturing (with sources).", "Perplexity", "https://www.perplexity.ai/")
-@aiDemo("Proofread and improve the clarity of my lesson plan on circuit theory.", "Claude", "https://claude.ai/")
-@aiDemo("Create a 5-slide presentation outline on "Introduction to Robotics" for students.", "Gamma", "https://gamma.app/")
-The examples above give a hint of each tool’s strength. Now, let’s describe each tool and what it’s best for:
-ChatGPT: This is a conversational AI developed by OpenAI. It’s a general-purpose chatbot that can generate text, answer questions, write code, and more. ChatGPT is known for its versatility – you can ask it to explain concepts, create quizzes, write stories, solve problems, etc. Accessibility: ChatGPT has a free version (as of now) accessible via web (you need to sign up). There is also a paid version with more features (ChatGPT Plus) but the free version is quite powerful. Data origin: It was trained on a diverse range of internet text up to a certain cutoff (for example, if it’s using GPT-4 or GPT-3.5, the knowledge might cut off around 2021-2022 unless augmented). It does not cite sources by default. Hallucination: ChatGPT can hallucinate – it might present false info confidently if asked for facts, so caution is needed. Bias: It tries to avoid offensive or biased outputs due to OpenAI’s alignment efforts, but it can still reflect biases present in its training data. Best uses: Brainstorming, drafting written material, answering conceptual questions, coding help. Rani uses ChatGPT to get ideas for lab activities and to simplify complex electronics theory into analogies her students can grasp.
-Perplexity: Perplexity is like a smart search engine with an LLM. When you ask it a question, it not only gives an answer but also provides citations (links to sources) for its claims. This is hugely valuable in education because it means you (and your students) can verify information. Accessibility: It’s available via web without login for a limited number of queries, and it’s free (with some optional sign-in for more features like longer memory). Data origin: Perplexity connects to the live internet (similar to doing a web search) and finds information, then uses an LLM to summarize or directly answer you. Thus, it’s good for up-to-date questions. Hallucination: Perplexity’s use of sources greatly reduces hallucination, since it bases answers on actual retrieved documents. But if the web info is wrong, it could propagate that. Bias: Because it pulls from the web, it can reflect common biases online or in source selection (though citing helps you see if sources are balanced). Best uses: Research questions, getting summaries with sources, quick facts. Rani might use Perplexity to quickly gather the latest developments in AI for electronics to share with her class, knowing she can trust but also verify the sources it provides.
-Claude: Claude is an AI assistant made by Anthropic, and it’s known for having a large context window (meaning it can digest or produce longer texts at once) and for being tuned to be helpful and harmless. It’s somewhat similar to ChatGPT in that you give it prompts and it generates responses. Accessibility: Claude has a web interface (Claude.ai) which may be available in certain regions, and it also has an API. There is a free tier (with limitations on how much you can use daily) and possibly premium tiers. Data origin: Claude was trained on a lot of text as well, and its knowledge cutoff is similar to ChatGPT’s (at training time). It doesn’t browse the web by itself in the free version. Hallucination: Claude also can hallucinate, but it sometimes is more cautious or verbose in explanations. It’s been noted to be good at tasks like summarization or rewriting because of its large context capability. Bias: Anthropic emphasizes an ethos of AI safety; Claude is designed to avoid toxic content and is generally neutral. However, like any model, if underlying data had biases, those can emerge. Best uses: Claude is great for processing longer documents – e.g., Rani can paste a whole chapter of curriculum or a long policy document and ask Claude to summarize or extract key points. It’s also good for getting alternative phrasing (like improving a draft letter or simplifying technical jargon). In one case, Rani used Claude to draft a polite email to parents explaining a new AI tool in class – Claude’s suggestion was clear and parent-friendly, which saved her time editing.
-Gamma: Gamma is a tool specifically designed to create presentations or structured documents from outlines or prompts. Think of it as an AI that generates slides (with text content and simple visuals) for you. Accessibility: Gamma.app offers a free usage for creating a certain number of decks. You provide a prompt or content and it designs a slideshow. It’s web-based. Data origin: Gamma uses generative AI to produce both the text on slides and design elements. It likely uses a combination of an LLM for text and some design template logic for layout. It may also integrate image generation for illustrations (depending on the version). Hallucination: If Gamma needs to produce factual content, it might still get things wrong (since it uses an LLM for text). So if you ask for a presentation on a topic, double-check the facts on each slide. However, if you provide the content details and just let it handle design, then hallucination isn’t an issue – you are providing the info. Bias: Since it generates content, it could reflect biases or omissions. For example, if asked to create a presentation on “famous inventors,” it might present mostly Western male inventors unless prompted otherwise. Being aware of that, you might need to adjust the prompt or the output for diversity. Best uses: Quickly turning a text or idea into a visual presentation. For a busy teacher, Gamma can produce a decent first draft of slides for a lesson or a student project showcase. For instance, Rani had her students use Gamma to create quick project proposal slides – the AI gave them a starting layout and text, which they then customized. It saved them from staring at a blank PowerPoint screen. Gamma is particularly handy when you want an appealing format without spending much time on design.
-To compare these tools in a nutshell:
-ChatGPT vs Perplexity: ChatGPT is like an all-knowing but source-less mentor; Perplexity is more like a librarian that always shows the book pages where it found the answer. If Rani wants creative ideas or draft content, she’ll choose ChatGPT. If she wants research with references (e.g., “what are the latest statistics on skilled trades employment?”), Perplexity is her go-to for trustworthy answers.
-ChatGPT vs Claude: Both can do similar tasks. Claude might handle longer text better in one go, and some users find its tone more friendly or its reasoning a bit more straightforward. ChatGPT sometimes is more clever in coding or niche knowledge due to extensive fine-tuning. Rani might try both on a task like “summarize this technical article for my students” and see which summary she prefers – often, having multiple AI assistants can be like getting second opinions.
-Gamma vs ChatGPT: ChatGPT can output an outline for slides or even ASCII “slides”, but it won’t give a polished look. Gamma’s advantage is automatically turning an outline into an actual slide deck format with design applied. ChatGPT would require Rani to copy-paste content into PowerPoint or such, whereas Gamma could spit out a ready-to-present deck in its interface. However, Gamma’s generated text might not be as detailed as ChatGPT’s, since it balances brevity for slides. So, Rani could actually use them in tandem: first ask ChatGPT for an outline, then feed that to Gamma to make slides, then edit the slides as needed.
-Data origin & accessibility considerations: It’s important to note which tools have internet access or up-to-date knowledge. Perplexity does; ChatGPT free version does not (unless you have a plugin or the newer Bing-integrated mode). Claude currently does not browse internet either. Gamma doesn’t research facts; it relies on what you prompt. So if currency of information matters (e.g., in September 2025 discussing a 2025 event), Perplexity would shine. If it’s general knowledge or creative content, ChatGPT/Claude are fine. Accessibility-wise, some schools might have restrictions: e.g., ChatGPT might be blocked on school networks due to age restrictions or privacy concerns. In those cases, teachers would need to use it at home or get special permission. Always check your institutional guidelines and ensure any tool used complies with student data privacy laws (for instance, don’t input sensitive student info into these public AIs).
-Data, Hallucination, and Bias in These Tools
-We’ve talked conceptually about hallucination and bias; let’s relate specifically:
-Data Origin: Knowing where a tool gets its information is key to trust. ChatGPT and Claude have a knowledge base from training data (which could be outdated). They do not dynamically cite recent info (unless using some attached browsing). So they might confidently get facts wrong if asked about something post-training or obscure. Perplexity pulls from current web content, so its answers on current events or specific data are more reliable, and you see the source. Gamma doesn’t fetch facts; it uses its trained knowledge to fill in content (and presumably might not be tuned for factual accuracy as much as for formatting). Thus, if Gamma writes a slide “AI in 2025 is present in X% of factories” – you’d want to verify that number; it might just guess.
-Hallucination Tendencies: ChatGPT has become somewhat better at avoiding obvious nonsense, but if you ask it for a list of references, it might hallucinate article titles that sound real but aren’t. Perplexity virtually never fabricates references because it shows actual links. Claude also might make up stuff if pushed beyond its knowledge. Gamma could put together plausible but not verified statements. For instance, one teacher reported an AI slide tool produced a reference to a study that didn’t exist – likely a hallucinated detail to make the slide look credible. So again, double-check facts from AI-generated content before sharing with students.
-Bias Examples: Each tool might reflect biases differently. ChatGPT and Claude have filters to avoid hateful/offensive content, which is good, but they might exhibit subtle biases (like gender or cultural biases in examples they generate, unless prompted to diversify). Perplexity’s bias largely depends on sources: if most top web results have a certain slant, the summary might lean that way (though seeing multiple sources can alert you to a bias). Gamma might include images or iconography that default to a certain cultural context (e.g., an AI-generated image of a “student” might not represent the diversity of your classroom). As an educator, you should use inclusive prompting (“include examples from different parts of the world” or “use gender-neutral language” etc.) and review outputs for bias or stereotypes.
-AI and OER (Open Educational Resources)
-The idea of openness is important in education. Open Educational Resources (OER) are materials that are free to use, adapt, and share. With AI, there’s an intersection: AI can help create OER, but also raises questions about content ownership. For instance, if Rani uses ChatGPT to generate an explanation and she shares that handout with colleagues, is that OER? Typically yes, if she licenses her handout openly. But note that AI-generated text can be used freely as ChatGPT outputs are not copyrighted by OpenAI (as per their terms, the user owns the output rights). Still, good practice is to cite that it was AI-assisted to maintain transparency.
-UNESCO has been advocating for open solutions in AI in education – meaning the algorithms, data, and resources should, as much as possible, be openly accessible to ensure equity. The Doha Declaration on Education and Skills (2024) echoed the need for collaboration and open sharing of knowledge to harness AI for all
-unesco.org
-. Additionally, the upcoming Dubai Declaration on OER and AI emphasizes using open licenses and sharing materials created or assisted by AI. In practical terms, this means Rani is encouraged to share any lesson plans or materials she creates with AI under an open license (like CC BY), so other teachers can reuse and adapt them, multiplying the benefits. AI can rapidly generate content, so if one teacher openly shares those outputs, many others can benefit without each having to prompt from scratch. This aligns with OER’s spirit of collaboration and reducing duplication.
-However, Rani also stays aware of the Doha Declaration’s call for sustainable, inclusive AI: that includes using tools that are accessible. For example, if a tool is behind a paywall or needs high-end hardware, it might not be equally accessible to all schools. Open-source AI tools or free tools help bridge that gap. A mention here is the rise of open-source LLMs – there are community-driven models that any school could run without depending on a big company. While ChatGPT and Claude are proprietary, projects like HuggingFace Transformers or Open Assistant exist. They might not yet be as polished, but in the long term, open AI ecosystems could offer more control (schools could host their own AI that is safe for student use, for instance).
-Summary of OER concept: AI tools should ideally help produce materials that anyone can use. UNESCO’s OER recommendations encourage teachers to license their AI-generated educational content openly. Rani decides that any slide decks or worksheets she makes with help from AI, she will share on a national teacher platform with an open license. AI saved her time creating them, so sharing is a fair way to pay it forward. Plus, if the AI content had any errors she missed, other teachers might catch and fix them – a community quality improvement, very much in the spirit of OER.
-Showcase: Popular AI Tools for Teachers (Comparison)
-Let’s list and compare some tools, including those we introduced, in a quick-reference format:
-Tool	Primary Use	Strengths	Considerations (Hallucination/Bias, Access)
-ChatGPT	General Q&A, content generation, idea brainstorming.	- Very versatile (code, text, etc.)
-- Good at creative tasks and explanations.	- May hallucinate facts, doesn’t cite sources.
-- Free version knowledge not up-to-date (no internet).
-- Requires account (13+ age restriction).
-Perplexity	Research assistant (with citations).	- Provides sources for answers (trustworthy)
-- Up-to-date web info.	- Limited creativity (more factual).
-- Might reflect bias of available web content.
-- Free to use; no login needed for basic use.
-Claude	Writing assistance, summarization of long texts.	- Handles long inputs/outputs well.
-- Often writes in a clear, structured manner.	- Can hallucinate less common info, so verify.
-- Currently free with account (region-limited).
-- Data somewhat outdated (like ChatGPT).
-Gamma	Presentation and document creation from prompts/outlines.	- Quick slide deck generation with design.
-- User-friendly for creating visual aids.	- Factual content needs verification (not source-backed).
-- Output may need editing for accuracy & context.
-- Free tier, but outputs best for small decks.
-Others (FYI):
-Bing Chat (Microsoft)	Similar to ChatGPT but with web access.	- Cites sources, integrated with search.
-- Free with a Microsoft account.	- Sometimes more limited conversational turns.
-- School networks might allow it as it’s tied to search.
-Google Bard	Google’s experimental chatbot.	- Accesses internet information (some sourcing).
-- Fast evolving, integrated with Google services.	- Mixed accuracy, still improving.
-- Check outputs against trusted info.
-TeacherMatic / EduAide (education-specific AI)	Tools designed for teachers (lesson plans, quiz gen).	- Tailored to common teacher tasks (often templates built-in).
-- May have content standards alignment.	- Some require subscriptions.
-- Outputs can be generic; still verify quality and bias (e.g., cultural context).
-(This table isn’t exhaustive, but covers the major players Rani has explored. The landscape of AI tools changes quickly, so always be on the lookout for new ones, and apply the same critical lens to them.)
-Rani’s Use Case: Lesson Generation with AI Tools
-To illustrate how these tools can come together in a real workflow, let’s follow Rani as she prepares a lesson on “Safety in Electronics Workshops” using AI assistance:
-Brainstorming Content (ChatGPT): Rani starts by asking ChatGPT, “What topics should I cover in a lesson about safety in electronics workshops for vocational students?” ChatGPT suggests a list: electrical safety basics, proper use of tools, personal protective equipment, first aid for electrical accidents, etc. It even provides a few illustrative examples (like the importance of grounding). This gives Rani a solid outline to begin with.
-Researching Statistics (Perplexity): She wants to include a statistic about how common electrical injuries are in workplaces. She asks Perplexity, “How many workplace electrical injuries occur annually and what is a common cause?” Perplexity returns an answer citing a source (perhaps an OSHA report or ILO data) – e.g., “According to OSHA, there were X electrical injury incidents in 2022 in the US, with improper lockout/tagout being a leading cause.” Rani clicks the provided reference to double-check context, then notes it down to mention in class.
-Drafting a Handout (Claude): Next, Rani has a bunch of notes and wants to compile them into a one-page handout for students. She feeds Claude a prompt: “Here are points for a safety handout. [she lists bullet points]. Please turn this into a concise, well-structured handout, with clear headings and maybe a short quiz at the end.” Claude processes her detailed input and produces a nicely formatted draft. It includes headings like “Personal Protective Equipment (PPE)” and a short 3-question quiz. Rani reviews it – she likes the structure but edits a couple of sentences to better fit her class’s context (Claude had used a very formal tone in places; she makes it a bit more conversational). She also swaps out one of the quiz questions for a more relevant one.
-Creating Slides (Gamma): With content ready, Rani tries Gamma to generate a slide deck. She provides a prompt, “Create a presentation about Safety in Electronics Workshops covering: common hazards, safety precautions (PPE, tool handling), emergency procedures, and a summary.” Gamma produces a 5-slide draft, each with a simple layout. It includes some icons (like a helmet icon for PPE) and titles for each section. The text is okay but slightly generic. Rani uses the Gamma editor to tweak text on slides, adding the specific stat she got from Perplexity onto the hazards slide, and inserting an image of a properly organized electronics workstation (she uploads one or uses an image search if Gamma supports it). In 15 minutes, she has a polished slide deck – far quicker than starting from scratch.
-Quality Check (Human in the Loop): Before finalizing, Rani cross-verifies everything: facts against sources (done), clarity of language (she imagines explaining to ensure no confusing AI wording remains), inclusivity (she ensured examples mention both “he” and “she” or neutral references – one AI draft slide said “Every electrician should know his tools” which she changed to “their tools”). She also checks for any inadvertent bias – for example, the AI’s suggested emergency procedure primarily focused on what the supervisor does; she added what students should do as well to make it relevant to her class, removing a bias towards managerial perspective.
-The result: Rani has an engaging lesson ready – slides, handout, quiz – with significantly less effort on her part. She used multiple AI tools, each for what they do best, and applied her professional judgment throughout. This integration demonstrates AI pedagogy in action – AI for planning and material creation, while Rani remains the orchestrator ensuring quality and appropriateness.
-@sectorCard("Electronics Class Prep with AI","Task: Prepare a lesson on soldering techniques. <br><br>Rani’s AI-augmented Workflow:<br>1. 🤔 Ideation: She asks ChatGPT for a list of “common mistakes in soldering and how to avoid them” – using this to frame her lesson’s key points.<br>2. 🔍 Fact-check: One tip from ChatGPT is “Avoid cold solder joints by ensuring sufficient heat.” Rani queries Perplexity for “What causes cold solder joints?” and confirms the explanation from a cited electronics forum. It matches up.<br>3. ✍️ Materials: She drafts a step-by-step lab activity description (with some gaps) and feeds it to Claude, asking for a student-friendly instruction sheet. Claude returns a well-structured set of instructions including safety reminders.<br>4. 📊 Slides: Using Gamma, she generates slides summarizing do’s and don’ts of soldering, including an AI-suggested image of a perfect solder joint vs a bad one. She double-checks that the AI image labels are correct (they are, in this case).<br>5. 📝 Review: Rani carefully reviews all outputs, ensuring consistency (she notices “tinning the tip” was mentioned by Claude but not on the slides, so she adds it). She also localizes the language (changing “soldering iron wattage” to “temperature” since her students use temperature-controlled irons).<br><br>Outcome: The lesson prep that used to take her 3-4 hours took about 1.5 hours with AI assistance. The content is richer (the AI surfaced a mistake she hadn’t initially listed) and she feels confident because she verified every part. Her students appreciate the clear handouts and visuals – all thanks to combining her expertise with the AI toolbox.")
-As shown, leveraging each tool’s strength while applying teacher oversight leads to efficient and high-quality outcomes. This is the essence of using basic AI techniques and applications in education: know your tools, use them thoughtfully, and keep the educator’s insight at the core.
-Quiz: Choosing and Using AI Tools
-Which AI tool would be most appropriate to quickly get a cited answer to “What is the latest year for which data on TVET enrollment in Asia is available?”
-[[ ]] ChatGPT
-[[X]] Perplexity (because it will fetch information and provide a source)
-[[ ]] Gamma
-[[ ]] Claude
-Rani wants to create a worksheet of practice problems for electronics math (ohms law, power calculations). She has the problems in mind but needs step-by-step solutions. Which tool could best assist in generating solutions?
-[[X]] ChatGPT (it can do calculations and show steps if prompted)
-[[ ]] Gamma (not suited for detailed QA or math steps)
-[[ ]] Perplexity (better for factual lookup than solving problems)
-[[X]] Claude (also capable of showing step-by-step reasoning if asked)
-True or False: Perplexity AI’s answers often include source citations, which can help teachers verify the content’s accuracy.
-[[X]] True
-[[ ]] False
-Rani used an AI tool to generate quiz questions. To share these questions as OER on a teaching forum, what should she do?
-[[X]] Review and edit the questions for quality, then attach an open license (e.g., CC BY) so others can freely use and adapt them.
-[[ ]] Just share the raw AI output and mention it’s AI-generated so she isn’t responsible for any errors.
-[[X]] (Bonus) Ideally, also share the AI prompt she used, so other teachers can replicate or tweak it for their needs – promoting openness in process as well as content.
-[[ ]] Avoid sharing because AI content might be copyrighted (Note: AI outputs from these tools are typically not copyrighted by the tool providers).
-Fill in the blank: When using a presentation generator like Gamma, a teacher should be especially cautious to ___ before using the slides in class.
-[[ ]] trust the design and not worry about content
-[[X]] verify any factual statements or data on the slides (AI might have made them up), and ensure the slides fit the specific class context (e.g., terminology, examples)
-[[ ]] avoid adding personal touches because that defeats the purpose of using AI
-[[X]] proofread the text on slides for clarity and correctness, just as you would for any handout or material.
-Great work! This shows you’re learning which tool to use for which job, and how to critically appraise AI-generated content. In the next module, we’ll dive deeper into the art of prompting – how to communicate effectively with these AI tools to get the best results. This is a key skill that will further empower you in using AI for teaching.
-Reflection: Think of a specific task in your teaching workflow (lesson planning, grading, creating visuals, answering student questions) that tends to be time-consuming. Which AI tool from this module do you feel could help you most with that task, and how would you ensure the output is high quality? Jot down your thoughts.
-Open answer: [[___]]
-<div style="text-align:center;"> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" width="80" style="margin:0 10px;"/> <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" width="80" style="margin:0 10px;"/> </div>
+<!--
+author: AI in TVET Workshop Team
+email: tvet.ai@education.org
+version: 1.5.0
+language: en
+narrator: US English Female
+comment: AI Tools and Applications for TVET Teachers. A comprehensive 15-minute learning nugget focused on understanding, evaluating, and applying AI tools effectively in technical and vocational education contexts.
+
+link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css
+
+@style
+.welcome-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem;
+    margin: 2rem 0;
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+.sector-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.sector-card:hover {
+    transform: translateY(-5px);
+}
+
+.ai-tool-demo {
+    background: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.nugget-header {
+    background: linear-gradient(45deg, #ff6b6b, #ffa726);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.competency-framework {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.reflection-section {
+    background: #fafafa;
+    border-left: 4px solid #9c27b0;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.resource-link {
+    background: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.resource-link:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+.quiz-interactive {
+    background: linear-gradient(45deg, #ff6b6b, #ffa726);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.contact-info {
+    background: #fff3e0;
+    border: 1px solid #ff9800;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.audio-control {
+    background: #e8f5e8;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+.tool-card {
+    background: #ffffff;
+    border: 2px solid #2196f3;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.tool-header {
+    background: #2196f3;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.comparison-table th {
+    background: #2196f3;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+.comparison-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+
+.comparison-table tr:hover {
+    background: #f5f5f5;
+}
+
+.workflow-step {
+    background: #e3f2fd;
+    border-left: 5px solid #2196f3;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.oer-highlight {
+    background: #e8f5e8;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.warning-box {
+    background: #fff3e0;
+    border: 2px solid #ff9800;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #f57c00;
+}
+@end
+
+@customQuiz
+[[.]]
+<script>
+"@0" == btoa( "@input".trim().toLowerCase() )
+</script>
+@end
+
+@aiDemo: <div class="ai-tool-demo">**🤖 AI Demo:** @0<br>**🛠️ Tool:** @1<br>**🔗 Try it:** [Click here](@2)</div>
+
+@sectorCard: <div class="sector-card">**@0**<br>@1</div>
+
+@resourceLink: <a href="@1" class="resource-link" target="_blank">@0</a>
+
+@competencyHighlight: <div class="competency-framework"><p style="color: #2196f3; font-weight: bold;">@0</p></div>
+
+@scenarioCard: <div style="background: #f8f9fa; color: #333; padding: 1.5rem; margin: 1rem 0; border-radius: 15px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); border-left: 4px solid #007bff;"><h4>🛠️ @0</h4><p>@1</p></div>
+
+@toolCard: <div class="tool-card"><div class="tool-header">@0</div>@1</div>
+
+@workflowStep: <div class="workflow-step"><strong>@0:</strong> @1</div>
+
+@oerHighlight: <div class="oer-highlight"><strong>🌐 Open Educational Resources:</strong> @0</div>
+
+@warningBox: <div class="warning-box"><strong>⚠️ @0:</strong> @1</div>
+
+@h5p: <div class="h5p-element"><iframe src="@0" width="100%" height="@1" frameborder="0"></iframe></div>
+-->
+
+# 🧰 AI Tools and Applications: Expanding Your Digital Toolbox
+
+<svg xmlns='http://www.w3.org/2000/svg' width='1100' height='400' viewBox='0 0 800 450'>
+  <!-- Background -->
+  <rect width='800' height='450' fill='#0072CE' />
+  
+  <!-- White rounded rectangle container -->
+  <rect x='50' y='50' width='700' height='350' rx='20' fill='white' />
+  
+  <!-- Title -->
+  <text x='400' y='110' font-family='Segoe UI, Arial, sans-serif' font-size='32' font-weight='bold' text-anchor='middle' fill='#0072CE'>
+    AI Tools &amp; Applications
+  </text>
+  
+  <!-- Subtitle -->
+  <text x='400' y='150' font-family='Segoe UI, Arial, sans-serif' font-size='24' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
+    Virtual Training Nugget 3.0
+  </text>
+
+  <!-- Framework Reference -->
+  <text x='400' y='180' font-family='Segoe UI, Arial, sans-serif' font-size='16' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
+    UNESCO AI Competency: AI Foundations &amp; Applications
+  </text>
+
+  <!-- Collaboration info -->
+  <text x='400' y='205' font-family='Segoe UI, Arial, sans-serif' font-size='16' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
+    Building Your Professional AI Toolkit
+  </text>
+
+  <!-- Academic reference -->
+  <text x='400' y='230' font-family='Segoe UI, Arial, sans-serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
+    A collaboration of the UNEVOC Network - ASSET Project
+  </text>
+  
+  <!-- Key Focus -->
+  <text x='400' y='270' font-family='Segoe UI, Arial, sans-serif' font-size='18' font-weight='bold' text-anchor='middle' fill='#0072CE'>
+    Selecting, Evaluating, and Using AI Tools Effectively
+  </text>
+  
+  <!-- Tool Icons -->
+  <g transform="translate(150,300)">
+    <circle cx="0" cy="0" r="20" fill="#4CAF50"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="12" font-weight="bold">AI</text>
+  </g>
+  <g transform="translate(250,300)">
+    <circle cx="0" cy="0" r="20" fill="#FF9800"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="12" font-weight="bold">LLM</text>
+  </g>
+  <g transform="translate(350,300)">
+    <circle cx="0" cy="0" r="20" fill="#9C27B0"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="12" font-weight="bold">OER</text>
+  </g>
+  <g transform="translate(450,300)">
+    <circle cx="0" cy="0" r="20" fill="#F44336"/>
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="12" font-weight="bold">EDU</text>
+  </g>
+</svg>
+
+<!-- License info -->
+<div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px; opacity: 0.7;">
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="margin-left: 5px; text-decoration: none;">CC BY-SA 4.0</a>
+</div>
+
+<!-- UNEVOC -->
+<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
+</div>
+
+<!-- ASSET -->
+<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
+</div>
+
+<!-- HWK Blume -->
+<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
+</div>
+
+<!-- GIZ -->
+<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
+</div>
+
+<!-- UoVT -->
+<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
+</div>
+
+<!-- OVGU -->
+<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
+</div>
+
+<!-- HRDC -->
+<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
+</div>
+
+<!-- MITD -->
+<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
+</div>
+
+---
+
+## 🎯 Course Overview
+
+<div class="nugget-header">
+**Virtual Training Nugget 3:** AI Tools and Applications
+<br>
+**Competency Focus:** AI Foundations & Applications (Acquire Level) | **Duration:** 15 minutes
+</div>
+
+<div class="audio-control">
+🎵 **Audio Narration Available** - Click the speaker icon to listen to this content
+</div>
+
+**📚 Learning Objectives**
+
+By the end of this nugget, you will be able to:
+
+1. **Identify** the main types of AI tools and their specific educational applications
+2. **Compare** popular AI platforms (ChatGPT, Perplexity, Claude, Gamma) and select appropriate tools for specific tasks
+3. **Evaluate** AI tools for data sources, accessibility, bias, and reliability concerns
+4. **Apply** AI tools in educational workflows while maintaining quality control
+5. **Create** Open Educational Resources (OER) using AI assistance responsibly
+
+---
+
+## UNESCO Competency Focus: AI Foundations and Applications
+
+@competencyHighlight(🎯 Current Focus: Acquire basic conceptual knowledge of AI tools and develop capacity to examine appropriateness of specific AI tools for education)
+
+**Core Learning Areas:**
+- **Tool Classification:** Understanding different categories of AI technologies and their functions
+- **Practical Operation:** Learning to operate validated AI tools effectively
+- **Critical Evaluation:** Developing skills to assess AI tool appropriateness and reliability
+- **Educational Integration:** Connecting AI capabilities to specific teaching and learning needs
+
+| Learning Progression | Your Current Level | What This Means |
+|---------------------|-------------------|-----------------|
+| **Acquire** | **🎯 YOU ARE HERE** | Learn basic AI tool concepts and operation skills |
+| **Deepen** | Next Level | Integrate AI tools into teaching practice effectively |
+| **Create** | Advanced Level | Design innovative AI-enhanced educational solutions |
+
+---
+
+## Rani's Tool Exploration Journey
+
+@scenarioCard(Expanding the Toolkit, Rani has mastered AI basics and understands human agency principles. Now she's ready for the practical question: "Which AI tools should I actually use?" She's heard names like ChatGPT, Perplexity, Claude, and Gamma, but doesn't know what each does best or how they differ. She wants to build a reliable AI toolkit that enhances her electronics teaching without compromising quality or creating dependencies on expensive tools.)
+
+**Rani's Key Questions:**
+- Which AI tool should I use for lesson planning vs. research vs. presentations?
+- How can I tell if an AI tool is reliable and unbiased?
+- What are the costs, accessibility, and privacy considerations?
+- How do AI tools relate to Open Educational Resources?
+
+Let's explore these tools systematically to build your professional AI toolkit.
+
+---
+
+# 🧠 Understanding Large Language Models (LLMs)
+
+Before diving into specific tools, let's understand the technology powering most modern AI assistants:
+
+**Large Language Models (LLMs)** are AI systems trained on vast amounts of text data to understand and generate human-like text. They work by predicting the most likely next word in a sequence, which allows them to:
+
+- Answer questions conversationally
+- Generate educational content
+- Translate between languages  
+- Write and debug code
+- Summarize complex documents
+
+**Key LLM Characteristics:**
+- **Pattern-Based:** They generate responses based on patterns learned from training data, not true understanding
+- **Context-Aware:** They consider the full conversation context when responding
+- **Versatile:** One model can handle many different types of tasks
+- **Probabilistic:** They generate likely responses, which can sometimes be wrong
+
+**Educational Implications:**
+- Excellent for brainstorming and content generation
+- Require human verification for factual accuracy
+- Can adapt to different teaching styles and student levels
+- May reflect biases present in training data
+
+Most AI tools we'll explore are either built on LLMs or combine LLMs with other technologies (like search engines or presentation software).
+
+---
+
+# 🛠️ Essential AI Tools for TVET Educators
+
+Let's explore the four core AI tools that form the foundation of most educational AI workflows:
+
+## ChatGPT: The Versatile Assistant
+
+@toolCard(ChatGPT - Conversational AI Powerhouse, **Developer:** OpenAI<br>**Best For:** Content creation, brainstorming, explanations, coding help<br><br>**Strengths:**<br>• Extremely versatile - handles text, code, analysis, creative tasks<br>• Conversational interface that maintains context<br>• Strong at breaking down complex concepts for different audiences<br>• Excellent for generating multiple variations of content<br><br>**Accessibility:**<br>• Free tier available with OpenAI account<br>• ChatGPT Plus ($20/month) offers faster responses and advanced features<br>• Web interface accessible on any device<br>• Age restriction: 13+ (18+ in some regions)<br><br>**Data Considerations:**<br>• Training data cutoff (typically 1-2 years behind current date)<br>• No real-time internet access in basic version<br>• Does not cite sources by default<br>• Can hallucinate facts confidently)
+
+**TVET Applications:**
+- Generate diverse practice problems for circuit analysis
+- Create multiple versions of lab instructions for different skill levels
+- Brainstorm project ideas connecting electronics to renewable energy
+- Explain complex concepts using analogies relevant to students' experiences
+
+@aiDemo(Try this: "Explain parallel circuits using a water pipe analogy for automotive technology students.", ChatGPT, https://chat.openai.com/)
+
+## Perplexity: The Research Assistant
+
+@toolCard(Perplexity - AI-Powered Research Engine, **Developer:** Perplexity AI<br>**Best For:** Research with citations, current information, fact-checking<br><br>**Strengths:**<br>• Provides sources and citations for all claims<br>• Access to current web information<br>• Excellent for verifying facts and finding recent developments<br>• Reduces hallucination through source-backed responses<br><br>**Accessibility:**<br>• Free tier available without account (limited queries)<br>• Pro version ($20/month) offers unlimited queries and advanced features<br>• No age restrictions for basic use<br>• Works on any web browser<br><br>**Data Considerations:**<br>• Real-time access to web information<br>• Quality depends on source material found online<br>• May reflect bias present in top web results<br>• Transparent sourcing allows for verification)
+
+**TVET Applications:**
+- Research latest industry standards and regulations
+- Find current employment statistics for technical trades
+- Locate recent case studies of AI in manufacturing
+- Verify technical specifications and safety guidelines
+
+@aiDemo(Ask: "What are the latest workplace safety regulations for electronics technicians in 2025?", Perplexity, https://www.perplexity.ai/)
+
+## Claude: The Thoughtful Processor
+
+@toolCard(Claude - AI Assistant for Deep Analysis, **Developer:** Anthropic<br>**Best For:** Long document processing, careful analysis, ethical reasoning<br><br>**Strengths:**<br>• Handles very long texts (entire manuals, curricula, policy documents)<br>• Thoughtful, nuanced responses with careful reasoning<br>• Strong at summarization and document analysis<br>• Designed with safety and helpfulness principles<br><br>**Accessibility:**<br>• Free tier with daily usage limits<br>• Claude Pro ($20/month) for higher usage limits<br>• Web interface and API available<br>• Regional availability may vary<br><br>**Data Considerations:**<br>• Training data cutoff similar to other LLMs<br>• No real-time web browsing in standard version<br>• Focus on accuracy and helpfulness over creativity<br>• Can process much longer contexts than most alternatives)
+
+**TVET Applications:**
+- Analyze entire curriculum documents and extract key competencies
+- Process lengthy technical manuals and create student-friendly summaries
+- Review and improve extensive lesson plans or course materials
+- Compare multiple policy documents and identify differences
+
+@aiDemo(Upload a technical manual and ask: "Summarize the key safety procedures from this document for first-year students.", Claude, https://claude.ai/)
+
+## Gamma: The Presentation Creator
+
+@toolCard(Gamma - AI Presentation Generator, **Developer:** Gamma<br>**Best For:** Creating presentations, slide decks, visual documents<br><br>**Strengths:**<br>• Transforms outlines into polished presentations automatically<br>• Handles both content creation and visual design<br>• Fast turnaround for presentation creation<br>• User-friendly interface with customization options<br><br>**Accessibility:**<br>• Free tier allows creation of limited presentations<br>• Pro plans for unlimited creation and advanced features<br>• Web-based, works on any device<br>• No special software installation required<br><br>**Data Considerations:**<br>• Relies on AI for content generation (verify facts)<br>• May use generic examples that need localization<br>• Visual elements may not represent classroom diversity<br>• Best when you provide specific content rather than asking it to research)
+
+**TVET Applications:**
+- Transform lesson outlines into engaging slide presentations
+- Create visual project proposals and student presentation templates
+- Generate training materials for workplace safety sessions
+- Design course overview presentations for orientation
+
+@aiDemo(Prompt: "Create a 5-slide presentation on 'Introduction to Renewable Energy Systems' for TVET students.", Gamma, https://gamma.app/)
+
+---
+
+# 📊 AI Tool Comparison Matrix
+
+<table class="comparison-table">
+<tr>
+<th>Tool</th>
+<th>Primary Strength</th>
+<th>Best Use Cases</th>
+<th>Key Limitations</th>
+<th>Accessibility</th>
+</tr>
+<tr>
+<td><strong>ChatGPT</strong></td>
+<td>Versatility & Creativity</td>
+<td>Brainstorming, content creation, coding, explanations</td>
+<td>No citations, may hallucinate facts, knowledge cutoff</td>
+<td>Free tier available, requires account</td>
+</tr>
+<tr>
+<td><strong>Perplexity</strong></td>
+<td>Research & Citations</td>
+<td>Fact-finding, current events, sourced information</td>
+<td>Limited creativity, dependent on web content quality</td>
+<td>Free without account, unlimited with subscription</td>
+</tr>
+<tr>
+<td><strong>Claude</strong></td>
+<td>Document Processing</td>
+<td>Analyzing long texts, careful reasoning, summarization</td>
+<td>Knowledge cutoff, no web browsing, regional limits</td>
+<td>Free with daily limits, requires account</td>
+</tr>
+<tr>
+<td><strong>Gamma</strong></td>
+<td>Visual Presentations</td>
+<td>Slide creation, visual documents, quick formatting</td>
+<td>Generic content, facts need verification, limited customization</td>
+<td>Free tier, web-based</td>
+</tr>
+</table>
+
+## Quick Selection Guide
+
+**For Lesson Planning:** ChatGPT (creative ideas) → Claude (organize and refine) → Gamma (create slides)
+
+**For Research:** Perplexity (current facts) → Claude (analyze and synthesize) → ChatGPT (explain to students)
+
+**For Student Materials:** ChatGPT (generate content) → Claude (review and improve) → Gamma (format visually)
+
+**For Administrative Tasks:** Claude (process documents) → ChatGPT (draft communications) → Perplexity (verify policies)
+
+---
+
+# ⚠️ Critical Tool Evaluation: Data, Hallucination, and Bias
+
+Understanding each tool's data sources and limitations is essential for responsible use:
+
+## Data Origin Analysis
+
+@warningBox(Data Source Considerations, Different AI tools access information in fundamentally different ways, affecting their reliability and currency)
+
+**Training Data vs. Live Data:**
+- **ChatGPT & Claude:** Rely on training data with knowledge cutoffs (typically 1-2 years behind current date)
+- **Perplexity:** Accesses live web content, providing current information but dependent on source quality
+- **Gamma:** Uses training data for content generation, focusing more on format than facts
+
+**Implications for TVET Education:**
+- Use Perplexity for current industry standards, regulations, and employment data
+- Use ChatGPT/Claude for stable conceptual explanations and pedagogical content
+- Always verify technical specifications and safety information regardless of source
+
+## Hallucination Risk Assessment
+
+**High Risk Scenarios:**
+- Requesting specific technical specifications without verification
+- Asking for citations or references to research papers
+- Seeking current statistics or recent regulatory changes
+- Requesting information about local or specialized contexts
+
+**Medium Risk Scenarios:**  
+- General conceptual explanations (verify key points)
+- Creative content like analogies or examples
+- Procedural instructions for common tasks
+
+**Low Risk Scenarios:**
+- Brainstorming activities and idea generation
+- Format and style improvements to existing content
+- Language simplification and explanation
+
+## Bias Recognition Strategies
+
+**Common Bias Patterns:**
+- **Gender Bias:** AI may default to male pronouns in technical fields
+- **Cultural Bias:** Examples may reflect Western or urban contexts
+- **Language Bias:** May favor native English speakers' writing styles
+- **Socioeconomic Bias:** Examples may assume certain resource availability
+
+**Rani's Bias Detection Methods:**
+1. **Pronoun Check:** Ensure examples use diverse pronouns and names
+2. **Cultural Sensitivity:** Request examples from multiple cultural contexts
+3. **Accessibility Review:** Check if materials work for students with different backgrounds
+4. **Student Representation:** Verify that examples reflect her actual student population
+
+@scenarioCard(Bias in Action, Rani asked an AI to create career guidance content for electronics students. The initial output exclusively featured male engineers and used examples from high-tech urban environments. She recognized the bias and revised her prompt: "Create career guidance for electronics students including diverse examples with various genders, from both urban and rural settings, representing different types of technical work." The revised output much better represented her students' potential futures.)
+
+---
+
+# 🌐 AI Tools and Open Educational Resources (OER)
+
+Understanding the relationship between AI tools and Open Educational Resources is crucial for building a sustainable, equitable educational ecosystem.
+
+@oerHighlight(UNESCO's OER and AI principles encourage educators to create and share AI-assisted educational materials under open licenses, multiplying the benefit of AI efficiency across the global education community.)
+
+## What Qualifies as OER?
+
+**Definition:** Educational materials that can be legally and freely used, adapted, and shared
+
+**AI-Generated Content Rights:**
+- Most AI tools (ChatGPT, Claude, Perplexity) grant users rights to outputs
+- Content created with AI assistance can typically be licensed as OER
+- Always check specific tool terms of service
+
+**Rani's OER Strategy:**
+1. **Create:** Uses AI tools to efficiently develop lesson materials
+2. **Adapt:** Modifies AI outputs to fit her specific context and quality standards
+3. **License:** Applies Creative Commons licenses (CC BY) to her final materials
+4. **Share:** Contributes to national TVET resource repositories
+5. **Collaborate:** Works with colleagues to improve shared AI-generated resources
+
+## Building Sustainable AI Workflows
+
+**Individual Level:**
+- Document effective prompts and share with colleagues
+- Create templates that others can adapt for their contexts
+- Build quality control checklists for AI-generated content
+
+**Institutional Level:**
+- Establish AI tool evaluation criteria and approved tool lists
+- Develop faculty training on AI-assisted OER creation
+- Create repositories for sharing AI-enhanced educational resources
+
+**Global Level:**
+- Contribute to international TVET resource sharing platforms
+- Participate in UNESCO UNEVOC networks focused on AI in education
+- Support development of open-source AI tools for education
+
+## Addressing the Digital Divide
+
+@warningBox(Equity Consideration, Not all educators have equal access to AI tools, creating potential disparities in resource quality and teaching efficiency)
+
+**Access Challenges:**
+- Premium tool subscriptions may be unaffordable
+- Internet connectivity requirements exclude some regions
+- Language barriers limit tool effectiveness
+
+**UNESCO Solutions:**
+- Promote free and open-source AI alternatives
+- Support multilingual AI tool development
+- Encourage sharing of high-quality AI-generated OER
+
+**Institutional Responses:**
+- Negotiate group subscriptions for faculty access
+- Provide AI literacy training and support
+- Create policies for equitable AI tool access
+
+---
+
+# 🔄 Practical Workflow: AI-Enhanced Lesson Development
+
+Let's follow Rani through a complete lesson development process using multiple AI tools strategically:
+
+## Case Study: "Workplace Safety in Electronics Workshops"
+
+### Step 1: Content Brainstorming
+@workflowStep(Tool: ChatGPT, Rani starts with: "What key safety topics should I cover in a workshop safety lesson for second-year electronics students?" ChatGPT provides a comprehensive outline including electrical safety, tool usage, PPE, emergency procedures, and hazard identification. She uses this as her foundation structure.)
+
+### Step 2: Current Information Research
+@workflowStep(Tool: Perplexity, She needs current statistics: "What are the most recent workplace injury statistics for electronics technicians, and what are the leading causes?" Perplexity returns data from OSHA and industry safety reports with proper citations, giving her credible, current information to make the lesson relevant.)
+
+### Step 3: Content Development and Organization
+@workflowStep(Tool: Claude, With her outline and research complete, Rani feeds her notes to Claude: "Organize these safety points into a coherent lesson plan with clear learning objectives, hands-on activities, and assessment questions." Claude processes her extensive notes and creates a well-structured lesson plan with appropriate pedagogical flow.)
+
+### Step 4: Visual Presentation Creation
+@workflowStep(Tool: Gamma, Finally, she uses Gamma to transform her lesson plan into slides: "Create a presentation covering electronics workshop safety including hazard identification, proper tool use, emergency procedures, and a safety checklist." Gamma generates slides with appropriate visuals and clean formatting.)
+
+### Step 5: Quality Assurance and Customization
+@workflowStep(Tool: Human Expertise, Rani reviews all AI outputs: verifies statistics against original sources, adapts language for her specific students, adds local emergency contact information, ensures examples reflect her workshop equipment, and adjusts cultural references to match her student population.)
+
+## Results Analysis
+
+**Time Investment:**
+- **Traditional Method:** 4-5 hours of research, writing, and formatting
+- **AI-Enhanced Method:** 1.5 hours of AI interaction plus 1 hour of review and customization
+- **Time Savings:** 60-70% reduction while maintaining quality
+
+**Quality Improvements:**
+- Access to current industry statistics she wouldn't have found manually
+- More comprehensive coverage of safety topics
+- Professional presentation format that engages students
+- Multiple variations of content for differentiated instruction
+
+**Learning Outcomes:**
+- Students receive more current, comprehensive safety information
+- Visual presentation increases engagement and retention
+- Rani has more time for hands-on safety demonstrations
+- Materials can be easily updated as regulations change
+
+---
+
+# 🧠 Interactive Knowledge Assessment
+
+<div class="quiz-interactive">
+
+**Test Your AI Tool Selection and Application Skills**
+
+These scenarios will help you practice choosing the right tool for specific educational tasks:
+
+</div>
+
+### Question 1: Research Task Selection
+
+A TVET teacher needs to find the most recent regulations for electrical apprenticeship programs in their country. Which tool is most appropriate?
+
+    [( )] ChatGPT - for its comprehensive knowledge base
+    [(X)] Perplexity - for current information with verifiable sources
+    [( )] Claude - for its careful analysis capabilities
+    [( )] Gamma - for creating a presentation about regulations
+
+<script>
+if (@input === 1) {
+  send.lia("✅ **Excellent choice!** Perplexity is ideal for finding current, citable information like recent regulations. Its source citations allow you to verify the information with official government sources.");
+} else {
+  send.lia("❌ **Consider the task requirements.** This question needs current, verifiable information with sources. Perplexity specializes in research tasks and provides citations you can verify.");
+}
+</script>
+
+### Question 2: Content Creation Workflow (Multiple Select)
+
+Rani wants to create a comprehensive unit on renewable energy systems. Which tools should she use in her workflow? Select all appropriate choices.
+
+    [[X]] ChatGPT for initial brainstorming and concept explanations
+    [[X]] Perplexity for current industry trends and employment statistics  
+    [[X]] Claude for organizing her research into a cohesive curriculum structure
+    [[X]] Gamma for creating engaging presentation materials
+    [[ ]] Only one tool to maintain consistency
+
+<script>
+let correct = [0, 1, 2, 3];
+let selected = @input;
+
+let isCorrect = correct.every(i => selected.includes(i)) && 
+               selected.every(i => correct.includes(i));
+
+if (isCorrect) {
+  send.lia("✅ **Outstanding workflow thinking!** Using multiple AI tools strategically leverages each tool's strengths while maintaining quality through human oversight. This multi-tool approach is exactly what experienced AI-enhanced educators do.");
+} else {
+  send.lia("❌ **Think about tool strengths.** Each AI tool has specific capabilities - using them in combination (with human oversight) produces the best educational outcomes. Consider how each tool's unique features contribute to the project.");
+}
+</script>
+
+### Question 3: Bias Detection and Mitigation
+
+When using Gamma to create slides about career opportunities in electronics, you notice all the example professionals shown are male. What should you do?
+
+    [(X)] Revise your prompt to explicitly request diverse representation
+    [( )] Accept the output since it reflects industry demographics
+    [(X)] Edit the slides after generation to include diverse examples
+    [( )] Switch to a different AI tool that's less biased
+
+<script>
+let correct2 = [0, 2];
+let selected2 = @input;
+
+let isCorrect2 = correct2.every(i => selected2.includes(i)) && 
+                selected2.every(i => correct2.includes(i));
+
+if (isCorrect2) {
+  send.lia("✅ **Perfect bias mitigation strategy!** Both proactive prompting and post-generation editing are effective approaches. The key is recognizing bias and taking action to ensure your materials represent the diversity you want your students to see in their future careers.");
+} else {
+  send.lia("❌ **Consider your impact on students.** Biased representations can limit students' career aspirations. Take active steps to ensure AI-generated content reflects the diverse opportunities available in technical fields.");
+}
+</script>
+
+### Question 4: Open Educational Resources (OER)
+
+Rani creates an excellent lesson plan using ChatGPT and wants to share it with other TVET educators. What should she do to make it proper OER?
+
+    [( )] Share it without any licensing since it's AI-generated
+    [(X)] Review and adapt it for quality, then apply an open license like CC BY
+    [( )] Keep it private since she used AI tools
+    [(X)] Include information about which AI tools helped create it for transparency
+
+<script>
+let correct3 = [1, 3];
+let selected3 = @input;
+
+let isCorrect3 = correct3.every(i => selected3.includes(i)) && 
+                selected3.every(i => correct3.includes(i));
+
+if (isCorrect3) {
+  send.lia("✅ **Excellent OER understanding!** Quality review plus open licensing maximizes the benefit of AI-enhanced educational materials. Transparency about AI assistance helps other educators understand and improve the process.");
+} else {
+  send.lia("❌ **Think about sharing and sustainability.** AI-generated content can become valuable OER when properly reviewed, licensed, and shared transparently. This multiplies the benefit of AI efficiency across the educational community.");
+}
+</script>
+
+---
+
+# 🤔 Professional Reflection and Action Planning
+
+<div class="reflection-section">
+
+**Strategic AI Tool Integration Planning**
+
+Reflect on your current teaching practice and plan your AI tool adoption strategy:
+
+### Current State Assessment
+1. **Time Analysis:** Which teaching tasks consume the most time in your current workflow?
+2. **Content Challenges:** Where do you struggle to find current, relevant materials?
+3. **Student Needs:** What types of educational materials would most benefit your students?
+4. **Technical Constraints:** What limitations exist in your institution regarding AI tool access?
+
+### Tool Selection Strategy
+Based on this module's content, identify:
+- **Primary Tool:** Which AI tool best addresses your most pressing need?
+- **Secondary Tools:** What additional tools would complement your primary choice?
+- **Quality Control:** How will you verify and improve AI-generated content?
+- **Sharing Plan:** How might you contribute to OER through AI-enhanced materials?
+
+### Implementation Timeline
+Create a realistic adoption plan:
+- **Week 1:** Experiment with one tool for a specific, low-risk task
+- **Month 1:** Develop quality control procedures for AI-assisted materials
+- **Quarter 1:** Integrate AI tools into regular teaching workflow
+- **Semester 1:** Share successful AI-enhanced OER with colleagues
+
+### Success Metrics
+How will you measure the impact of AI tool integration?
+- Time saved on lesson preparation
+- Quality improvement in educational materials
+- Student engagement and learning outcomes
+- Contribution to shared educational resources
+
+</div>
+
+---
+
+# 📚 Extended Learning Resources
+
+## Professional Development Resources
+
+**AI Tool Mastery:**
+@resourceLink(ChatGPT for Educators Guide, https://openai.com/chatgpt/education)
+@resourceLink(Perplexity Academic Features, https://www.perplexity.ai/pro)
+@resourceLink(Claude for Education, https://claude.ai/education)
+@resourceLink(Gamma Presentation Best Practices, https://gamma.app/docs)
+
+**Open Educational Resources:**
+@resourceLink(UNESCO OER Recommendation, https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer)
+@resourceLink(Creative Commons Licensing Guide, https://creativecommons.org/use-remix/)
+@resourceLink(OER Commons for TVET, https://www.oercommons.org/)
+
+**AI Ethics and Quality:**
+@resourceLink(AI Ethics for Educators, https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
+@resourceLink(Responsible AI in Education, https://www.unesco.org/en/weeks/digital-learning)
+
+## Advanced Tool Exploration
+
+**Emerging AI Tools:**
+- **Education-Specific AI:** TeacherMatic, EduAide, Lesson Plan AI
+- **Open Source Alternatives:** HuggingFace Transformers, Open Assistant
+- **Specialized TVET Tools:** Industry-specific AI assistants and simulators
+
+**Integration Platforms:**
+- **Learning Management Systems:** AI plugins for Moodle, Canvas, Blackboard
+- **Collaboration Tools:** AI-enhanced Google Workspace, Microsoft Teams
+- **Assessment Platforms:** AI-powered quiz and feedback systems
+
+---
+
+# 🚀 Course Navigation & Preparation
+
+## 🎯 Module 3 Summary
+
+You've successfully developed:
+✅ Understanding of major AI tool categories and their specific strengths  
+✅ Practical skills in comparing and selecting appropriate tools for specific tasks  
+✅ Critical evaluation abilities for assessing AI tool reliability and bias  
+✅ Strategic workflow knowledge for combining multiple AI tools effectively  
+✅ OER creation capabilities using AI assistance responsibly  
+
+## 📈 Preparing for Module 4: AI-Assisted Teaching and Prompting
+
+**Coming Next:** Master the art of effective AI communication through advanced prompting techniques  
+
+**Preview Topics:**
+- Structured prompting frameworks and methodologies
+- Advanced prompt engineering for educational contexts
+- Classroom integration strategies for AI-assisted teaching
+- Student collaboration with AI tools
+
+**Recommended Preparation:**
+1. **Practice with Tools:** Spend time using at least two tools from this module
+2. **Document Experiences:** Keep notes on what works and what doesn't
+3. **Experiment with Prompts:** Try different ways of asking for the same information
+4. **Quality Assessment:** Practice evaluating AI outputs critically
+
+**Bring to Module 4:**
+- Examples of effective prompts you've discovered
+- Challenges you've encountered with AI tool outputs
+- Ideas for classroom applications you want to explore
+
+## 📚 Complete Learning Path
+
+1. [AI Orientation](link-to-module-1) - ✅ Completed: Foundation and lifelong learning mindset
+2. [AI Basics & Human Agency](link-to-module-2) - ✅ Completed: Technical foundations and control  
+3. **AI Tools & Applications** - ✅ Current: Practical tool mastery and evaluation
+4. [AI-Assisted Teaching & Prompting](link-to-module-4) - 🔜 Next: Advanced communication and integration
+5. [Ethics & Quality Assurance](link-to-module-5) - 🔜 Final: Responsible implementation
+
+---
+
+# 🎉 Congratulations on Building Your AI Toolkit!
+
+You now possess the knowledge and skills to select, evaluate, and use AI tools effectively in TVET education. You understand each tool's strengths and limitations, can create quality AI-enhanced educational materials, and know how to contribute to the global OER community.
+
+@oerHighlight(Remember: AI tools are most powerful when combined with your professional expertise. Use them to amplify your teaching capabilities while maintaining the human insight that makes education meaningful and contextual.)
+
+<div class="contact-info">
+**📧 Support & Feedback:**
+Email: tvet.ai@education.org  
+🌐 Course Portal: [GitHub Repository](https://github.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/)  
+📋 Feedback Form: [English](https://umfrage.zwh.de/c/unescoengl) | [Deutsch](https://umfrage.zwh.de/c/unescodeut)
+</div>
+
+> *"The right tool for the right task, guided by professional judgment and shared openly with the global education community—this is how AI transforms TVET education sustainably and equitably."*
+
+---
+
+# 🏁 Module Completion
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">AI Tools Mastery - Building Professional Capability</title>
+  <desc id="desc">Congratulations slide celebrating successful completion of AI Tools and Applications module for TVET educators.</desc>
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0b2447"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+
+  <!-- Main content panel -->
+  <rect x="80" y="80" rx="24" ry="24" width="1120" height="560" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Left accent bar -->
+  <rect x="100" y="120" width="16" height="480" rx="8" fill="#10b981" opacity="0.95"/>
+
+  <!-- Headline -->
+  <text x="180" y="190" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">
+    AI Toolkit Mastered: Ready to Create!
+  </text>
+
+  <!-- Divider line -->
+  <line x1="180" y1="210" x2="1060" y2="210" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Success message -->
+  <text x="180" y="280" font-family="Inter, Arial, sans-serif" font-size="24" fill="#e6f0ff">
+    You now know how to select, evaluate, and use AI tools strategically
+  </text>
+  
+  <text x="180" y="320" font-family="Inter, Arial, sans-serif" font-size="22" fill="#bfe6d9">
+    Ready to master advanced prompting and classroom integration techniques
+  </text>
+
+  <!-- Key achievement -->
+  <text x="180" y="380" font-family="Inter, Arial, sans-serif" font-size="20" fill="#dffcf6">
+    🎯 Achievement: Professional AI tool selection and quality control skills
+  </text>
+
+  <!-- Toolkit icons -->
+  <g transform="translate(180,420)">
+    <circle cx="0" cy="20" r="15" fill="#4CAF50" opacity="0.8"/>
+    <text x="0" y="25" text-anchor="middle" fill="white" font-size="10" font-weight="bold">GPT</text>
+    <circle cx="40" cy="20" r="15" fill="#FF9800" opacity="0.8"/>
+    <text x="40" y="25" text-anchor="middle" fill="white" font-size="8" font-weight="bold">PERP</text>
+    <circle cx="80" cy="20" r="15" fill="#9C27B0" opacity="0.8"/>
+    <text x="80" y="25" text-anchor="middle" fill="white" font-size="9" font-weight="bold">CLD</text>
+    <circle cx="120" cy="20" r="15" fill="#F44336" opacity="0.8"/>
+    <text x="120" y="25" text-anchor="middle" fill="white" font-size="8" font-weight="bold">GAM</text>
+    <text x="160" y="25" font-family="Inter, Arial, sans-serif" font-size="16" fill="#dffcf6">
+      Your AI Toolkit Ready
+    </text>
+  </g>
+
+  <!-- Next steps -->
+  <text x="180" y="480" font-family="Inter, Arial, sans-serif" font-size="18" fill="#dffcf6">
+    Next: Master the art of AI communication through advanced prompting
+  </text>
+
+  <!-- Footer badge -->
+  <g transform="translate(180,530)">
+    <circle cx="0" cy="0" r="28" fill="#0ea5a3" opacity="0.95"/>
+    <text x="48" y="8" font-family="Inter, Arial, sans-serif" font-size="16" fill="#dffcf6">
+      AI Tools • Quality Control • OER Creation
+    </text>
+  </g>
+
+  <!-- Decorative elements -->
+  <g transform="translate(980,140) scale(1.2)" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2">
+    <rect x="20" y="20" width="40" height="40" rx="8"/>
+    <circle cx="100" cy="40" r="18"/>
+    <path d="M80 20v40M60 40h40" stroke-linecap="round"/>
+  </g>
+</svg>
+
+<!-- UNEVOC -->
+<div style="position: fixed; bottom: 1px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UNESCO-UNEVOC_logo.png?raw=true" alt="UNEVOC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UNEVOC</div>
+</div>
+
+<!-- ASSET -->
+<div style="position: fixed; bottom: 1px; left: 180px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/ASSET_icon.png?raw=true" alt="ASSET Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">ASSET</div>
+</div>
+
+<!-- HWK Blume -->
+<div style="position: fixed; bottom: 1px; left: 340px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/HWK_Blume.png?raw=true" alt="HWK Blume Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 7px;">HWK Blume</div>
+</div>
+
+<!-- GIZ -->
+<div style="position: fixed; bottom: 1px; left: 500px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/giz-logo.gif?raw=true" alt="GIZ Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">GIZ</div>
+</div>
+
+<!-- UoVT -->
+<div style="position: fixed; bottom: 1px; left: 660px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/UoVT_Logo.png?raw=true" alt="UoVT Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">UoVT</div>
+</div>
+
+<!-- OVGU -->
+<div style="position: fixed; bottom: 1px; left: 820px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/Masub27/Intro/blob/main/ovgu.png?raw=true" alt="OVGU Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">OVGU</div>
+</div>
+
+<!-- HRDC -->
+<div style="position: fixed; bottom: 1px; left: 980px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/hrdc_logo.png?raw=true" alt="HRDC Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">HRDC</div>
+</div>
+
+<!-- MITD -->
+<div style="position: fixed; bottom: 1px; left: 1140px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
+  <img src="https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/media/mitd_logo.png?raw=true" alt="MITD Logo" style="height: 60px; width: auto; border-radius: 10px;" />
+  <div style="font-size: 0.8em; color: #555; margin-top: 5px;">MITD</div>
+</div>
