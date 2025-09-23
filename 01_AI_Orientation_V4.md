@@ -66,7 +66,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 }
 
 .resource-link {
-    background: #28a745;
+    background: #ffa726;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
