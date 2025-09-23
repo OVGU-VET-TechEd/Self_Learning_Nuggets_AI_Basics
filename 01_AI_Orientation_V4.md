@@ -582,21 +582,21 @@ Take a moment to consider these questions about your own AI learning journey:
 
 ## Next Steps in Your Learning Journey
 
-### 🚀 Immediate Actions (This Week)
+@competencyHighlight(🚀 Immediate Actions (This Week))
 
 1. **Try One AI Tool:** Experiment with ChatGPT, Claude, or Perplexity for a teaching-related task
 2. **Explore Learning Resources:** Visit Elements of AI or AI Campus and complete the first module
 3. **Connect with Colleagues:** Share this learning nugget with another educator
 4. **Document Experiences:** Start a simple journal of your AI exploration
 
-### 🎯 Short-term Goals (Next Month)
+@competencyHighlight(🎯 Short-term Goals (Next Month))
 
 1. **Complete AI Basics Course:** Finish a structured AI learning program
 2. **Try AI in Teaching:** Implement one small AI enhancement in your classroom
 3. **Join a Community:** Connect with other educators exploring AI
 4. **Plan Advanced Learning:** Identify which UNESCO competency to focus on next
 
-### 🌟 Long-term Vision (Next Quarter)
+@competencyHighlight(🌟 Long-term Vision (Next Quarter))
 
 1. **Develop AI Literacy:** Build confidence in using multiple AI tools effectively
 2. **Student Integration:** Help students develop AI collaboration skills
