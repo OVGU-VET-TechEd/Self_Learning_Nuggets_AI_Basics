@@ -852,11 +852,11 @@ You have successfully developed:
 
 ## 📚 Complete Learning Journey
 
-1. [AI Orientation](link-to-module-1) - ✅ Foundation: Lifelong learning mindset and motivation
-2. [AI Basics & Human Agency](link-to-module-2) - ✅ Understanding: Technical foundations and control principles  
-3. [AI Tools & Applications](link-to-module-3) - ✅ Application: Practical tool mastery and evaluation skills
+1. [AI Orientation](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/01_AI_Orientation_V4.md) - ✅ Foundation: Lifelong learning mindset and motivation
+2. [AI Basics & Human Agency](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/02_AI_Basics_V4.md) - ✅ Understanding: Technical foundations and control principles  
+3. [AI Tools & Applications](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/01_AI_Orientation_V4.md) - ✅ Application: Practical tool mastery and evaluation skills
 4. **AI Prompting & Communication** - ✅ Integration: Advanced communication and pedagogical strategies
-5. [Ethics & Quality Assurance](link-to-module-5) - 🔜 Final: Responsible implementation and institutional excellence
+5. [Ethics & Quality Assurance](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/refs/heads/main/05_Ethics_V4.md) - 🔜 Final: Responsible implementation and institutional excellence
 
 ---
 
