@@ -352,6 +352,7 @@ By the end of this nugget, you will be able to:
 @competencyHighlight(🎯 Current Focus: Acquire basic conceptual knowledge of AI tools and develop capacity to examine appropriateness of specific AI tools for education)
 
 **Core Learning Areas:**
+
 - **Tool Classification:** Understanding different categories of AI technologies and their functions
 - **Practical Operation:** Learning to operate validated AI tools effectively
 - **Critical Evaluation:** Developing skills to assess AI tool appropriateness and reliability
@@ -370,6 +371,7 @@ By the end of this nugget, you will be able to:
 @scenarioCard(Expanding the Toolkit, Rani has mastered AI basics and understands human agency principles. Now she's ready for the practical question: "Which AI tools should I actually use?" She's heard names like ChatGPT, Perplexity, Claude, and Gamma, but doesn't know what each does best or how they differ. She wants to build a reliable AI toolkit that enhances her electronics teaching without compromising quality or creating dependencies on expensive tools.)
 
 **Rani's Key Questions:**
+
 - Which AI tool should I use for lesson planning vs. research vs. presentations?
 - How can I tell if an AI tool is reliable and unbiased?
 - What are the costs, accessibility, and privacy considerations?
@@ -392,12 +394,14 @@ Before diving into specific tools, let's understand the technology powering most
 - Summarize complex documents
 
 **Key LLM Characteristics:**
+
 - **Pattern-Based:** They generate responses based on patterns learned from training data, not true understanding
 - **Context-Aware:** They consider the full conversation context when responding
 - **Versatile:** One model can handle many different types of tasks
 - **Probabilistic:** They generate likely responses, which can sometimes be wrong
 
 **Educational Implications:**
+
 - Excellent for brainstorming and content generation
 - Require human verification for factual accuracy
 - Can adapt to different teaching styles and student levels
@@ -416,6 +420,7 @@ Let's explore the four core AI tools that form the foundation of most educationa
 @toolCard(ChatGPT - Conversational AI Powerhouse, **Developer:** OpenAI<br>**Best For:** Content creation, brainstorming, explanations, coding help<br><br>**Strengths:**<br>• Extremely versatile - handles text, code, analysis, creative tasks<br>• Conversational interface that maintains context<br>• Strong at breaking down complex concepts for different audiences<br>• Excellent for generating multiple variations of content<br><br>**Accessibility:**<br>• Free tier available with OpenAI account<br>• ChatGPT Plus ($20/month) offers faster responses and advanced features<br>• Web interface accessible on any device<br>• Age restriction: 13+ (18+ in some regions)<br><br>**Data Considerations:**<br>• Training data cutoff (typically 1-2 years behind current date)<br>• No real-time internet access in basic version<br>• Does not cite sources by default<br>• Can hallucinate facts confidently)
 
 **TVET Applications:**
+
 - Generate diverse practice problems for circuit analysis
 - Create multiple versions of lab instructions for different skill levels
 - Brainstorm project ideas connecting electronics to renewable energy
@@ -428,6 +433,7 @@ Let's explore the four core AI tools that form the foundation of most educationa
 @toolCard(Perplexity - AI-Powered Research Engine, **Developer:** Perplexity AI<br>**Best For:** Research with citations, current information, fact-checking<br><br>**Strengths:**<br>• Provides sources and citations for all claims<br>• Access to current web information<br>• Excellent for verifying facts and finding recent developments<br>• Reduces hallucination through source-backed responses<br><br>**Accessibility:**<br>• Free tier available without account (limited queries)<br>• Pro version ($20/month) offers unlimited queries and advanced features<br>• No age restrictions for basic use<br>• Works on any web browser<br><br>**Data Considerations:**<br>• Real-time access to web information<br>• Quality depends on source material found online<br>• May reflect bias present in top web results<br>• Transparent sourcing allows for verification)
 
 **TVET Applications:**
+
 - Research latest industry standards and regulations
 - Find current employment statistics for technical trades
 - Locate recent case studies of AI in manufacturing
@@ -440,6 +446,7 @@ Let's explore the four core AI tools that form the foundation of most educationa
 @toolCard(Claude - AI Assistant for Deep Analysis, **Developer:** Anthropic<br>**Best For:** Long document processing, careful analysis, ethical reasoning<br><br>**Strengths:**<br>• Handles very long texts (entire manuals, curricula, policy documents)<br>• Thoughtful, nuanced responses with careful reasoning<br>• Strong at summarization and document analysis<br>• Designed with safety and helpfulness principles<br><br>**Accessibility:**<br>• Free tier with daily usage limits<br>• Claude Pro ($20/month) for higher usage limits<br>• Web interface and API available<br>• Regional availability may vary<br><br>**Data Considerations:**<br>• Training data cutoff similar to other LLMs<br>• No real-time web browsing in standard version<br>• Focus on accuracy and helpfulness over creativity<br>• Can process much longer contexts than most alternatives)
 
 **TVET Applications:**
+
 - Analyze entire curriculum documents and extract key competencies
 - Process lengthy technical manuals and create student-friendly summaries
 - Review and improve extensive lesson plans or course materials
@@ -452,6 +459,7 @@ Let's explore the four core AI tools that form the foundation of most educationa
 @toolCard(Gamma - AI Presentation Generator, **Developer:** Gamma<br>**Best For:** Creating presentations, slide decks, visual documents<br><br>**Strengths:**<br>• Transforms outlines into polished presentations automatically<br>• Handles both content creation and visual design<br>• Fast turnaround for presentation creation<br>• User-friendly interface with customization options<br><br>**Accessibility:**<br>• Free tier allows creation of limited presentations<br>• Pro plans for unlimited creation and advanced features<br>• Web-based, works on any device<br>• No special software installation required<br><br>**Data Considerations:**<br>• Relies on AI for content generation (verify facts)<br>• May use generic examples that need localization<br>• Visual elements may not represent classroom diversity<br>• Best when you provide specific content rather than asking it to research)
 
 **TVET Applications:**
+
 - Transform lesson outlines into engaging slide presentations
 - Create visual project proposals and student presentation templates
 - Generate training materials for workplace safety sessions
@@ -522,11 +530,13 @@ Understanding each tool's data sources and limitations is essential for responsi
 @warningBox(Data Source Considerations, Different AI tools access information in fundamentally different ways, affecting their reliability and currency)
 
 **Training Data vs. Live Data:**
+
 - **ChatGPT & Claude:** Rely on training data with knowledge cutoffs (typically 1-2 years behind current date)
 - **Perplexity:** Accesses live web content, providing current information but dependent on source quality
 - **Gamma:** Uses training data for content generation, focusing more on format than facts
 
 **Implications for TVET Education:**
+
 - Use Perplexity for current industry standards, regulations, and employment data
 - Use ChatGPT/Claude for stable conceptual explanations and pedagogical content
 - Always verify technical specifications and safety information regardless of source
@@ -534,17 +544,20 @@ Understanding each tool's data sources and limitations is essential for responsi
 ## Hallucination Risk Assessment
 
 **High Risk Scenarios:**
+
 - Requesting specific technical specifications without verification
 - Asking for citations or references to research papers
 - Seeking current statistics or recent regulatory changes
 - Requesting information about local or specialized contexts
 
 **Medium Risk Scenarios:**  
+
 - General conceptual explanations (verify key points)
 - Creative content like analogies or examples
 - Procedural instructions for common tasks
 
 **Low Risk Scenarios:**
+
 - Brainstorming activities and idea generation
 - Format and style improvements to existing content
 - Language simplification and explanation
@@ -552,12 +565,14 @@ Understanding each tool's data sources and limitations is essential for responsi
 ## Bias Recognition Strategies
 
 **Common Bias Patterns:**
+
 - **Gender Bias:** AI may default to male pronouns in technical fields
 - **Cultural Bias:** Examples may reflect Western or urban contexts
 - **Language Bias:** May favor native English speakers' writing styles
 - **Socioeconomic Bias:** Examples may assume certain resource availability
 
 **Rani's Bias Detection Methods:**
+
 1. **Pronoun Check:** Ensure examples use diverse pronouns and names
 2. **Cultural Sensitivity:** Request examples from multiple cultural contexts
 3. **Accessibility Review:** Check if materials work for students with different backgrounds
@@ -578,11 +593,13 @@ Understanding the relationship between AI tools and Open Educational Resources i
 **Definition:** Educational materials that can be legally and freely used, adapted, and shared
 
 **AI-Generated Content Rights:**
+
 - Most AI tools (ChatGPT, Claude, Perplexity) grant users rights to outputs
 - Content created with AI assistance can typically be licensed as OER
 - Always check specific tool terms of service
 
 **Rani's OER Strategy:**
+
 1. **Create:** Uses AI tools to efficiently develop lesson materials
 2. **Adapt:** Modifies AI outputs to fit her specific context and quality standards
 3. **License:** Applies Creative Commons licenses (CC BY) to her final materials
@@ -592,16 +609,19 @@ Understanding the relationship between AI tools and Open Educational Resources i
 ## Building Sustainable AI Workflows
 
 **Individual Level:**
+
 - Document effective prompts and share with colleagues
 - Create templates that others can adapt for their contexts
 - Build quality control checklists for AI-generated content
 
 **Institutional Level:**
+
 - Establish AI tool evaluation criteria and approved tool lists
 - Develop faculty training on AI-assisted OER creation
 - Create repositories for sharing AI-enhanced educational resources
 
 **Global Level:**
+
 - Contribute to international TVET resource sharing platforms
 - Participate in UNESCO UNEVOC networks focused on AI in education
 - Support development of open-source AI tools for education
@@ -611,16 +631,19 @@ Understanding the relationship between AI tools and Open Educational Resources i
 @warningBox(Equity Consideration, Not all educators have equal access to AI tools, creating potential disparities in resource quality and teaching efficiency)
 
 **Access Challenges:**
+
 - Premium tool subscriptions may be unaffordable
 - Internet connectivity requirements exclude some regions
 - Language barriers limit tool effectiveness
 
 **UNESCO Solutions:**
+
 - Promote free and open-source AI alternatives
 - Support multilingual AI tool development
 - Encourage sharing of high-quality AI-generated OER
 
 **Institutional Responses:**
+
 - Negotiate group subscriptions for faculty access
 - Provide AI literacy training and support
 - Create policies for equitable AI tool access
@@ -651,17 +674,20 @@ Let's follow Rani through a complete lesson development process using multiple A
 ## Results Analysis
 
 **Time Investment:**
+
 - **Traditional Method:** 4-5 hours of research, writing, and formatting
 - **AI-Enhanced Method:** 1.5 hours of AI interaction plus 1 hour of review and customization
 - **Time Savings:** 60-70% reduction while maintaining quality
 
 **Quality Improvements:**
+
 - Access to current industry statistics she wouldn't have found manually
 - More comprehensive coverage of safety topics
 - Professional presentation format that engages students
 - Multiple variations of content for differentiated instruction
 
 **Learning Outcomes:**
+
 - Students receive more current, comprehensive safety information
 - Visual presentation increases engagement and retention
 - Rani has more time for hands-on safety demonstrations
@@ -777,12 +803,14 @@ if (isCorrect3) {
 Reflect on your current teaching practice and plan your AI tool adoption strategy:
 
 ### Current State Assessment
+
 1. **Time Analysis:** Which teaching tasks consume the most time in your current workflow?
 2. **Content Challenges:** Where do you struggle to find current, relevant materials?
 3. **Student Needs:** What types of educational materials would most benefit your students?
 4. **Technical Constraints:** What limitations exist in your institution regarding AI tool access?
 
 ### Tool Selection Strategy
+
 Based on this module's content, identify:
 - **Primary Tool:** Which AI tool best addresses your most pressing need?
 - **Secondary Tools:** What additional tools would complement your primary choice?
@@ -790,6 +818,7 @@ Based on this module's content, identify:
 - **Sharing Plan:** How might you contribute to OER through AI-enhanced materials?
 
 ### Implementation Timeline
+
 Create a realistic adoption plan:
 - **Week 1:** Experiment with one tool for a specific, low-risk task
 - **Month 1:** Develop quality control procedures for AI-assisted materials
@@ -797,6 +826,7 @@ Create a realistic adoption plan:
 - **Semester 1:** Share successful AI-enhanced OER with colleagues
 
 ### Success Metrics
+
 How will you measure the impact of AI tool integration?
 - Time saved on lesson preparation
 - Quality improvement in educational materials
@@ -812,28 +842,33 @@ How will you measure the impact of AI tool integration?
 ## Professional Development Resources
 
 **AI Tool Mastery:**
+
 @resourceLink(ChatGPT for Educators Guide, https://openai.com/chatgpt/education)
 @resourceLink(Perplexity Academic Features, https://www.perplexity.ai/pro)
 @resourceLink(Claude for Education, https://claude.ai/education)
 @resourceLink(Gamma Presentation Best Practices, https://gamma.app/docs)
 
 **Open Educational Resources:**
+
 @resourceLink(UNESCO OER Recommendation, https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer)
 @resourceLink(Creative Commons Licensing Guide, https://creativecommons.org/use-remix/)
 @resourceLink(OER Commons for TVET, https://www.oercommons.org/)
 
 **AI Ethics and Quality:**
+
 @resourceLink(AI Ethics for Educators, https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
 @resourceLink(Responsible AI in Education, https://www.unesco.org/en/weeks/digital-learning)
 
 ## Advanced Tool Exploration
 
 **Emerging AI Tools:**
+
 - **Education-Specific AI:** TeacherMatic, EduAide, Lesson Plan AI
 - **Open Source Alternatives:** HuggingFace Transformers, Open Assistant
 - **Specialized TVET Tools:** Industry-specific AI assistants and simulators
 
 **Integration Platforms:**
+
 - **Learning Management Systems:** AI plugins for Moodle, Canvas, Blackboard
 - **Collaboration Tools:** AI-enhanced Google Workspace, Microsoft Teams
 - **Assessment Platforms:** AI-powered quiz and feedback systems
@@ -856,18 +891,21 @@ You've successfully developed:
 **Coming Next:** Master the art of effective AI communication through advanced prompting techniques  
 
 **Preview Topics:**
+
 - Structured prompting frameworks and methodologies
 - Advanced prompt engineering for educational contexts
 - Classroom integration strategies for AI-assisted teaching
 - Student collaboration with AI tools
 
 **Recommended Preparation:**
+
 1. **Practice with Tools:** Spend time using at least two tools from this module
 2. **Document Experiences:** Keep notes on what works and what doesn't
 3. **Experiment with Prompts:** Try different ways of asking for the same information
 4. **Quality Assessment:** Practice evaluating AI outputs critically
 
 **Bring to Module 4:**
+
 - Examples of effective prompts you've discovered
 - Challenges you've encountered with AI tool outputs
 - Ideas for classroom applications you want to explore
