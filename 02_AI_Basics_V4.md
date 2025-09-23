@@ -719,13 +719,13 @@ Consider your current or planned use of AI in TVET education. Address these huma
 
 # 📚 Resources for Deeper Learning
 
-### 🛠️ Tools for Understanding AI Bias
+@competencyHighlight(🛠️ Tools for Understanding AI Bias)
 
 @aiDemo(Test AI bias in image recognition, Google's Teachable Machine, https://teachablemachine.withgoogle.com/)
 @aiDemo(Explore AI decision-making, MIT's Moral Machine, http://moralmachine.mit.edu/)
 @aiDemo(Understanding AI limitations, AI Explainer Tools, https://pair-code.github.io/what-if-tool/)
 
-### 📖 Professional Development
+@competencyHighlight(📖 Professional Development)
 
 **Recommended Courses:**
 
