@@ -129,7 +129,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 
 <svg xmlns='http://www.w3.org/2000/svg' width='1100' height='400' viewBox='0 0 800 450'>
   <!-- Background -->
-  <rect width='900' height='450' fill='#0072CE' />
+  <rect width='800' height='450' fill='#0072CE' />
   
   <!-- White rounded rectangle container -->
   <rect x='50' y='50' width='700' height='350' rx='20' fill='white' />
