@@ -912,21 +912,6 @@ Email: tvet.ai@education.org
     🎯 Achievement: Professional AI tool selection and quality control skills
   </text>
 
-  <!-- Toolkit icons -->
-  <g transform="translate(180,420)">
-    <circle cx="0" cy="20" r="15" fill="#4CAF50" opacity="0.8"/>
-    <text x="0" y="25" text-anchor="middle" fill="white" font-size="10" font-weight="bold">GPT</text>
-    <circle cx="40" cy="20" r="15" fill="#FF9800" opacity="0.8"/>
-    <text x="40" y="25" text-anchor="middle" fill="white" font-size="8" font-weight="bold">PERP</text>
-    <circle cx="80" cy="20" r="15" fill="#9C27B0" opacity="0.8"/>
-    <text x="80" y="25" text-anchor="middle" fill="white" font-size="9" font-weight="bold">CLD</text>
-    <circle cx="120" cy="20" r="15" fill="#F44336" opacity="0.8"/>
-    <text x="120" y="25" text-anchor="middle" fill="white" font-size="8" font-weight="bold">GAM</text>
-    <text x="160" y="25" font-family="Inter, Arial, sans-serif" font-size="16" fill="#dffcf6">
-      Your AI Toolkit Ready
-    </text>
-  </g>
-
   <!-- Next steps -->
   <text x="180" y="480" font-family="Inter, Arial, sans-serif" font-size="18" fill="#dffcf6">
     Next: Master the art of AI communication through advanced prompting
