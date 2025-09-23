@@ -719,13 +719,6 @@ Consider your current or planned use of AI in TVET education. Address these huma
 
 # 📚 Resources for Deeper Learning
 
-### 🔍 Essential Reading on AI Ethics and Human Agency
-
-**UNESCO Resources:**
-@resourceLink(AI and Education: Guidance for Policy-makers, https://www.unesco.org/en/weeks/digital-learning)
-@resourceLink(Beijing Consensus on AI and Education, https://www.unesco.org/en/weeks/digital-learning)
-@resourceLink(Recommendation on the Ethics of AI, https://www.unesco.org/en/weeks/digital-learning)
-
 ### 🛠️ Tools for Understanding AI Bias
 
 @aiDemo(Test AI bias in image recognition, Google's Teachable Machine, https://teachablemachine.withgoogle.com/)
@@ -744,13 +737,18 @@ Consider your current or planned use of AI in TVET education. Address these huma
 
 # 🔗 Course Navigation & Next Steps
 
-## 🎯 Key Takeaways
+@competencyHighlight(🎯 Key Takeaways)
 
-You now understand:
+**You now understand:**  
+
 ✅ Essential AI terminology and system types  
+
 ✅ How to recognize AI hallucinations and bias  
+
 ✅ Principles of maintaining human agency in AI-enhanced education  
-✅ Practical strategies for responsible AI use in TVET contexts
+
+✅ Practical strategies for responsible AI use in TVET contexts  
+
 
 ## 🚀 Preparing for Module 3: AI Tools and Applications
 
