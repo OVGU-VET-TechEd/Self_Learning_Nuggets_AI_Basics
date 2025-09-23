@@ -365,19 +365,19 @@ Different AI approaches serve different educational needs. Understanding these t
 
 **Core concept:** Learn patterns from data rather than following fixed rules
 
-### Supervised Learning
+@competencyHighlight(Supervised Learning)
 
 - **Process:** Learns from labeled examples (input-output pairs)
 - **TVET Application:** Training a system to classify correct vs. incorrect solder joints using labeled images
 - **Strength:** High accuracy when sufficient quality data is available
 
-### Unsupervised Learning  
+@competencyHighlight(Unsupervised Learning) 
 
 - **Process:** Finds hidden patterns in unlabeled data
 - **TVET Application:** Clustering student learning behaviors to identify different learning styles
 - **Strength:** Discovers unexpected patterns humans might miss
 
-### Reinforcement Learning
+@competencyHighlight(Reinforcement Learning)
 
 - **Process:** Learns through trial and error with rewards/penalties
 - **TVET Application:** AI that learns optimal teaching sequences by tracking student engagement and success
