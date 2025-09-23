@@ -249,23 +249,6 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
     Selecting, Evaluating, and Using AI Tools Effectively
   </text>
   
-  <!-- Tool Icons -->
-  <g transform="translate(150,300)">
-    <circle cx="0" cy="0" r="20" fill="#4CAF50"/>
-    <text x="0" y="5" text-anchor="middle" fill="white" font-size="12" font-weight="bold">AI</text>
-  </g>
-  <g transform="translate(250,300)">
-    <circle cx="0" cy="0" r="20" fill="#FF9800"/>
-    <text x="0" y="5" text-anchor="middle" fill="white" font-size="12" font-weight="bold">LLM</text>
-  </g>
-  <g transform="translate(350,300)">
-    <circle cx="0" cy="0" r="20" fill="#9C27B0"/>
-    <text x="0" y="5" text-anchor="middle" fill="white" font-size="12" font-weight="bold">OER</text>
-  </g>
-  <g transform="translate(450,300)">
-    <circle cx="0" cy="0" r="20" fill="#F44336"/>
-    <text x="0" y="5" text-anchor="middle" fill="white" font-size="12" font-weight="bold">EDU</text>
-  </g>
 </svg>
 
 <!-- License info -->
