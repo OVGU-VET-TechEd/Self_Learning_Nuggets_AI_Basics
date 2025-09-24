@@ -431,13 +431,13 @@ Google's structured approach provides a reliable framework for complex education
 
 @frameworkStep(Task, "Create a detailed rubric for evaluating student safety compliance in electronics workshops")
 
-@frameworkStep(Context, "Students are second-year electronics technicians learning practical skills in a hands-on workshop environment with electrical equipment`,` tools`,` and components")
+@frameworkStep(Context, "Students are second-year electronics technicians gaining practical skills in a hands-on workshop with electrical equipment and tools plus components.")
 
-@frameworkStep(References, "Assessment should cover personal protective equipment (PPE), proper tool handling, workspace organization, and emergency procedures. Include industry safety standards for technical education")
+@frameworkStep(References, "Assessment should cover PPE and proper tool handling and workspace organization and emergency procedures. It should also include industry safety standards for technical education.")
 
-@frameworkStep(Evaluate, "The rubric should have 4 performance levels (Exemplary, Proficient, Developing, Beginning) with clear behavioral indicators for each level. Language should be student-friendly and actionable")
+@frameworkStep(Evaluate, "The rubric should have 4 performance levels (Exemplary/Proficient/Developing/Beginning) with clear behavioral indicators for each level. Language should be student-friendly and actionable")
 
-@frameworkStep(Iterate, "After initial generation, refine for clarity and ensure alignment with institutional safety policies and learning objectives")
+@frameworkStep(Iterate, "After initial generation refine for clarity and ensure alignment with institutional safety policies and learning objectives.")
 
 **Result:** A comprehensive, industry-aligned safety rubric that saves hours of development time while meeting professional standards.
 
