@@ -153,11 +153,6 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
   <text x='400' y='235' font-family='Segoe UI, Arial, sans-serif' font-size='16' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
     A collaboration of the UNEVOC Network - ASSET Project
   </text>
-
-  <!-- Academic reference -->
-  <text x='400' y='260' font-family='Segoe UI, Arial, sans-serif' font-size='14' font-weight='bold' text-anchor='middle' fill='#00A1DE'>
-    Otto von Guericke University Magdeburg
-  </text>
 </svg>
 
 <!-- License info -->
