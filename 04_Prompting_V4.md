@@ -463,7 +463,7 @@ Google's structured approach provides a reliable framework for complex education
 
 **Application:** When multiple approaches or options need consideration.
 
-@aiDemo(Try this decision tree prompt: "Present two different approaches to teaching soldering: one highly structured and one exploratory. Analyze the pros and cons of each, then recommend which approach works best for different student learning styles.", [ChatGPT](https://chat.openai.com/) or [Claude](https://claude.ai/), )
+@aiDemo(Try this decision tree prompt: "Present two different approaches to teaching soldering: one highly structured and one exploratory. Analyze the pros and cons of each, then recommend which approach works best for different student learning styles.", [ChatGPT](https://chat.openai.com/))
 
 **Educational Applications:**
 - Comparing teaching methodologies
