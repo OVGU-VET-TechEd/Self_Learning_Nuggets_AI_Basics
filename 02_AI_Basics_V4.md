@@ -299,7 +299,7 @@ By the end of this nugget, you will be able to:
 
 ## Continuing Rani's Journey
 
-@scenarioCard(Rani's Next Challenge, After completing her AI orientation, Rani feels ready to dive deeper. She wants to understand the technical basics: What exactly are these "models" and "algorithms" everyone mentions? Why do people talk about AI "hallucinating" or being "biased"? Most importantly, how can she use AI tools while ensuring she—not the AI—remains in charge of her students' educational experience?)
+@scenarioCard(Rani's Next Challenge, After completing her AI orientation - Rani feels ready to dive deeper. She wants to understand the technical basics: What exactly are these "models" and "algorithms" everyone mentions? Why do people talk about AI "hallucinating" or being "biased"? How can she use AI tools while ensuring she and not the AI—remains in charge of her students' educational experience?)
 
 Rani's questions reflect a critical need: **understanding AI terminology and principles while maintaining human agency.** Let's explore these concepts together.
 
@@ -352,14 +352,20 @@ Test your understanding by matching terms to scenarios:
 
 # 🔧 Types of AI Systems: Understanding the Landscape
 
-Different AI approaches serve different educational needs. Understanding these types helps you choose appropriate tools:
+Different AI approaches serve different educational needs. Understanding these types helps you choose appropriate tools. You don’t need to master the technical details to benefit from them. The goal is simply to recognize the main categories and what they can offer in learning contexts. Think of these models as broad "families" of AI, each with strengths and limitations.
+
+This overview is meant to provide orientation, not deep technical training. It can help you decide which tools might be useful in your practice and where you may want to explore further. If a particular approach sparks your interest, it can also serve as a starting point for more specialized professional development.
 
 ## Traditional Rule-Based Systems
 
 **How they work:** Follow explicit "if-then" rules programmed by humans  
+
 **Educational example:** A tutoring program that displays specific hints when students make common errors  
+
 **Advantages:** Transparent, predictable, easy to control  
-**Limitations:** Cannot adapt to unexpected situations or learn from experience
+
+**Limitations:** Cannot adapt to unexpected situations or learn from experience  
+
 
 ## Machine Learning (ML) Systems
 
@@ -675,19 +681,6 @@ if (isCorrect2) {
   send.lia("❌ **Think deeper.** Human agency isn't about avoiding AI entirely, but about maintaining control over educational decisions while benefiting from AI assistance. The teacher's expertise guides the process.");
 }
 </script>
-
-### Question 4: AI System Types
-
-Match each educational scenario with the most appropriate AI system type:
-
-**Scenario A:** Automatically detecting plagiarism in student reports  
-**Scenario B:** Generating creative writing prompts for technical communication class  
-**Scenario C:** Following a flowchart to diagnose common lab equipment problems
-
-    [[machine learning]] **Scenario A** - Pattern recognition in text requires learning from examples
-    [[generative AI]] **Scenario B** - Creating new content based on learned patterns  
-    [[rule-based system]] **Scenario C** - Following explicit diagnostic procedures
-
 ---
 
 # 🤔 Professional Reflection
