@@ -521,25 +521,25 @@ Google's structured approach provides a reliable framework for complex education
 
 ## Administrative Task Mastery
 
-### Professional Email Communication
+@competencyHighlight(Professional Email Communication)
 
 @promptCard(Administrative Email Prompt, **Task:** Draft professional communication to parents<br>**Context:** "You are my administrative assistant. Write a polite, informative email to parents about our upcoming industry visit to a manufacturing facility. Include: Date (November 15, 2025), what students should bring (packed lunch, safety glasses, ID), transportation details (school bus departing 8:30 AM), and reassurance about safety protocols. Tone should be professional but warm, addressing any potential concerns parents might have."<br><br>**Result:** Professional email requiring minimal editing, saving 30+ minutes of drafting time.)
 
-### Curriculum Planning Support
+@competencyHighlight(Curriculum Planning Support)
 
 @promptCard(Curriculum Development Prompt, **Complex Task:** "Act as a curriculum consultant. Help me design a 4-week unit on 'Industry 4.0 and Smart Manufacturing' for electronics technology students. Include: weekly themes, key concepts, hands-on projects, assessment methods, industry connections, and resources. Ensure progression from basic automation concepts to advanced IoT applications. Format as a detailed curriculum map with learning outcomes for each week."<br><br>**Outcome:** Comprehensive curriculum framework aligned with industry trends and educational standards.)
 
 ## Student Engagement Through Prompting
 
-### Role-Playing Activities
+@competencyHighlight(Role-Playing Activities)
 
 @studentActivity("AI as Learning Partner: Rani incorporates AI into classroom dynamics by having students interact with AI tutors. Example prompt for students: 'Act as a curious apprentice learning about microcontrollers. Ask me three specific questions about how microcontrollers work in real devices. After each question, wait for my explanation before asking the next one.' This creates structured peer-teaching opportunities while building AI literacy.")
 
-### Collaborative Problem-Solving
+@competencyHighlight(Collaborative Problem-Solving)
 
 @scenarioCard(Prompting as Teaching Tool, Rani turned prompting into a learning activity when ChatGPT gave an incorrect physics answer. She showed students the poor result and asked, "How do you think I asked this question? How could we ask it better?" Students analyzed the weak prompt, suggested improvements, and collaboratively crafted a better version. When the improved prompt yielded a correct, clear explanation, students cheered—they had "taught" the AI by asking the right question! This exercise reinforced both the physics content and critical thinking about AI communication.)
 
-### Digital Literacy Through Prompt Analysis
+@competencyHighlight(Digital Literacy Through Prompt Analysis)
 
 **Learning Activity Structure:**
 
@@ -562,7 +562,7 @@ Google's structured approach provides a reliable framework for complex education
 
 ## Common Prompt Problems and Solutions
 
-### Problem 1: Generic, Unusable Responses
+@competencyHighlight(Problem 1: Generic, Unusable Responses)
 
 **Symptoms:** AI provides broad, textbook-like answers that don't fit your specific context
 
@@ -573,7 +573,7 @@ Google's structured approach provides a reliable framework for complex education
 - **Before:** "Explain transistors"
 - **After:** "Explain transistors to second-year electronics students who understand basic circuits. Focus on NPN transistors as switches in digital circuits. Include one simple analogy and a basic circuit diagram description. Keep explanation under 200 words."
 
-### Problem 2: Inconsistent Quality
+@competencyHighlight(Problem 2: Inconsistent Quality)
 
 **Symptoms:** Sometimes great results, sometimes poor ones with similar prompts
 
@@ -581,7 +581,7 @@ Google's structured approach provides a reliable framework for complex education
 
 @promptCard(Template Approach, **Standard Template for Lesson Activities:**<br>"You are an experienced [SUBJECT] instructor. Create a [ACTIVITY TYPE] for [STUDENT LEVEL] students covering [SPECIFIC TOPIC]. Context: Students have completed [PREREQUISITES]. Requirements: [LIST SPECIFIC NEEDS]. Format: [DESIRED STRUCTURE]. Constraints: [TIME/RESOURCE LIMITATIONS]. Quality check: Ensure content is technically accurate and appropriately challenging."<br><br>**Benefit:** Consistent, high-quality results across different topics and activities.)
 
-### Problem 3: Off-Target Content
+@competencyHighlight(Problem 3: Off-Target Content)
 
 **Symptoms:** AI understands the request but produces content that doesn't match your needs
 
@@ -596,7 +596,7 @@ Google's structured approach provides a reliable framework for complex education
 
 ## Advanced Prompt Refinement Techniques
 
-### Prompt Chaining for Complex Tasks
+@competencyHighlight(Prompt Chaining for Complex Tasks)
 
 **Technique:** Break complex requests into sequential, connected prompts
 
@@ -609,7 +609,7 @@ Google's structured approach provides a reliable framework for complex education
 
 **Benefits:** More control over each component, easier to refine individual elements
 
-### Meta-Prompting: AI Helps Improve Prompts
+@competencyHighlight(Meta-Prompting: AI Helps Improve Prompts)
 
 **Revolutionary Approach:** Ask AI to help you write better prompts
 
@@ -774,39 +774,6 @@ Rate your current abilities and identify development areas:
 
 ---
 
-# 📚 Advanced Learning Resources
-
-## Professional Development in AI Communication
-
-**Prompting Mastery Resources:**
-
-@resourceLink(OpenAI Prompt Engineering Guide, https://platform.openai.com/docs/guides/prompt-engineering)
-@resourceLink(Anthropic Prompting Techniques, https://docs.anthropic.com/claude/docs/prompting-techniques)
-@resourceLink(Google AI Prompt Design Guidelines, https://ai.google.dev/docs/prompt_intro)
-
-**Educational Integration Resources:**
-
-@resourceLink(UNESCO AI Pedagogy Framework, https://www.unesco.org/en/weeks/digital-learning)
-@resourceLink(AI-Enhanced Teaching Strategies, https://www.iste.org/areas-of-focus/AI-in-education)
-@resourceLink(Prompt Engineering for Educators, https://www.tcea.org/resources/ai-prompt-engineering/)
-
-## Advanced Techniques and Strategies
-
-**Specialized Prompting Applications:**
-
-- **Assessment Design:** Creating rubrics, quizzes, and evaluation tools
-- **Curriculum Development:** Building comprehensive learning sequences
-- **Student Support:** Personalized learning assistance and intervention strategies
-- **Professional Communication:** Administrative tasks and stakeholder engagement
-
-**Research and Development:**
-
-- **Prompt Effectiveness Studies:** Understanding what makes prompts work
-- **Educational AI Ethics:** Responsible integration of AI communication tools
-- **Student Digital Literacy:** Teaching next-generation AI collaboration skills
-
----
-
 # 🚀 Course Navigation & Advanced Integration
 
 ## 🎯 Module 4 Mastery Summary
@@ -814,10 +781,15 @@ Rate your current abilities and identify development areas:
 You have successfully developed:
 
 ✅ **Structured Prompting Skills:** Using frameworks and systematic approaches  
+
 ✅ **Advanced Strategy Application:** Chain-of-thought, decision trees, and mega prompts  
+
 ✅ **Educational Integration:** Prompting for both teaching tasks and student engagement  
+
 ✅ **Quality Assurance:** Troubleshooting and refining prompts for consistent results  
-✅ **Student Empowerment:** Involving learners in AI communication skill development
+
+✅ **Student Empowerment:** Involving learners in AI communication skill development  
+
 
 ## 📈 Preparing for Module 5: Ethics and Quality Assurance
 
@@ -906,36 +878,6 @@ Email: tvet.ai@education.org
   <!-- Key achievement -->
   <text x="180" y="370" font-family="Inter, Arial, sans-serif" font-size="20" fill="#dffcf6">
     🎯 Mastery: Advanced prompting frameworks and educational integration
-  </text>
-
-  <!-- Communication flow visualization -->
-  <g transform="translate(180,410)">
-    <!-- Teacher -->
-    <circle cx="0" cy="20" r="18" fill="#4CAF50" opacity="0.9"/>
-    <text x="0" y="26" text-anchor="middle" fill="white" font-size="12" font-weight="bold">👨‍🏫</text>
-    
-    <!-- Bidirectional arrow -->
-    <path d="M25 15 L75 15" stroke="#10b981" stroke-width="3" marker-end="url(#arrowhead)"/>
-    <path d="M75 25 L25 25" stroke="#10b981" stroke-width="3" marker-end="url(#arrowhead2)"/>
-    <text x="50" y="10" text-anchor="middle" fill="#dffcf6" font-size="10">Masterful Prompts</text>
-    <text x="50" y="40" text-anchor="middle" fill="#dffcf6" font-size="10">Quality Results</text>
-    
-    <!-- AI -->
-    <circle cx="100" cy="20" r="18" fill="#FF9800" opacity="0.9"/>
-    <text x="100" y="26" text-anchor="middle" fill="white" font-size="12" font-weight="bold">🤖</text>
-    
-    <!-- Arrow to outcomes -->
-    <path d="M125 10 L175 10" stroke="#10b981" stroke-width="2" marker-end="url(#arrowhead3)"/>
-    <text x="150" y="5" text-anchor="middle" fill="#dffcf6" font-size="10">Enhanced Teaching</text>
-    
-    <!-- Outcomes -->
-    <circle cx="200" cy="20" r="18" fill="#9C27B0" opacity="0.9"/>
-    <text x="200" y="26" text-anchor="middle" fill="white" font-size="12" font-weight="bold">⭐</text>
-  </g>
-
-  <!-- Next steps -->
-  <text x="180" y="480" font-family="Inter, Arial, sans-serif" font-size="18" fill="#dffcf6">
-    Final Module: Master ethical implementation and quality assurance
   </text>
 
   <!-- Footer badge -->
