@@ -66,7 +66,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 }
 
 .resource-link {
-    background: #28a745;
+    background: #ffa726;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -779,33 +779,23 @@ As a TVET educator committed to ethical AI implementation, I pledge to:
 
 @journeySummary(**🌟 Congratulations! Your Comprehensive AI Mastery Journey is Complete! 🌟**<br><br>You have successfully developed expertise across all five UNESCO AI competencies:<br>✅ **AI for Professional Learning** - Lifelong learning mindset and motivation<br>✅ **Human-Centered Mindset** - Critical understanding and human agency<br>✅ **AI Foundations & Applications** - Technical competence and tool mastery<br>✅ **AI Pedagogy** - Advanced communication and teaching integration<br>✅ **Ethics of AI** - Responsible leadership and quality assurance<br><br>**You are now prepared to lead ethical AI adoption in your educational community!**)
 
-## Your Transformation: From Learner to Leader
-
-**Module 1 - Orientation:** You began with curiosity about AI's potential in TVET education
-**Module 2 - Basics:** You developed critical understanding and commitment to human agency  
-**Module 3 - Tools:** You mastered practical AI applications and quality evaluation
-**Module 4 - Prompting:** You became skilled at effective AI communication and integration
-**Module 5 - Ethics:** You emerged as an ethical leader ready to guide institutional transformation
-
-**Rani's Journey = Your Journey:** Like our electronics teacher, you've evolved from curious beginner to confident practitioner to ethical leader. You now possess both the technical skills and moral compass needed to ensure AI serves educational excellence while protecting human values.
-
 ## Your Continuing Professional Development Path
 
-### Immediate Next Steps (This Month)
+@competencyHighlight(Immediate Next Steps)
 
 - **Apply Learning:** Implement at least three techniques from this course in your teaching practice
 - **Share Knowledge:** Present key insights to colleagues or educational leadership
 - **Join Communities:** Connect with other educators exploring ethical AI implementation
 - **Document Impact:** Begin tracking how AI integration affects your teaching effectiveness and student outcomes
 
-### Advanced Development (This Year)
+@competencyHighlight(Advanced Development)
 
 - **Institutional Leadership:** Volunteer to participate in or lead AI policy development initiatives  
 - **Professional Recognition:** Pursue AI literacy certifications or professional development credits
 - **Community Contribution:** Share successful AI implementations as Open Educational Resources
 - **Continuous Learning:** Stay current with UNESCO guidance and emerging best practices
 
-### Long-term Leadership (Ongoing)
+@competencyHighlight(Long-term Leadership)
 
 - **Mentor Others:** Guide colleagues through their own AI adoption journeys
 - **Policy Influence:** Contribute to regional or national policies on AI in TVET education
@@ -961,15 +951,6 @@ Email: tvet.ai@education.org
   <text x="180" y="500" font-family="Inter, Arial, sans-serif" font-size="18" fill="#dffcf6">
     Welcome to the global community of AI ethics leaders in TVET education!
   </text>
-
-  <!-- Achievement badge -->
-  <g transform="translate(850,280)">
-    <circle cx="100" cy="80" r="70" fill="url(#celebrationGrad)" opacity="0.9"/>
-    <circle cx="100" cy="80" r="50" fill="rgba(255,255,255,0.1)"/>
-    <text x="100" y="70" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="bold">CERTIFIED</text>
-    <text x="100" y="90" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">AI ETHICS</text>
-    <text x="100" y="105" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">LEADER</text>
-  </g>
 
   <!-- Decorative elements -->
   <g transform="translate(1000,200)" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="2">
