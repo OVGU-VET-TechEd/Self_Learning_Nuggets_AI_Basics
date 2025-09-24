@@ -877,7 +877,7 @@ Every student you teach, every colleague you mentor, and every policy you influe
 **📧 Alumni Support & Community:**
 Email: tvet.ai@education.org  
 🌐 Course Portal: [GitHub Repository](https://github.com/OVGU-VET-TechEd/Self_Learning_Nuggets_AI_Basics/)  
-📋 Feedback & Success Stories: [English](https://umfrage.zwh.de/c/unescoengl) | [Deutsch](https://umfrage.zwh.de/c/unescodeut)  
+📋 Feedback Form: [English](https://umfrage.zwh.de/c/unescoengl) | [Deutsch](https://umfrage.zwh.de/c/unescodeut)  
 🤝 Alumni Network: Join our ongoing community of AI ethics leaders
 </div>
 
@@ -888,8 +888,8 @@ Email: tvet.ai@education.org
 # 🏆 Final Achievement Recognition
 
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
-  <title id="title">AI Ethics Leadership Achievement - Course Completion Excellence</title>
-  <desc id="desc">Final celebration slide recognizing completion of comprehensive AI ethics and leadership training for TVET educators.</desc>
+  <title id="title">AI Leadership Achievement - Course Completion Excellence</title>
+  <desc id="desc">Final celebration slide recognizing completion of comprehensive AI and leadership training for TVET educators.</desc>
 
   <!-- Background -->
   <defs>
@@ -916,7 +916,7 @@ Email: tvet.ai@education.org
   
   <!-- Main headline -->
   <text x="640" y="130" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" text-anchor="middle" fill="#ffffff">
-    🏆 AI ETHICS LEADERSHIP ACHIEVED! 🏆
+    🏆 AI LEADERSHIP ACHIEVED! 🏆
   </text>
   
   <text x="640" y="160" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#ffffff">
@@ -939,7 +939,7 @@ Email: tvet.ai@education.org
 
   <!-- Leadership recognition -->
   <text x="180" y="420" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#bfe6d9">
-    🌟 You are now prepared to lead ethical AI adoption in TVET education
+    🌟 You are now prepared to lead AI adoption in TVET education
   </text>
 
   <!-- Impact statement -->
@@ -949,7 +949,7 @@ Email: tvet.ai@education.org
 
   <!-- Community invitation -->
   <text x="180" y="500" font-family="Inter, Arial, sans-serif" font-size="18" fill="#dffcf6">
-    Welcome to the global community of AI ethics leaders in TVET education!
+    Welcome to the global community of AI leaders in TVET education!
   </text>
 
   <!-- Decorative elements -->
