@@ -523,11 +523,11 @@ Google's structured approach provides a reliable framework for complex education
 
 @competencyHighlight(Professional Email Communication)
 
-@promptCard(Administrative Email Prompt, **Task:** Draft professional communication to parents<br>**Context:** "You are my administrative assistant. Write a polite and informative email to parents about our upcoming industry visit to a manufacturing facility. Include: Date (November 15); what students should bring (packed lunch/safety glasses/ID); transportation details (school bus departing 8:30 AM) and reassurance about safety protocols. Tone should be professional but warm, addressing any potential concerns parents might have."<br><br>**Result:** Professional email requiring minimal editing that is saving 30+ minutes of drafting time.)
+@promptCard(Administrative Email Prompt, **Task:** Draft professional communication to parents<br>**Context:** "You are my administrative assistant. Write a polite and informative email to parents about our upcoming industry visit to a manufacturing facility. Include: Date [November 15]; what students should bring [packed lunch/safety glasses/ID]; transportation details [school bus departing 8:30 AM] and reassurance about safety protocols. Tone should be professional but warm, addressing any potential concerns parents might have."<br><br>**Result:** Professional email requiring minimal editing that is saving 30+ minutes of drafting time.)
 
 @competencyHighlight(Curriculum Planning Support)
 
-@promptCard(Curriculum Development Prompt, **Complex Task:** "Act as a curriculum consultant. Help me design a 4-week unit on 'Industry 4.0 and Smart Manufacturing' for electronics technology students. Include: weekly themes, key concepts, hands-on projects, assessment methods, industry connections, and resources. Ensure progression from basic automation concepts to advanced IoT applications. Format as a detailed curriculum map with learning outcomes for each week."<br><br>**Outcome:** Comprehensive curriculum framework aligned with industry trends and educational standards.)
+@promptCard(Curriculum Development Prompt, **Complex Task:** "Act as a curriculum consultant. Help me design a 4-week unit on 'Industry 4.0 and Smart Manufacturing' for electronics technology students. Include: weekly themes; key concepts; hands-on projects; assessment methods; industry connections and resources. Ensure progression from basic automation concepts to advanced IoT applications. Format as a detailed curriculum map with learning outcomes for each week."<br><br>**Outcome:** Comprehensive curriculum framework aligned with industry trends and educational standards.)
 
 ## Student Engagement Through Prompting
 
