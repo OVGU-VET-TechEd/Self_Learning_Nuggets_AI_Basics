@@ -463,7 +463,7 @@ Google's structured approach provides a reliable framework for complex education
 
 **Application:** When multiple approaches or options need consideration.
 
-@aiDemo(Try this decision tree prompt: "Present two different approaches to teaching soldering: one highly structured and one exploratory. Analyze the pros and cons of each, then recommend which approach works best for different student learning styles.", ChatGPT or Claude, https://chat.openai.com/)
+@aiDemo(Try this decision tree prompt: "Present two different approaches to teaching soldering: one highly structured and one exploratory. Analyze the pros and cons of each, then recommend which approach works best for different student learning styles.", [ChatGPT](https://chat.openai.com/) or [Claude](https://claude.ai/), )
 
 **Educational Applications:**
 - Comparing teaching methodologies
@@ -523,7 +523,7 @@ Google's structured approach provides a reliable framework for complex education
 
 @competencyHighlight(Professional Email Communication)
 
-@promptCard(Administrative Email Prompt, **Task:** Draft professional communication to parents<br>**Context:** "You are my administrative assistant. Write a polite, informative email to parents about our upcoming industry visit to a manufacturing facility. Include: Date (November 15, 2025), what students should bring (packed lunch, safety glasses, ID), transportation details (school bus departing 8:30 AM), and reassurance about safety protocols. Tone should be professional but warm, addressing any potential concerns parents might have."<br><br>**Result:** Professional email requiring minimal editing, saving 30+ minutes of drafting time.)
+@promptCard(Administrative Email Prompt, **Task:** Draft professional communication to parents<br>**Context:** "You are my administrative assistant. Write a polite and informative email to parents about our upcoming industry visit to a manufacturing facility. Include: Date (November 15); what students should bring (packed lunch/safety glasses/ID); transportation details (school bus departing 8:30 AM) and reassurance about safety protocols. Tone should be professional but warm, addressing any potential concerns parents might have."<br><br>**Result:** Professional email requiring minimal editing that is saving 30+ minutes of drafting time.)
 
 @competencyHighlight(Curriculum Planning Support)
 
