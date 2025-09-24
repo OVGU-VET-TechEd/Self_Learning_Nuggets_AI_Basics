@@ -435,7 +435,7 @@ Google's structured approach provides a reliable framework for complex education
 
 @frameworkStep(References, "Assessment should cover PPE and proper tool handling and workspace organization and emergency procedures. It should also include industry safety standards for technical education.")
 
-@frameworkStep(Evaluate, "The rubric should have 4 performance levels (Exemplary/Proficient/Developing/Beginning) with clear behavioral indicators for each level. Language should be student-friendly and actionable")
+@frameworkStep(Evaluate, "The rubric should have 4 performance levels [Exemplary/Proficient/Developing/Beginning] with clear behavioral indicators for each level. Language should be student-friendly and actionable")
 
 @frameworkStep(Iterate, "After initial generation refine for clarity and ensure alignment with institutional safety policies and learning objectives.")
 
