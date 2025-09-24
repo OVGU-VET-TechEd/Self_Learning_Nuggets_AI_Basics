@@ -281,33 +281,6 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
   <text x='400' y='250' font-family='Segoe UI, Arial, sans-serif' font-size='18' font-weight='bold' text-anchor='middle' fill='#0072CE'>
     From Technical Competence to Ethical Leadership
   </text>
-  
-  <!-- Ethical Framework Visual -->
-  <g transform="translate(300,280)">
-    <!-- Central Ethics Hub -->
-    <circle cx="100" cy="40" r="25" fill="#9C27B0" opacity="0.9"/>
-    <text x="100" y="46" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Ethics</text>
-    
-    <!-- Human Rights -->
-    <circle cx="40" cy="10" r="18" fill="#2196F3" opacity="0.8"/>
-    <text x="40" y="16" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Rights</text>
-    <line x1="58" y1="18" x2="82" y2="30" stroke="#666" stroke-width="2"/>
-    
-    <!-- Inclusion -->
-    <circle cx="160" cy="10" r="18" fill="#4CAF50" opacity="0.8"/>
-    <text x="160" y="16" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Include</text>
-    <line x1="142" y1="18" x2="118" y2="30" stroke="#666" stroke-width="2"/>
-    
-    <!-- Quality -->
-    <circle cx="40" cy="70" r="18" fill="#FF9800" opacity="0.8"/>
-    <text x="40" y="76" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Quality</text>
-    <line x1="58" y1="62" x2="82" y2="50" stroke="#666" stroke-width="2"/>
-    
-    <!-- Sustainability -->
-    <circle cx="160" cy="70" r="18" fill="#8BC34A" opacity="0.8"/>
-    <text x="160" y="76" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Sustain</text>
-    <line x1="142" y1="62" x2="118" y2="50" stroke="#666" stroke-width="2"/>
-  </g>
 </svg>
 
 <!-- License info -->
@@ -424,7 +397,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 # 👥 Pillar 1: Human Rights and Digital Dignity
 
-## Core Principle: AI as Human Rights Enabler
+@competencyHighlight(Core Principle: AI as Human Rights Enabler)
 
 **UNESCO Framework:** AI in education must respect and protect human rights, ensuring that technology serves human dignity rather than compromising it.
 
@@ -432,7 +405,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 ## Practical Human Rights Applications
 
-### Privacy and Data Protection
+@competencyHighlight(Privacy and Data Protection)
 
 **The Challenge:** AI tools often require student data to function effectively, creating tension between personalization and privacy.
 
@@ -445,7 +418,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 @scenarioCard(Privacy-First Implementation, When Rani's institution considered an AI-powered learning analytics system, she led the evaluation team. They discovered the system would track detailed student behavior patterns, including time spent on each question and mouse movement patterns. Rani advocated for a privacy-first approach: they negotiated with the vendor to anonymize data, provide students with clear opt-out mechanisms, and ensure local data storage. "If we can't protect our students' privacy," she argued, "we shouldn't use the technology.")
 
-### Anti-Discrimination and Bias Prevention
+@competencyHighlight(Anti-Discrimination and Bias Prevention)
 
 **Critical Recognition:** AI systems can perpetuate or amplify existing biases, potentially violating students' rights to fair and equal treatment.
 
@@ -458,7 +431,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 @humanRights(Example: Rani noticed that an AI career counseling tool consistently recommended technical trades to students from lower-income backgrounds while suggesting engineering degrees to others. She documented this bias, reported it to administrators, and worked with the vendor to retrain the system using more equitable data. The tool was suspended until bias issues were resolved.)
 
-### Student Agency and Autonomy
+@competencyHighlight(Student Agency and Autonomy)
 
 **Empowerment Principle:** Students should understand AI's role in their education and maintain agency over their learning experience.
 
@@ -473,7 +446,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 # 🌍 Pillar 2: Inclusion and Cultural Diversity
 
-## Core Principle: AI as Equity Amplifier
+@competencyHighlight(Core Principle: AI as Equity Amplifier)
 
 **UNESCO Framework:** AI should promote inclusion, bridge gaps rather than widening them, and respect linguistic and cultural diversity in educational contexts.
 
@@ -481,7 +454,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 ## Inclusive AI Implementation Strategies
 
-### Linguistic Accessibility
+@competencyHighlight(Linguistic Accessibility)
 
 **Challenge:** Many AI tools perform better in dominant languages, potentially disadvantaging multilingual students.
 
@@ -494,7 +467,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 @inclusion(Practical Example: Rani's electronics class includes students who speak Tamil, French, and Arabic as their primary languages. She uses AI to create technical glossaries in multiple languages, but always has native-speaking colleagues review translations. She also encourages students to create dual-language technical presentations, using AI to help with language polishing while maintaining their authentic voices.)
 
-### Socioeconomic Inclusion
+@competencyHighlight(Socioeconomic Inclusion)
 
 **Recognition:** AI tools and access vary significantly based on economic resources, potentially creating or exacerbating educational inequalities.
 
@@ -505,7 +478,7 @@ This transformation mirrors your own journey from learning individual skills to 
 - **Digital Divide Bridging:** Providing institutional access to premium AI tools for all students
 - **Skills, Not Tools:** Teaching transferable AI collaboration skills rather than tool-specific techniques
 
-### Cultural Representation and Sensitivity
+@competencyHighlight(Cultural Representation and Sensitivity)
 
 **Issue:** AI systems often reflect the cultural contexts of their training data, which may not represent global diversity.
 
@@ -522,7 +495,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 # 🌱 Pillar 3: Environmental Sustainability and Digital Responsibility
 
-## Core Principle: AI for Planetary Stewardship
+@competencyHighlight(Core Principle: AI for Planetary Stewardship)
 
 **UNESCO Framework:** AI implementation should contribute to environmental sustainability and teach students about responsible technology use in the context of climate change and resource conservation.
 
@@ -530,7 +503,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 ## Sustainable AI Practices
 
-### Understanding AI's Environmental Impact
+@competencyHighlight(Understanding AI's Environmental Impact)
 
 **Educational Responsibility:** Students should understand the environmental cost of AI systems and develop habits of responsible use.
 
@@ -543,7 +516,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 @sustainability(Real Numbers for Context: Training a large language model can produce CO2 equivalent to five cars over their lifetimes. Rani shares these statistics not to discourage AI use, but to encourage thoughtful, efficient usage. Her students now combine AI requests and save useful outputs for reuse rather than regenerating the same content multiple times.)
 
-### AI for Sustainability Education
+@competencyHighlight(AI for Sustainability Education)
 
 **Opportunity:** Using AI tools to enhance education about renewable energy, sustainable manufacturing, and environmental technology.
 
@@ -554,7 +527,7 @@ This transformation mirrors your own journey from learning individual skills to 
 - **Sustainable Manufacturing:** AI applications in waste reduction and resource optimization
 - **Climate Tech Innovation:** AI-assisted design of environmental solutions
 
-### Institutional Sustainability Policies
+@competencyHighlight(Institutional Sustainability Policies)
 
 **Leadership Role:** Developing school-wide policies for sustainable AI use.
 
@@ -564,7 +537,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 # 🎯 Pillar 4: Quality Assurance and Educational Excellence
 
-## Core Principle: AI as Quality Enhancer, Not Quality Replacement
+@competencyHighlight(Core Principle: AI as Quality Enhancer, Not Quality Replacement)
 
 **UNESCO Framework:** AI should maintain and improve educational quality while ensuring human expertise remains central to teaching and learning.
 
@@ -572,7 +545,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 ## Comprehensive Quality Assurance Framework
 
-### Content Quality Standards
+@competencyHighlight(Content Quality Standards)
 
 **Critical Areas for Quality Control:**
 
@@ -588,7 +561,7 @@ This transformation mirrors your own journey from learning individual skills to 
 - **Peer Collaboration:** Sharing AI-generated materials with colleagues for feedback
 - **Continuous Improvement:** Iterative refinement based on classroom outcomes
 
-### Assessment and Evaluation Ethics
+@competencyHighlight(Assessment and Evaluation Ethics)
 
 **Challenge:** Ensuring AI-assisted assessment maintains fairness, validity, and reliability while respecting student dignity.
 
@@ -601,7 +574,7 @@ This transformation mirrors your own journey from learning individual skills to 
 
 @qualityFramework(Assessment Example: When using AI to provide initial feedback on lab reports, Rani ensures: 1) Students know AI provides first-draft feedback, 2) She reviews all AI comments before sharing, 3) Final grades come from her professional judgment, 4) Students can request human-only evaluation if preferred, 5) She monitors for patterns of bias across different student groups.)
 
-### Professional Development and Competency Maintenance
+@competencyHighlight(Professional Development and Competency Maintenance)
 
 **Ongoing Responsibility:** Maintaining and improving AI literacy while staying current with ethical developments.
 
