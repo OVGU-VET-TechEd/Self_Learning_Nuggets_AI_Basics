@@ -427,11 +427,11 @@ Google's structured approach provides a reliable framework for complex education
 
 **Rani's Challenge:** Develop an assessment rubric for electronics workshop safety compliance.
 
-### Step-by-Step Implementation:
+@competencyHighlight(Step-by-Step Implementation:)
 
 @frameworkStep(Task, "Create a detailed rubric for evaluating student safety compliance in electronics workshops")
 
-@frameworkStep(Context, "Students are second-year electronics technicians learning practical skills in a hands-on workshop environment with electrical equipment, tools, and components")
+@frameworkStep(Context, "Students are second-year electronics technicians learning practical skills in a hands-on workshop environment with electrical equipment`,` tools`,` and components")
 
 @frameworkStep(References, "Assessment should cover personal protective equipment (PPE), proper tool handling, workspace organization, and emergency procedures. Include industry safety standards for technical education")
 
