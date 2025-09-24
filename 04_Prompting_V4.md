@@ -254,46 +254,6 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
   <text x='400' y='260' font-family='Segoe UI, Arial, sans-serif' font-size='18' font-weight='bold' text-anchor='middle' fill='#0072CE'>
     From Basic Questions to Advanced Educational Prompting
   </text>
-  
-  <!-- Communication Flow Diagram -->
-  <g transform="translate(200,290)">
-    <!-- Teacher -->
-    <circle cx="0" cy="20" r="15" fill="#4CAF50"/>
-    <text x="0" y="25" text-anchor="middle" fill="white" font-size="10" font-weight="bold">👨‍🏫</text>
-    
-    <!-- Arrow -->
-    <path d="M20 20 L80 20" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
-    <text x="50" y="15" text-anchor="middle" fill="#666" font-size="10">Prompt</text>
-    
-    <!-- AI -->
-    <circle cx="100" cy="20" r="15" fill="#FF9800"/>
-    <text x="100" y="25" text-anchor="middle" fill="white" font-size="10" font-weight="bold">🤖</text>
-    
-    <!-- Arrow back -->
-    <path d="M120 30 L20 30" stroke="#666" stroke-width="2" marker-end="url(#arrowhead2)"/>
-    <text x="70" y="45" text-anchor="middle" fill="#666" font-size="10">Response</text>
-    
-    <!-- Students -->
-    <circle cx="200" cy="20" r="15" fill="#9C27B0"/>
-    <text x="200" y="25" text-anchor="middle" fill="white" font-size="10" font-weight="bold">👥</text>
-    
-    <!-- Arrow to students -->
-    <path d="M130 10 L180 10" stroke="#666" stroke-width="2" marker-end="url(#arrowhead3)"/>
-    <text x="155" y="5" text-anchor="middle" fill="#666" font-size="10">Enhanced Teaching</text>
-  </g>
-  
-  <!-- Define arrowheads -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
-    </marker>
-    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
-    </marker>
-    <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
-    </marker>
-  </defs>
 </svg>
 
 <!-- License info -->
@@ -410,15 +370,20 @@ The art of prompting is like developing pedagogical questioning skills—both re
 
 # 🎯 Understanding Prompts: The Foundation of AI Communication
 
-## What is a Prompt?
+@competencyHighlight(What is a Prompt?)
 
 **Definition:** A prompt is any input you give to an AI system to elicit a specific response—a question, instruction, or request that guides AI behavior and output quality.
 
-**Key Insight:** Prompting is **conversational programming**—you're telling the AI what to do using natural language rather than code. Like good teaching questions, effective prompts are:
+**Key Insight:** Prompting is **conversational programming**—you're telling the AI what to do using natural language rather than code. Like good teaching questions, effective prompts are:  
+
 - **Clear and specific**
-- **Contextually grounded**  
+  
+- **Contextually grounded**
+    
 - **Purpose-driven**
+  
 - **Appropriately structured**
+
 
 ## The Anatomy of Effective Prompts
 
@@ -432,7 +397,7 @@ Every well-crafted prompt contains several key components:
 
 @badPrompt("Give me questions for my electronics quiz.")
 
-@goodPrompt("You are an experienced electronics instructor. Create 5 multiple-choice questions testing students' understanding of Ohm's Law (V = I × R). Context: These are second-year TVET students who have completed basic circuit analysis. Format: Each question should have 4 options with clear explanations for correct answers. Constraint: Include one question involving practical calculations and one conceptual understanding question. Style: Use clear, professional language appropriate for technical students.")
+@goodPrompt("You are an experienced electronics instructor. Create 5 multiple-choice questions testing students' understanding of Ohm's Law V = I × R. Context: These are second-year TVET students who have completed basic circuit analysis. Format: Each question should have 4 options with clear explanations for correct answers. Constraint: Include one question involving practical calculations and one conceptual understanding question. Style: Use clear, professional language appropriate for technical students.")
 
 </div>
 
